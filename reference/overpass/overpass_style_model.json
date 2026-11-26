@@ -1,0 +1,7433 @@
+{
+ "version": 1,
+ "model_type": "BSP_surface_to_real_UGC_material_and_form",
+ "reference_bsp_sha256": "7008f9cbd112f3429d0100fc2f2d098303fe53562785b3fb5a1270350dc4c953",
+ "coordinate_handedness": {
+  "source_reflect_x": true,
+  "blender_source_offset_m": [
+   325.28,
+   473.59,
+   56.92
+  ],
+  "note": "Calibrated on reference; on other maps only shape/material priors transfer"
+ },
+ "descriptors": {
+  "10038": {
+   "id": 10038,
+   "bounds_min": [
+    -0.4530198574066162,
+    -0.7054656744003296,
+    -0.005099115427583456
+   ],
+   "bounds_max": [
+    1.4322842359542847,
+    0.6797294616699219,
+    2.3848395347595215
+   ],
+   "dimensions": [
+    1.8853040933609009,
+    1.3851951360702515,
+    2.3899385929107666
+   ],
+   "center": [
+    0.48963218927383423,
+    -0.012868106365203857,
+    1.1898702383041382
+   ],
+   "mesh_vertices": 10524,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_ShootingRange_Toilet_Wood_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Range_WoodPannel05_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_ShootingRange_Toilet_01_Proxy"
+   ],
+   "sampled_vertices": 10524
+  },
+  "10208": {
+   "id": 10208,
+   "bounds_min": [
+    -13.541315078735352,
+    3.1233692169189453,
+    -4.678762435913086
+   ],
+   "bounds_max": [
+    10.538578987121582,
+    15.65853500366211,
+    13.470139503479004
+   ],
+   "dimensions": [
+    24.07989501953125,
+    12.535165786743164,
+    18.148902893066406
+   ],
+   "center": [
+    -1.5013680458068848,
+    9.390952110290527,
+    4.395688533782959
+   ],
+   "mesh_vertices": 26898,
+   "mesh_parts": 9,
+   "mesh_instances": 21,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Heaven_LightsUtilitySet01_ON_Warm_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Mat_Columns_red_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Desert_Construction_Sheet_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_CinderBlocks_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Desert_Construction_Pillar_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Desert_Construction_Concrete_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/Desert_ConcreteTrimMain_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Desert_Construction_Brick_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/Desert_Damage_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Lynx_WoodCrates_Set_01_Proxy"
+   ],
+   "sampled_vertices": 21924
+  },
+  "10226": {
+   "id": 10226,
+   "bounds_min": [
+    -5.066666126251221,
+    -1.3364468812942505,
+    -0.0015186890959739685
+   ],
+   "bounds_max": [
+    5.0716657638549805,
+    1.336442470550537,
+    1.3774998188018799
+   ],
+   "dimensions": [
+    10.13833236694336,
+    2.672889232635498,
+    1.3790185451507568
+   ],
+   "center": [
+    0.002499818801879883,
+    -2.205371856689453e-06,
+    0.6879905462265015
+   ],
+   "mesh_vertices": 30360,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_TrainCarChasis_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_TrainCarMetal_Proxy"
+   ],
+   "sampled_vertices": 30360
+  },
+  "10423": {
+   "id": 10423,
+   "bounds_min": [
+    -3.851841449737549,
+    -1.7649030685424805,
+    -4.55979585647583
+   ],
+   "bounds_max": [
+    3.946488857269287,
+    7.677414894104004,
+    3.60040020942688
+   ],
+   "dimensions": [
+    7.798330307006836,
+    9.442317962646484,
+    8.160196304321289
+   ],
+   "center": [
+    0.04732370376586914,
+    2.9562559127807617,
+    -0.4796978235244751
+   ],
+   "mesh_vertices": 43125,
+   "mesh_parts": 13,
+   "mesh_instances": 30,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/M_Dark_Metal_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Savage_Bootcamp_Door_Frame_ext_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_DO_Wooden_Pallet_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Container_Box_A_Masked_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Banners_01_Town_Horizontal_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_DO_Apine_Stairs_concrete_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Base_Floor_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Base_Floor_02_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_MossDecal_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_PlasterEdgeDecal_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Summerland_MilkCrates_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Town_Street_container_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Desert_HangingLight_StrongLight01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Chimera_PropPack_Interior_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_InstantRamen_01_Proxy"
+   ],
+   "sampled_vertices": 38178
+  },
+  "10469": {
+   "id": 10469,
+   "bounds_min": [
+    -11.71774959564209,
+    -24.550771713256836,
+    -3.0395469665527344
+   ],
+   "bounds_max": [
+    11.71738052368164,
+    66.11743927001953,
+    92.20037078857422
+   ],
+   "dimensions": [
+    23.435131072998047,
+    90.668212890625,
+    95.23991394042969
+   ],
+   "center": [
+    -0.00018453598022460938,
+    20.78333282470703,
+    44.580413818359375
+   ],
+   "mesh_vertices": 62097,
+   "mesh_parts": 6,
+   "mesh_instances": 10,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Shipyard_Factory01_PaintedMetal_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Shipyard_Factory01_1Ext2_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Crane_01_A_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Crane_01_B_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/M_Metal_3_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_chimney04_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/M_Crane_Cabine1_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_BeachFence_Metal02_Proxy"
+   ],
+   "sampled_vertices": 62097
+  },
+  "10520": {
+   "id": 10520,
+   "bounds_min": [
+    -9.182084083557129,
+    -1.0,
+    -1.541965365409851
+   ],
+   "bounds_max": [
+    7.936507984140917e-08,
+    0.9999373555183411,
+    3.5
+   ],
+   "dimensions": [
+    9.182084083557129,
+    1.9999372959136963,
+    5.041965484619141
+   ],
+   "center": [
+    -4.5910420417785645,
+    -3.1322240829467773e-05,
+    0.9790173172950745
+   ],
+   "mesh_vertices": 3450,
+   "mesh_parts": 2,
+   "mesh_instances": 2,
+   "materials": [
+    "TslGame/Content/Assets/World/Sanhok_DES/Buildings/Materials/Unique/Bootcamp/MI_DES_Sample_Bootcamp_ConcreteSectioned_02",
+    "TslGame/Content/Assets/World/Sanhok_DES/Buildings/Materials/Unique/Bootcamp/MI_DES_Bootcamp_ConcreteWall_03"
+   ],
+   "sampled_vertices": 3450
+  },
+  "10701": {
+   "id": 10701,
+   "bounds_min": [
+    -7.050361156463623,
+    -1.796604871749878,
+    0.0074240113608539104
+   ],
+   "bounds_max": [
+    7.050716400146484,
+    1.796604037284851,
+    5.325955867767334
+   ],
+   "dimensions": [
+    14.101078033447266,
+    3.5932087898254395,
+    5.3185319900512695
+   ],
+   "center": [
+    0.00017762184143066406,
+    -4.172325134277344e-07,
+    2.666689872741699
+   ],
+   "mesh_vertices": 121710,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_DO_Inner_Train_Roof_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_DO_Train_Metal_black_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_DO_Inner_Train_PaintedMetal_03_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_DO_Inner_Train_PaintedMetal_02_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_DO_Train_Metal_DarkSilver_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_DO_Train_Int_Metal_03_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_DO_Train_Metal_Silver_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_DO_Circle_Locomotive_sign_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_DO_Train_Metal_Silver1_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/M_Glass_Inst_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_DO_Train_Inner_Locomotive_Wood01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_DO_Train_Circle_Wheels_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_DO_Dino_Decal_01_Proxy"
+   ],
+   "sampled_vertices": 121710
+  },
+  "12005": {
+   "id": 12005,
+   "bounds_min": [
+    -0.3622775375843048,
+    -0.11020868271589279,
+    -1.0944300889968872
+   ],
+   "bounds_max": [
+    0.19997766613960266,
+    0.45204636454582214,
+    1.8641645908355713
+   ],
+   "dimensions": [
+    0.5622552037239075,
+    0.5622550249099731,
+    2.958594799041748
+   ],
+   "center": [
+    -0.08114993572235107,
+    0.17091883718967438,
+    0.38486725091934204
+   ],
+   "mesh_vertices": 114,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_ConcreteWall02_KTH_Proxy"
+   ],
+   "sampled_vertices": 114
+  },
+  "12007": {
+   "id": 12007,
+   "bounds_min": [
+    -1.381360650062561,
+    -0.10810712724924088,
+    -0.10044700652360916
+   ],
+   "bounds_max": [
+    1.460965871810913,
+    0.03306557610630989,
+    2.082913398742676
+   ],
+   "dimensions": [
+    2.8423266410827637,
+    0.14117270708084106,
+    2.1833603382110596
+   ],
+   "center": [
+    0.039802610874176025,
+    -0.03752077370882034,
+    0.9912331700325012
+   ],
+   "mesh_vertices": 3288,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_MetalFence_Metal_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_MetalFence_Proxy"
+   ],
+   "sampled_vertices": 3288
+  },
+  "12011": {
+   "id": 12011,
+   "bounds_min": [
+    -2.0196874141693115,
+    -0.47562500834465027,
+    -4.823265336378328e-17
+   ],
+   "bounds_max": [
+    2.0196874141693115,
+    0.47562500834465027,
+    5.28781270980835
+   ],
+   "dimensions": [
+    4.039374828338623,
+    0.9512500166893005,
+    5.28781270980835
+   ],
+   "center": [
+    0.0,
+    0.0,
+    2.643906354904175
+   ],
+   "mesh_vertices": 4536,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Concretebarrier01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Fence01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Fence01_wire_Proxy"
+   ],
+   "sampled_vertices": 4536
+  },
+  "12016": {
+   "id": 12016,
+   "bounds_min": [
+    -2.0204741954803467,
+    0.015637092292308807,
+    -3.024444580078125
+   ],
+   "bounds_max": [
+    2.0194602012634277,
+    0.27881187200546265,
+    2.3208253383636475
+   ],
+   "dimensions": [
+    4.039934158325195,
+    0.26317477226257324,
+    5.345270156860352
+   ],
+   "center": [
+    -0.0005069971084594727,
+    0.14722448587417603,
+    -0.35180962085723877
+   ],
+   "mesh_vertices": 966,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Bootcamp_CoverWalls_Proxy"
+   ],
+   "sampled_vertices": 966
+  },
+  "12017": {
+   "id": 12017,
+   "bounds_min": [
+    -1.9760582447052002,
+    -0.11029495298862457,
+    -6.753618267994845e-18
+   ],
+   "bounds_max": [
+    1.987620234489441,
+    0.3907266855239868,
+    2.311319351196289
+   ],
+   "dimensions": [
+    3.9636783599853516,
+    0.5010216236114502,
+    2.311319351196289
+   ],
+   "center": [
+    0.005780994892120361,
+    0.14021587371826172,
+    1.1556596755981445
+   ],
+   "mesh_vertices": 732,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Assets/World/Common/Materials/Savage/Bootcamp_CoverWalls/MI_Bootcamp_CoverWalls_4"
+   ],
+   "sampled_vertices": 732
+  },
+  "12018": {
+   "id": 12018,
+   "bounds_min": [
+    -2.0204741954803467,
+    0.015637092292308807,
+    -1.2187947034835815
+   ],
+   "bounds_max": [
+    2.0194602012634277,
+    0.27881187200546265,
+    2.3208253383636475
+   ],
+   "dimensions": [
+    4.039934158325195,
+    0.26317477226257324,
+    3.5396199226379395
+   ],
+   "center": [
+    -0.0005069971084594727,
+    0.14722448587417603,
+    0.551015317440033
+   ],
+   "mesh_vertices": 540,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Assets/World/Common/Materials/Savage/Bootcamp_CoverWalls/MI_Bootcamp_CoverWalls_2"
+   ],
+   "sampled_vertices": 540
+  },
+  "12019": {
+   "id": 12019,
+   "bounds_min": [
+    -2.0204741954803467,
+    0.015637092292308807,
+    0.5437512397766113
+   ],
+   "bounds_max": [
+    2.0194602012634277,
+    0.27881181240081787,
+    2.3208253383636475
+   ],
+   "dimensions": [
+    4.039934158325195,
+    0.26317471265792847,
+    1.7770740985870361
+   ],
+   "center": [
+    -0.0005069971084594727,
+    0.14722445607185364,
+    1.4322882890701294
+   ],
+   "mesh_vertices": 540,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Assets/World/Common/Materials/Savage/Bootcamp_CoverWalls/MI_Bootcamp_CoverWalls_2"
+   ],
+   "sampled_vertices": 540
+  },
+  "12021": {
+   "id": 12021,
+   "bounds_min": [
+    -5.053471088409424,
+    -0.2109329253435135,
+    -0.10200690478086472
+   ],
+   "bounds_max": [
+    0.05493323504924774,
+    0.23903167247772217,
+    2.7351949214935303
+   ],
+   "dimensions": [
+    5.108404159545898,
+    0.44996458292007446,
+    2.8372018337249756
+   ],
+   "center": [
+    -2.4992690086364746,
+    0.01404937356710434,
+    1.3165940046310425
+   ],
+   "mesh_vertices": 3192,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_ChainlinkFence_Tall_A_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_ChainlinkFence_Tall_01_Proxy"
+   ],
+   "sampled_vertices": 3192
+  },
+  "12023": {
+   "id": 12023,
+   "bounds_min": [
+    -3.6628992557525635,
+    0.051266174763441086,
+    -10.126315116882324
+   ],
+   "bounds_max": [
+    3.5919885635375977,
+    29.956134796142578,
+    -0.059425048530101776
+   ],
+   "dimensions": [
+    7.254887580871582,
+    29.904869079589844,
+    10.066889762878418
+   ],
+   "center": [
+    -0.03545534610748291,
+    15.003700256347656,
+    -5.092870235443115
+   ],
+   "mesh_vertices": 534,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_dome_concrete_02_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Dome_Concrete_06_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Dome_ExtEdgeDecal1_Proxy"
+   ],
+   "sampled_vertices": 534
+  },
+  "12025": {
+   "id": 12025,
+   "bounds_min": [
+    0.004999999888241291,
+    -0.08015245199203491,
+    0.0066650197841227055
+   ],
+   "bounds_max": [
+    3.9950003623962402,
+    0.08348594605922699,
+    2.542703866958618
+   ],
+   "dimensions": [
+    3.9900002479553223,
+    0.1636383980512619,
+    2.536038875579834
+   ],
+   "center": [
+    2.000000238418579,
+    0.0016667470335960388,
+    1.2746844291687012
+   ],
+   "mesh_vertices": 732,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Concrete_Fence_01_Proxy"
+   ],
+   "sampled_vertices": 732
+  },
+  "12026": {
+   "id": 12026,
+   "bounds_min": [
+    -0.4358031451702118,
+    -0.43580392003059387,
+    -1.2000000476837158
+   ],
+   "bounds_max": [
+    0.4358047544956207,
+    0.43580392003059387,
+    1.8805809020996094
+   ],
+   "dimensions": [
+    0.8716078996658325,
+    0.8716078400611877,
+    3.080580949783325
+   ],
+   "center": [
+    8.046627044677734e-07,
+    0.0,
+    0.3402904272079468
+   ],
+   "mesh_vertices": 378,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_ConcreteFence_01_Proxy"
+   ],
+   "sampled_vertices": 378
+  },
+  "12027": {
+   "id": 12027,
+   "bounds_min": [
+    -0.4358031451702118,
+    -0.4358038604259491,
+    -1.20000159740448
+   ],
+   "bounds_max": [
+    5.00613260269165,
+    0.4358038604259491,
+    1.8499996662139893
+   ],
+   "dimensions": [
+    5.4419355392456055,
+    0.8716077208518982,
+    3.0500011444091797
+   ],
+   "center": [
+    2.2851648330688477,
+    0.0,
+    0.32499903440475464
+   ],
+   "mesh_vertices": 726,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_ConcreteFence_01_Proxy"
+   ],
+   "sampled_vertices": 726
+  },
+  "12028": {
+   "id": 12028,
+   "bounds_min": [
+    -0.4358026087284088,
+    -0.4358038604259491,
+    -1.2000012397766113
+   ],
+   "bounds_max": [
+    5.006132125854492,
+    0.4358038604259491,
+    1.8499996662139893
+   ],
+   "dimensions": [
+    5.441934585571289,
+    0.8716077208518982,
+    3.0500009059906006
+   ],
+   "center": [
+    2.2851648330688477,
+    0.0,
+    0.32499921321868896
+   ],
+   "mesh_vertices": 1782,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_ConcreteFence_01_Proxy"
+   ],
+   "sampled_vertices": 1782
+  },
+  "12032": {
+   "id": 12032,
+   "bounds_min": [
+    -1.249293327331543,
+    -0.3119563162326813,
+    -4.477783013787899e-18
+   ],
+   "bounds_max": [
+    1.2492942810058594,
+    0.05691970884799957,
+    3.0105996131896973
+   ],
+   "dimensions": [
+    2.4985876083374023,
+    0.36887603998184204,
+    3.0105996131896973
+   ],
+   "center": [
+    4.76837158203125e-07,
+    -0.12751829624176025,
+    1.5052998065948486
+   ],
+   "mesh_vertices": 2802,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Fence01_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Fence01_Net_Proxy"
+   ],
+   "sampled_vertices": 2802
+  },
+  "12034": {
+   "id": 12034,
+   "bounds_min": [
+    -0.6319190859794617,
+    -0.3119563162326813,
+    -6.7166747274770014e-18
+   ],
+   "bounds_max": [
+    0.6319190859794617,
+    0.05691970884799957,
+    3.0105996131896973
+   ],
+   "dimensions": [
+    1.2638381719589233,
+    0.36887603998184204,
+    3.0105996131896973
+   ],
+   "center": [
+    0.0,
+    -0.12751829624176025,
+    1.5052998065948486
+   ],
+   "mesh_vertices": 3270,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Fence01_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Fence01_Net_Proxy"
+   ],
+   "sampled_vertices": 3270
+  },
+  "12035": {
+   "id": 12035,
+   "bounds_min": [
+    -0.025116104632616043,
+    -0.030904846265912056,
+    0.013592834584414959
+   ],
+   "bounds_max": [
+    1.0147409439086914,
+    0.024962730705738068,
+    2.078963279724121
+   ],
+   "dimensions": [
+    1.039857029914856,
+    0.055867575109004974,
+    2.065370559692383
+   ],
+   "center": [
+    0.4948124289512634,
+    -0.002971057780086994,
+    1.0462779998779297
+   ],
+   "mesh_vertices": 426,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Fence01_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Fence01_Net_Proxy"
+   ],
+   "sampled_vertices": 426
+  },
+  "12037": {
+   "id": 12037,
+   "bounds_min": [
+    -5.091242790222168,
+    -0.2021929919719696,
+    -2.3128625467618102e-18
+   ],
+   "bounds_max": [
+    0.017161255702376366,
+    0.05493316799402237,
+    2.8372018337249756
+   ],
+   "dimensions": [
+    5.108404159545898,
+    0.2571261525154114,
+    2.8372018337249756
+   ],
+   "center": [
+    -2.5370407104492188,
+    -0.07362991571426392,
+    1.4186009168624878
+   ],
+   "mesh_vertices": 3168,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_ChainlinkFence_Tall_A_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_ChainlinkFence_Tall_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Heaven_WoodenBoards_Painted_Proxy"
+   ],
+   "sampled_vertices": 3168
+  },
+  "12038": {
+   "id": 12038,
+   "bounds_min": [
+    -5.091243267059326,
+    -0.21093307435512543,
+    -2.3128625467618102e-18
+   ],
+   "bounds_max": [
+    0.017161255702376366,
+    0.23903167247772217,
+    2.8372018337249756
+   ],
+   "dimensions": [
+    5.108404636383057,
+    0.4499647617340088,
+    2.8372018337249756
+   ],
+   "center": [
+    -2.537040948867798,
+    0.01404929906129837,
+    1.4186009168624878
+   ],
+   "mesh_vertices": 4020,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Heaven_WoodenBoards_Painted_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_ChainlinkFence_Tall_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_ChainlinkFence_Tall_A_01_Proxy"
+   ],
+   "sampled_vertices": 4020
+  },
+  "12039": {
+   "id": 12039,
+   "bounds_min": [
+    -0.24291813373565674,
+    -0.24291816353797913,
+    -1.501651425428463e-08
+   ],
+   "bounds_max": [
+    0.2429182082414627,
+    0.2429182082414627,
+    4.594371795654297
+   ],
+   "dimensions": [
+    0.48583632707595825,
+    0.485836386680603,
+    4.594371795654297
+   ],
+   "center": [
+    3.725290298461914e-08,
+    2.2351741790771484e-08,
+    2.2971858978271484
+   ],
+   "mesh_vertices": 384,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_City_Residential_03_trimStone_Proxy"
+   ],
+   "sampled_vertices": 384
+  },
+  "12040": {
+   "id": 12040,
+   "bounds_min": [
+    -0.2807154953479767,
+    -0.28071466088294983,
+    -1.2513778457901026e-08
+   ],
+   "bounds_max": [
+    0.2807145118713379,
+    0.28071510791778564,
+    7.102580547332764
+   ],
+   "dimensions": [
+    0.5614299774169922,
+    0.5614297389984131,
+    7.102580547332764
+   ],
+   "center": [
+    -4.917383193969727e-07,
+    2.2351741790771484e-07,
+    3.551290273666382
+   ],
+   "mesh_vertices": 300,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_City_Residential_03_trimStone_Proxy"
+   ],
+   "sampled_vertices": 300
+  },
+  "12042": {
+   "id": 12042,
+   "bounds_min": [
+    -1.0000098943710327,
+    -0.04103587195277214,
+    -0.001548968837596476
+   ],
+   "bounds_max": [
+    1.0064271688461304,
+    0.023598099127411842,
+    1.059050440788269
+   ],
+   "dimensions": [
+    2.006437063217163,
+    0.06463397294282913,
+    1.060599446296692
+   ],
+   "center": [
+    0.003208637237548828,
+    -0.008718886412680149,
+    0.5287507176399231
+   ],
+   "mesh_vertices": 252,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Chimera_Fence_Metal_Modules_Proxy"
+   ],
+   "sampled_vertices": 252
+  },
+  "12044": {
+   "id": 12044,
+   "bounds_min": [
+    -3.651207208633423,
+    -0.6750962138175964,
+    -0.041101206094026566
+   ],
+   "bounds_max": [
+    3.458540678024292,
+    0.6679379343986511,
+    4.6112284660339355
+   ],
+   "dimensions": [
+    7.109747886657715,
+    1.3430341482162476,
+    4.652329444885254
+   ],
+   "center": [
+    -0.09633326530456543,
+    -0.0035791397094726562,
+    2.2850637435913086
+   ],
+   "mesh_vertices": 14892,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Lynx_JunkFencing_Set_01_Proxy"
+   ],
+   "sampled_vertices": 14892
+  },
+  "12048": {
+   "id": 12048,
+   "bounds_min": [
+    -0.0005149078206159174,
+    -0.05294346436858177,
+    -1.9779713153839111
+   ],
+   "bounds_max": [
+    5.002385139465332,
+    0.6447426676750183,
+    1.6129287481307983
+   ],
+   "dimensions": [
+    5.002900123596191,
+    0.6976861357688904,
+    3.59089994430542
+   ],
+   "center": [
+    2.5009350776672363,
+    0.2958995997905731,
+    -0.1825212836265564
+   ],
+   "mesh_vertices": 1950,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_CementFence_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_CementFence_02_Proxy"
+   ],
+   "sampled_vertices": 1950
+  },
+  "12049": {
+   "id": 12049,
+   "bounds_min": [
+    -0.1580592393875122,
+    -0.30218368768692017,
+    -3.4774718284606934
+   ],
+   "bounds_max": [
+    0.7042778730392456,
+    0.2979266047477722,
+    2.3914496898651123
+   ],
+   "dimensions": [
+    0.8623371124267578,
+    0.6001102924346924,
+    5.868921279907227
+   ],
+   "center": [
+    0.2731093168258667,
+    -0.0021285414695739746,
+    -0.5430110692977905
+   ],
+   "mesh_vertices": 162,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_CementFence_02_Proxy"
+   ],
+   "sampled_vertices": 162
+  },
+  "12050": {
+   "id": 12050,
+   "bounds_min": [
+    -0.0005157470586709678,
+    -0.05292639136314392,
+    -1.9779725074768066
+   ],
+   "bounds_max": [
+    5.002385139465332,
+    0.6465339064598083,
+    1.613518476486206
+   ],
+   "dimensions": [
+    5.002901077270508,
+    0.6994602680206299,
+    3.5914909839630127
+   ],
+   "center": [
+    2.500934600830078,
+    0.2968037724494934,
+    -0.1822270154953003
+   ],
+   "mesh_vertices": 4662,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_CementFence_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_CementFence_02_Proxy"
+   ],
+   "sampled_vertices": 4662
+  },
+  "12052": {
+   "id": 12052,
+   "bounds_min": [
+    -0.20000003278255463,
+    -0.20000000298023224,
+    -1.0
+   ],
+   "bounds_max": [
+    3.0,
+    0.20000000298023224,
+    2.0
+   ],
+   "dimensions": [
+    3.200000047683716,
+    0.4000000059604645,
+    3.0
+   ],
+   "center": [
+    1.399999976158142,
+    0.0,
+    0.5
+   ],
+   "mesh_vertices": 5262,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Fence_Concrete_01_Proxy"
+   ],
+   "sampled_vertices": 5262
+  },
+  "12056": {
+   "id": 12056,
+   "bounds_min": [
+    -0.025294341146945953,
+    -0.05691970884799957,
+    -1.1194456914084288e-17
+   ],
+   "bounds_max": [
+    2.486769437789917,
+    0.05691970884799957,
+    2.7495479583740234
+   ],
+   "dimensions": [
+    2.51206374168396,
+    0.11383941769599915,
+    2.7495479583740234
+   ],
+   "center": [
+    1.230737566947937,
+    0.0,
+    1.3747739791870117
+   ],
+   "mesh_vertices": 3138,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Chainlink_Fence_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Chainlink_Fence_Net_01_Proxy"
+   ],
+   "sampled_vertices": 3138
+  },
+  "12057": {
+   "id": 12057,
+   "bounds_min": [
+    -0.025294341146945953,
+    -0.4021763205528259,
+    -8.955566027575798e-18
+   ],
+   "bounds_max": [
+    2.486769437789917,
+    0.05691970884799957,
+    2.7495479583740234
+   ],
+   "dimensions": [
+    2.51206374168396,
+    0.4590960144996643,
+    2.7495479583740234
+   ],
+   "center": [
+    1.230737566947937,
+    -0.17262831330299377,
+    1.3747739791870117
+   ],
+   "mesh_vertices": 3195,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Chainlink_Fence_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Chainlink_Fence_Net_01_Proxy"
+   ],
+   "sampled_vertices": 3195
+  },
+  "12060": {
+   "id": 12060,
+   "bounds_min": [
+    -0.011612550355494022,
+    0.01047462783753872,
+    -3.0
+   ],
+   "bounds_max": [
+    4.988395690917969,
+    0.36614400148391724,
+    1.6740957498550415
+   ],
+   "dimensions": [
+    5.0000081062316895,
+    0.35566937923431396,
+    4.674095630645752
+   ],
+   "center": [
+    2.488391637802124,
+    0.18830931186676025,
+    -0.6629521250724792
+   ],
+   "mesh_vertices": 384,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Fence_Brick_00_Bricks_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Fence_Brick_00_Trim_Proxy"
+   ],
+   "sampled_vertices": 384
+  },
+  "12063": {
+   "id": 12063,
+   "bounds_min": [
+    -3.0517577442878974e-07,
+    -0.05659191310405731,
+    -0.11886265873908997
+   ],
+   "bounds_max": [
+    3.062246799468994,
+    0.21436309814453125,
+    1.0830965042114258
+   ],
+   "dimensions": [
+    3.0622470378875732,
+    0.27095502614974976,
+    1.2019591331481934
+   ],
+   "center": [
+    1.5311232805252075,
+    0.07888559252023697,
+    0.4821169376373291
+   ],
+   "mesh_vertices": 1284,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/HighwayBarrier_Inst_Proxy"
+   ],
+   "sampled_vertices": 1284
+  },
+  "12067": {
+   "id": 12067,
+   "bounds_min": [
+    -0.12597304582595825,
+    -0.12597307562828064,
+    -6.103515488575795e-07
+   ],
+   "bounds_max": [
+    0.12597304582595825,
+    0.12597303092479706,
+    2.0
+   ],
+   "dimensions": [
+    0.2519460916519165,
+    0.2519460916519165,
+    2.0000007152557373
+   ],
+   "center": [
+    0.0,
+    -2.2351741790771484e-08,
+    0.9999997019767761
+   ],
+   "mesh_vertices": 84,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VS7_Wood_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VS7_EdgeDecal_01_Proxy"
+   ],
+   "sampled_vertices": 84
+  },
+  "12068": {
+   "id": 12068,
+   "bounds_min": [
+    -0.15100044012069702,
+    -0.15100067853927612,
+    -0.000999832060188055
+   ],
+   "bounds_max": [
+    0.1510002166032791,
+    0.15100008249282837,
+    6.000368118286133
+   ],
+   "dimensions": [
+    0.30200064182281494,
+    0.3020007610321045,
+    6.001368045806885
+   ],
+   "center": [
+    -1.1175870895385742e-07,
+    -2.980232238769531e-07,
+    2.9996840953826904
+   ],
+   "mesh_vertices": 180,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VS7_Wood_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VS7_EdgeDecal_01_Proxy"
+   ],
+   "sampled_vertices": 180
+  },
+  "12069": {
+   "id": 12069,
+   "bounds_min": [
+    -0.15150001645088196,
+    -0.15150031447410583,
+    -0.000999832060188055
+   ],
+   "bounds_max": [
+    0.15150031447410583,
+    0.15150000154972076,
+    12.000999450683594
+   ],
+   "dimensions": [
+    0.3030003309249878,
+    0.3030003309249878,
+    12.001998901367188
+   ],
+   "center": [
+    1.4901161193847656e-07,
+    -1.564621925354004e-07,
+    6.0
+   ],
+   "mesh_vertices": 180,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VS7_Wood_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VS7_EdgeDecal_01_Proxy"
+   ],
+   "sampled_vertices": 180
+  },
+  "12070": {
+   "id": 12070,
+   "bounds_min": [
+    -0.03500000014901161,
+    -0.03500000014901161,
+    0.15000000596046448
+   ],
+   "bounds_max": [
+    5.034999847412109,
+    0.03500000014901161,
+    2.6700000762939453
+   ],
+   "dimensions": [
+    5.069999694824219,
+    0.07000000029802322,
+    2.5199999809265137
+   ],
+   "center": [
+    2.5,
+    0.0,
+    1.4100000858306885
+   ],
+   "mesh_vertices": 2046,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VK_Fence_IronFence_01_Proxy"
+   ],
+   "sampled_vertices": 2046
+  },
+  "12072": {
+   "id": 12072,
+   "bounds_min": [
+    -0.08500000089406967,
+    -0.08500000089406967,
+    -1.0
+   ],
+   "bounds_max": [
+    0.08500000089406967,
+    0.08500000089406967,
+    2.619999885559082
+   ],
+   "dimensions": [
+    0.17000000178813934,
+    0.17000000178813934,
+    3.619999885559082
+   ],
+   "center": [
+    0.0,
+    0.0,
+    0.809999942779541
+   ],
+   "mesh_vertices": 642,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VK_Fence_IronFence_01_Proxy"
+   ],
+   "sampled_vertices": 642
+  },
+  "12073": {
+   "id": 12073,
+   "bounds_min": [
+    0.0,
+    0.012602142058312893,
+    -1.1999999284744263
+   ],
+   "bounds_max": [
+    5.0,
+    0.487351655960083,
+    1.6473406553268433
+   ],
+   "dimensions": [
+    5.0,
+    0.47474950551986694,
+    2.8473405838012695
+   ],
+   "center": [
+    2.5,
+    0.24997690320014954,
+    0.2236703634262085
+   ],
+   "mesh_vertices": 288,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VK_Fence_Stone_02_StoneWall_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VK_Fence_Stone_02_Trim_Proxy"
+   ],
+   "sampled_vertices": 288
+  },
+  "12076": {
+   "id": 12076,
+   "bounds_min": [
+    -0.03807005286216736,
+    -0.47908005118370056,
+    -0.9792847633361816
+   ],
+   "bounds_max": [
+    6.975409984588623,
+    0.331264853477478,
+    3.968780755996704
+   ],
+   "dimensions": [
+    7.013480186462402,
+    0.810344934463501,
+    4.948065757751465
+   ],
+   "center": [
+    3.468669891357422,
+    -0.07390759885311127,
+    1.4947479963302612
+   ],
+   "mesh_vertices": 4287,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Fence_MergedFence_03_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Fence_MergedFence_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Fence_MergedFence_02_Proxy"
+   ],
+   "sampled_vertices": 4287
+  },
+  "12078": {
+   "id": 12078,
+   "bounds_min": [
+    -0.16832637786865234,
+    -0.2334398329257965,
+    -0.05793642997741699
+   ],
+   "bounds_max": [
+    2.193472385406494,
+    0.5239145755767822,
+    1.428466796875
+   ],
+   "dimensions": [
+    2.3617987632751465,
+    0.7573543787002563,
+    1.486403226852417
+   ],
+   "center": [
+    1.012573003768921,
+    0.14523737132549286,
+    0.6852651834487915
+   ],
+   "mesh_vertices": 4692,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Fence_Shrub_01_130_Proxy"
+   ],
+   "sampled_vertices": 4692
+  },
+  "12080": {
+   "id": 12080,
+   "bounds_min": [
+    -5.655519998981617e-06,
+    -5.495856761932373,
+    -7.0012407302856445
+   ],
+   "bounds_max": [
+    19.200002670288086,
+    5.495856285095215,
+    0.1999993920326233
+   ],
+   "dimensions": [
+    19.200008392333984,
+    10.99171257019043,
+    7.201240062713623
+   ],
+   "center": [
+    9.599998474121094,
+    -2.384185791015625e-07,
+    -3.400620698928833
+   ],
+   "mesh_vertices": 2424,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_DO__baltic_dock_wall1_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_DO_baltic_Modular_Wood1_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_DO_baltic_Castle_Court_02_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_DO_metal_baltic_rust_02_dock1_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_DO_Trim_03_BY_Proxy"
+   ],
+   "sampled_vertices": 2424
+  },
+  "12088": {
+   "id": 12088,
+   "bounds_min": [
+    -0.2655993700027466,
+    -0.2655993700027466,
+    0.0
+   ],
+   "bounds_max": [
+    0.26560914516448975,
+    0.26560670137405396,
+    3.1145009994506836
+   ],
+   "dimensions": [
+    0.5312085151672363,
+    0.5312060713768005,
+    3.1145009994506836
+   ],
+   "center": [
+    4.887580871582031e-06,
+    3.6656856536865234e-06,
+    1.5572504997253418
+   ],
+   "mesh_vertices": 435,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_DirtDecal_Dark_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Trim_Metal_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Kiki_Downtown_Skyscraper_02_WoodPanels_Proxy"
+   ],
+   "sampled_vertices": 435
+  },
+  "12091": {
+   "id": 12091,
+   "bounds_min": [
+    -0.1395764946937561,
+    -0.1538364291191101,
+    -1.6617242097854614
+   ],
+   "bounds_max": [
+    0.10763712227344513,
+    0.15383796393871307,
+    1.546397089958191
+   ],
+   "dimensions": [
+    0.24721361696720123,
+    0.3076744079589844,
+    3.2081212997436523
+   ],
+   "center": [
+    -0.015969686210155487,
+    7.674098014831543e-07,
+    -0.057663559913635254
+   ],
+   "mesh_vertices": 114,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/Church_Wood_Mat_Proxy"
+   ],
+   "sampled_vertices": 114
+  },
+  "12092": {
+   "id": 12092,
+   "bounds_min": [
+    -0.7122247219085693,
+    -0.07089690864086151,
+    -1.6215088367462158
+   ],
+   "bounds_max": [
+    0.7122247219085693,
+    0.07089690864086151,
+    1.6215088367462158
+   ],
+   "dimensions": [
+    1.4244494438171387,
+    0.14179381728172302,
+    3.2430176734924316
+   ],
+   "center": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "mesh_vertices": 480,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/Church_Wood_Mat_Proxy"
+   ],
+   "sampled_vertices": 480
+  },
+  "12095": {
+   "id": 12095,
+   "bounds_min": [
+    -5.020707607269287,
+    -5.116672515869141,
+    -0.011529612354934216
+   ],
+   "bounds_max": [
+    0.002940787933766842,
+    0.00036468516918830574,
+    3.0496349334716797
+   ],
+   "dimensions": [
+    5.023648262023926,
+    5.117037296295166,
+    3.061164617538452
+   ],
+   "center": [
+    -2.508883476257324,
+    -2.5581538677215576,
+    1.5190526247024536
+   ],
+   "mesh_vertices": 11997,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/Test_MAT_Wall_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_WallPaper_02_HouseDestroyed_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/M_Wood_White_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_TileConcreteDecal_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_T_WallDestroyed02_Proxy"
+   ],
+   "sampled_vertices": 11997
+  },
+  "12096": {
+   "id": 12096,
+   "bounds_min": [
+    -0.05673431232571602,
+    -0.1808602660894394,
+    -0.0013182067777961493
+   ],
+   "bounds_max": [
+    4.128299713134766,
+    0.002699813339859247,
+    1.535508155822754
+   ],
+   "dimensions": [
+    4.185033798217773,
+    0.1835600733757019,
+    1.5368263721466064
+   ],
+   "center": [
+    2.035782814025879,
+    -0.08908022940158844,
+    0.7670949697494507
+   ],
+   "mesh_vertices": 2754,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/Test_MAT_Wall_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_WallPaper_02_HouseDestroyed_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_ConcreteBorder_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_TileConcreteDecal_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_T_WallDestroyed02_Proxy"
+   ],
+   "sampled_vertices": 2754
+  },
+  "12097": {
+   "id": 12097,
+   "bounds_min": [
+    -0.4665713310241699,
+    -4.481211185455322,
+    -3.0
+   ],
+   "bounds_max": [
+    0.23940671980381012,
+    0.3131226897239685,
+    4.2988362312316895
+   ],
+   "dimensions": [
+    0.7059780359268188,
+    4.7943339347839355,
+    7.2988362312316895
+   ],
+   "center": [
+    -0.1135823056101799,
+    -2.0840442180633545,
+    0.6494181156158447
+   ],
+   "mesh_vertices": 16716,
+   "mesh_parts": 6,
+   "mesh_instances": 19,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/M_Door_Black_Metallic_03_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Ivy_01_Proxy"
+   ],
+   "sampled_vertices": 11061
+  },
+  "12098": {
+   "id": 12098,
+   "bounds_min": [
+    -0.4394168555736542,
+    -2.3291714191436768,
+    -3.0123703479766846
+   ],
+   "bounds_max": [
+    0.2642569839954376,
+    0.4949323534965515,
+    4.223849773406982
+   ],
+   "dimensions": [
+    0.7036738395690918,
+    2.824103832244873,
+    7.236220359802246
+   ],
+   "center": [
+    -0.08757993578910828,
+    -0.9171195030212402,
+    0.6057397127151489
+   ],
+   "mesh_vertices": 4560,
+   "mesh_parts": 6,
+   "mesh_instances": 13,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/M_Door_Black_Metallic_03_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Ivy_01_Proxy"
+   ],
+   "sampled_vertices": 4560
+  },
+  "12099": {
+   "id": 12099,
+   "bounds_min": [
+    -0.0063978577964007854,
+    -0.1541455090045929,
+    -2.986769676208496
+   ],
+   "bounds_max": [
+    3.004911422729492,
+    0.17453262209892273,
+    1.5455238819122314
+   ],
+   "dimensions": [
+    3.0113093852996826,
+    0.3286781311035156,
+    4.532293319702148
+   ],
+   "center": [
+    1.4992567300796509,
+    0.010193556547164917,
+    -0.7206228971481323
+   ],
+   "mesh_vertices": 2562,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Fence_Cinder_Block_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Fence_Cinder_Blocks_IND_01_Proxy"
+   ],
+   "sampled_vertices": 2562
+  },
+  "12100": {
+   "id": 12100,
+   "bounds_min": [
+    -0.01697913184762001,
+    -0.21802906692028046,
+    -3.140327215194702
+   ],
+   "bounds_max": [
+    0.20138248801231384,
+    0.20906835794448853,
+    1.5636112689971924
+   ],
+   "dimensions": [
+    0.21836161613464355,
+    0.4270974397659302,
+    4.7039384841918945
+   ],
+   "center": [
+    0.09220167994499207,
+    -0.004480354487895966,
+    -0.7883579730987549
+   ],
+   "mesh_vertices": 8604,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Fence_Cinder_Blocks_IND_01_Proxy"
+   ],
+   "sampled_vertices": 8604
+  },
+  "12103": {
+   "id": 12103,
+   "bounds_min": [
+    -0.0063978577964007854,
+    -0.14828674495220184,
+    -2.986769676208496
+   ],
+   "bounds_max": [
+    3.004911422729492,
+    0.17453262209892273,
+    1.5455238819122314
+   ],
+   "dimensions": [
+    3.0113093852996826,
+    0.3228193521499634,
+    4.532293319702148
+   ],
+   "center": [
+    1.4992567300796509,
+    0.013122938573360443,
+    -0.7206228971481323
+   ],
+   "mesh_vertices": 4362,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Fence_Cinder_Block_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Fence_Cinder_Blocks_IND_01_Proxy"
+   ],
+   "sampled_vertices": 4362
+  },
+  "13008": {
+   "id": 13008,
+   "bounds_min": [
+    -6.441122055053711,
+    -9.610031127929688,
+    -1.0118252038955688
+   ],
+   "bounds_max": [
+    5.778921127319336,
+    9.003450393676758,
+    0.011957569979131222
+   ],
+   "dimensions": [
+    12.220043182373047,
+    18.613481521606445,
+    1.023782730102539
+   ],
+   "center": [
+    -0.3311004638671875,
+    -0.30329036712646484,
+    -0.49993380904197693
+   ],
+   "mesh_vertices": 534,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Deco_Pile_CementbagPile_03_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Deco_Farm_Site_Foor_Proxy"
+   ],
+   "sampled_vertices": 534
+  },
+  "13009": {
+   "id": 13009,
+   "bounds_min": [
+    -0.002376159420236945,
+    -5.987952709197998,
+    -0.002494827611371875
+   ],
+   "bounds_max": [
+    3.1253833770751953,
+    6.861658039269969e-05,
+    0.6252075433731079
+   ],
+   "dimensions": [
+    3.1277594566345215,
+    5.988021373748779,
+    0.6277023553848267
+   ],
+   "center": [
+    1.5615036487579346,
+    -2.9939420223236084,
+    0.3113563656806946
+   ],
+   "mesh_vertices": 516,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Yugarden_Frame1_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_HS_Plaster_02_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Stadium_Edge_Decals_01_Proxy"
+   ],
+   "sampled_vertices": 516
+  },
+  "13011": {
+   "id": 13011,
+   "bounds_min": [
+    -7.220638275146484,
+    -7.6876220703125,
+    -1.0000077486038208
+   ],
+   "bounds_max": [
+    9.339581489562988,
+    10.834921836853027,
+    7.781982276355848e-06
+   ],
+   "dimensions": [
+    16.560218811035156,
+    18.522544860839844,
+    1.0000154972076416
+   ],
+   "center": [
+    1.059471607208252,
+    1.5736498832702637,
+    -0.4999999701976776
+   ],
+   "mesh_vertices": 36,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Sidewalk_04_Proxy"
+   ],
+   "sampled_vertices": 36
+  },
+  "13014": {
+   "id": 13014,
+   "bounds_min": [
+    -0.4478274881839752,
+    -0.8059860467910767,
+    -4.935240775899631e-17
+   ],
+   "bounds_max": [
+    0.4478274881839752,
+    0.8059860467910767,
+    0.010746479965746403
+   ],
+   "dimensions": [
+    0.8956549763679504,
+    1.6119720935821533,
+    0.010746479965746403
+   ],
+   "center": [
+    0.0,
+    0.0,
+    0.005373239982873201
+   ],
+   "mesh_vertices": 30,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Stadium_Floor_Patterns_Proxy"
+   ],
+   "sampled_vertices": 30
+  },
+  "13015": {
+   "id": 13015,
+   "bounds_min": [
+    -0.7918748259544373,
+    -2.0693960189819336,
+    -0.3682287335395813
+   ],
+   "bounds_max": [
+    0.7631862759590149,
+    1.588008999824524,
+    0.4281311333179474
+   ],
+   "dimensions": [
+    1.5550611019134521,
+    3.657404899597168,
+    0.7963598966598511
+   ],
+   "center": [
+    -0.014344274997711182,
+    -0.24069350957870483,
+    0.029951199889183044
+   ],
+   "mesh_vertices": 924,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/Church_Wood_Mat_Proxy"
+   ],
+   "sampled_vertices": 924
+  },
+  "14002": {
+   "id": 14002,
+   "bounds_min": [
+    -0.13893799483776093,
+    -8.492942810058594,
+    -1.9410046339035034
+   ],
+   "bounds_max": [
+    21.231138229370117,
+    2.6996335983276367,
+    0.23420816659927368
+   ],
+   "dimensions": [
+    21.37007713317871,
+    11.19257640838623,
+    2.175212860107422
+   ],
+   "center": [
+    10.546099662780762,
+    -2.8966546058654785,
+    -0.8533982038497925
+   ],
+   "mesh_vertices": 5646,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/M_Block_Road_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic-Church_escalier02_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic-Church_escalier03_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic-Church_escalier04_Proxy"
+   ],
+   "sampled_vertices": 5646
+  },
+  "14009": {
+   "id": 14009,
+   "bounds_min": [
+    -0.016786804422736168,
+    -0.011506347917020321,
+    -2.766166925430298
+   ],
+   "bounds_max": [
+    1.6300009489059448,
+    3.670980215072632,
+    0.003952407743781805
+   ],
+   "dimensions": [
+    1.6467877626419067,
+    3.6824865341186523,
+    2.7701194286346436
+   ],
+   "center": [
+    0.8066070675849915,
+    1.8297369480133057,
+    -1.381107211112976
+   ],
+   "mesh_vertices": 300,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Yugarden_Stair_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Yugarden_Floor_Side_Proxy"
+   ],
+   "sampled_vertices": 300
+  },
+  "14010": {
+   "id": 14010,
+   "bounds_min": [
+    -9.18997573852539,
+    -1.0096158981323242,
+    -1.5419801473617554
+   ],
+   "bounds_max": [
+    0.00961597915738821,
+    1.0046355724334717,
+    3.50993013381958
+   ],
+   "dimensions": [
+    9.199591636657715,
+    2.014251470565796,
+    5.051910400390625
+   ],
+   "center": [
+    -4.590179920196533,
+    -0.0024901628494262695,
+    0.9839749932289124
+   ],
+   "mesh_vertices": 132,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Savage_BootConcreteAddon02_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Savage_BootConcreteEdgeDecal_Proxy"
+   ],
+   "sampled_vertices": 132
+  },
+  "14013": {
+   "id": 14013,
+   "bounds_min": [
+    -0.2992883324623108,
+    -0.08048385381698608,
+    -12.588017463684082
+   ],
+   "bounds_max": [
+    21.5843505859375,
+    6.632716655731201,
+    2.1430509090423584
+   ],
+   "dimensions": [
+    21.883638381958008,
+    6.713200569152832,
+    14.73106861114502
+   ],
+   "center": [
+    10.642531394958496,
+    3.276116371154785,
+    -5.222483158111572
+   ],
+   "mesh_vertices": 33822,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Savage_Bridge00_Proxy"
+   ],
+   "sampled_vertices": 33822
+  },
+  "14015": {
+   "id": 14015,
+   "bounds_min": [
+    -7.970884799957275,
+    -4.101658821105957,
+    -3.779534339904785
+   ],
+   "bounds_max": [
+    8.275910377502441,
+    0.001999969594180584,
+    4.119014739990234
+   ],
+   "dimensions": [
+    16.246795654296875,
+    4.103658676147461,
+    7.8985490798950195
+   ],
+   "center": [
+    0.152512788772583,
+    -2.0498294830322266,
+    0.1697402000427246
+   ],
+   "mesh_vertices": 8328,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/SilverM_Detail_a_Mat_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Lynx_Corrugated_Metal_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/SilverM_Floor_a_Mat_Proxy"
+   ],
+   "sampled_vertices": 8328
+  },
+  "14016": {
+   "id": 14016,
+   "bounds_min": [
+    -2.2887401580810547,
+    -3.0747549533843994,
+    -2.673673791689184e-16
+   ],
+   "bounds_max": [
+    0.0,
+    1.3052458580764332e-32,
+    2.509394645690918
+   ],
+   "dimensions": [
+    2.2887401580810547,
+    3.0747549533843994,
+    2.509394645690918
+   ],
+   "center": [
+    -1.1443700790405273,
+    -1.5373774766921997,
+    1.254697322845459
+   ],
+   "mesh_vertices": 1764,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Lynx_Corrugated_Metal_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/SilverM_Detail_a_Mat_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/SilverM_Floor_a_Mat_Proxy"
+   ],
+   "sampled_vertices": 1764
+  },
+  "14020": {
+   "id": 14020,
+   "bounds_min": [
+    -0.016786804422736168,
+    -0.011506347917020321,
+    -1.593592882156372
+   ],
+   "bounds_max": [
+    3.981951951980591,
+    2.0001778602600098,
+    0.003952407743781805
+   ],
+   "dimensions": [
+    3.9987387657165527,
+    2.0116841793060303,
+    1.5975452661514282
+   ],
+   "center": [
+    1.9825825691223145,
+    0.9943357706069946,
+    -0.794820249080658
+   ],
+   "mesh_vertices": 255,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Yugarden_Stair_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Yugarden_Floor_Side_Proxy"
+   ],
+   "sampled_vertices": 255
+  },
+  "14021": {
+   "id": 14021,
+   "bounds_min": [
+    -12.844690322875977,
+    -3.9170758724212646,
+    -5.170192718505859
+   ],
+   "bounds_max": [
+    12.844690322875977,
+    3.9170761108398438,
+    5.170192241668701
+   ],
+   "dimensions": [
+    25.689380645751953,
+    7.8341522216796875,
+    10.340385437011719
+   ],
+   "center": [
+    0.0,
+    1.1920928955078125e-07,
+    -2.384185791015625e-07
+   ],
+   "mesh_vertices": 6198,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_HS_Old_Bridge_M_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_HS_Old_Bridge_M_01_Proxy"
+   ],
+   "sampled_vertices": 6198
+  },
+  "14022": {
+   "id": 14022,
+   "bounds_min": [
+    -36.15095520019531,
+    -5.4130144119262695,
+    -10.009639739990234
+   ],
+   "bounds_max": [
+    0.31153443455696106,
+    5.4130144119262695,
+    0.47533202171325684
+   ],
+   "dimensions": [
+    36.46249008178711,
+    10.826028823852539,
+    10.48497200012207
+   ],
+   "center": [
+    -17.919710159301758,
+    0.0,
+    -4.767153739929199
+   ],
+   "mesh_vertices": 660,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Neon_L_CSBridge_03_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Neon_L_CSBridge_07_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Town_Bridge_L_01_D2_Proxy"
+   ],
+   "sampled_vertices": 660
+  },
+  "15001": {
+   "id": 15001,
+   "bounds_min": [
+    -3.560534715652466,
+    -3.106321334838867,
+    -0.6131676435470581
+   ],
+   "bounds_max": [
+    2.4185996055603027,
+    2.4262900352478027,
+    8.847671508789062
+   ],
+   "dimensions": [
+    5.979134559631348,
+    5.53261137008667,
+    9.46083927154541
+   ],
+   "center": [
+    -0.5709675550460815,
+    -0.3400156497955322,
+    4.117251873016357
+   ],
+   "mesh_vertices": 9417,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Assets/World/Baltic/Foliage/Baltictree/Baltic_bro_tree_08_Imposter/MI_Baltic_bro_tree_08_wind_Trunk",
+    "TslGame/Content/Assets/World/Baltic/Foliage/BalticBush/Baltic_bro_Bush_03_Imposter/MI_Baltic_bro_Bush_03_wind_Leaf"
+   ],
+   "sampled_vertices": 9417
+  },
+  "15002": {
+   "id": 15002,
+   "bounds_min": [
+    -6.964132308959961,
+    -6.2684855461120605,
+    -3.684082269668579
+   ],
+   "bounds_max": [
+    6.764159679412842,
+    5.193762302398682,
+    31.993925094604492
+   ],
+   "dimensions": [
+    13.728292465209961,
+    11.462247848510742,
+    35.678009033203125
+   ],
+   "center": [
+    -0.09998631477355957,
+    -0.5373616218566895,
+    14.154921531677246
+   ],
+   "mesh_vertices": 30486,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Assets/World/Baltic/Foliage/Baltictree/Baltic_bro_Hollywood_Juniper_IM/MI_Baltic_Hollywood_wind_Trunk"
+   ],
+   "sampled_vertices": 30486
+  },
+  "15006": {
+   "id": 15006,
+   "bounds_min": [
+    -4.6442179679870605,
+    -5.1917853355407715,
+    -3.0420632362365723
+   ],
+   "bounds_max": [
+    5.512081146240234,
+    4.34389591217041,
+    23.64926528930664
+   ],
+   "dimensions": [
+    10.156299591064453,
+    9.535680770874023,
+    26.691328048706055
+   ],
+   "center": [
+    0.4339315891265869,
+    -0.42394471168518066,
+    10.303601264953613
+   ],
+   "mesh_vertices": 44571,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Assets/World/Baltic/Foliage/Baltictree/Baltic_bro_Lombardy_Poplar_IM/MI_bro_Lombardy_Poplar_wind_Trunk",
+    "TslGame/Content/Assets/World/Baltic/Foliage/Baltictree/Baltic_bro_Lombardy_Poplar_IM/MI_bro_Lombardy_Poplar_wind_Branch",
+    "TslGame/Content/Assets/World/Baltic/Foliage/Baltictree/Baltic_bro_Lombardy_Poplar_IM/MI_bro_Lombardy_Poplar_wind_Leaf"
+   ],
+   "sampled_vertices": 44571
+  },
+  "15007": {
+   "id": 15007,
+   "bounds_min": [
+    -7.584213733673096,
+    -7.426140785217285,
+    -2.3817522525787354
+   ],
+   "bounds_max": [
+    7.010297775268555,
+    7.347980976104736,
+    21.442607879638672
+   ],
+   "dimensions": [
+    14.594511032104492,
+    14.77412223815918,
+    23.824359893798828
+   ],
+   "center": [
+    -0.2869579792022705,
+    -0.039079904556274414,
+    9.530427932739258
+   ],
+   "mesh_vertices": 45909,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Assets/World/Baltic/Foliage/Baltictree/Baltic_bro_London_Plane_IM/MI_Baltic_bro_London_Plane_wind_Trunk",
+    "TslGame/Content/Assets/World/Baltic/Foliage/Baltictree/Baltic_bro_London_Plane_IM/MI_Baltic_bro_London_Plane_wind_Leaf"
+   ],
+   "sampled_vertices": 45909
+  },
+  "15008": {
+   "id": 15008,
+   "bounds_min": [
+    -11.677947044372559,
+    -9.719396591186523,
+    -2.273808240890503
+   ],
+   "bounds_max": [
+    9.738948822021484,
+    8.947408676147461,
+    19.34134864807129
+   ],
+   "dimensions": [
+    21.41689682006836,
+    18.666805267333984,
+    21.615156173706055
+   ],
+   "center": [
+    -0.9694991111755371,
+    -0.38599395751953125,
+    8.533770561218262
+   ],
+   "mesh_vertices": 58947,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Assets/World/Baltic/Foliage/Baltictree/Baltic_Green_Ash_Desktop_BRO/MI_Baltic_bro_greenash_wind_Trunk",
+    "TslGame/Content/Assets/World/Baltic/Foliage/Baltictree/Baltic_Green_Ash_Desktop_BRO/MI_Baltic_bro_greenash_wind_Leaf"
+   ],
+   "sampled_vertices": 58947
+  },
+  "15010": {
+   "id": 15010,
+   "bounds_min": [
+    -2.8693184852600098,
+    -1.7536894083023071,
+    -3.091628313064575
+   ],
+   "bounds_max": [
+    2.1993393898010254,
+    1.5205163955688477,
+    2.0585711002349854
+   ],
+   "dimensions": [
+    5.068657875061035,
+    3.2742056846618652,
+    5.1501994132995605
+   ],
+   "center": [
+    -0.3349895477294922,
+    -0.11658650636672974,
+    -0.5165286064147949
+   ],
+   "mesh_vertices": 23940,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_CoverRock_08_Proxy"
+   ],
+   "sampled_vertices": 23940
+  },
+  "15020": {
+   "id": 15020,
+   "bounds_min": [
+    -2.646254062652588,
+    -4.800968647003174,
+    -3.586871862411499
+   ],
+   "bounds_max": [
+    1.277604579925537,
+    4.801537036895752,
+    2.8284523487091064
+   ],
+   "dimensions": [
+    3.923858642578125,
+    9.602505683898926,
+    6.4153242111206055
+   ],
+   "center": [
+    -0.6843247413635254,
+    0.0002841949462890625,
+    -0.3792097568511963
+   ],
+   "mesh_vertices": 12474,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_LavaflowRock_Proxy"
+   ],
+   "sampled_vertices": 12474
+  },
+  "15022": {
+   "id": 15022,
+   "bounds_min": [
+    -3.3621490001678467,
+    -3.1308820247650146,
+    -1.5440902709960938
+   ],
+   "bounds_max": [
+    3.371352195739746,
+    3.12423038482666,
+    3.380948066711426
+   ],
+   "dimensions": [
+    6.733501434326172,
+    6.255112648010254,
+    4.9250383377075195
+   ],
+   "center": [
+    0.004601597785949707,
+    -0.003325819969177246,
+    0.918428897857666
+   ],
+   "mesh_vertices": 4482,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Neon_FieldRock_03_Proxy"
+   ],
+   "sampled_vertices": 4482
+  },
+  "15023": {
+   "id": 15023,
+   "bounds_min": [
+    -3.1413094997406006,
+    -3.6127562522888184,
+    -1.6026698350906372
+   ],
+   "bounds_max": [
+    3.015256881713867,
+    2.901827812194824,
+    3.5708858966827393
+   ],
+   "dimensions": [
+    6.156566619873047,
+    6.514584064483643,
+    5.173555850982666
+   ],
+   "center": [
+    -0.0630263090133667,
+    -0.35546422004699707,
+    0.984108030796051
+   ],
+   "mesh_vertices": 6276,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Neon_ForestRock_01_Proxy"
+   ],
+   "sampled_vertices": 6276
+  },
+  "15028": {
+   "id": 15028,
+   "bounds_min": [
+    -7.650393486022949,
+    -9.25539493560791,
+    -1.7574917078018188
+   ],
+   "bounds_max": [
+    9.634686470031738,
+    9.267780303955078,
+    27.149263381958008
+   ],
+   "dimensions": [
+    17.285079956054688,
+    18.523174285888672,
+    28.906755447387695
+   ],
+   "center": [
+    0.9921464920043945,
+    0.006192684173583984,
+    12.69588565826416
+   ],
+   "mesh_vertices": 28473,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Maps/lobby/lobby_customize/lobby_customize_Chunjie/Material/MI_Neon_AspenTree01_Trunk",
+    "TslGame/Content/Assets/World/Neon/Foliage/Tree/ST_Neon_FieldTree_01/MI_Neon_FieldTree_Branch02",
+    "TslGame/Content/Assets/World/Neon/Foliage/Tree/ST_Neon_FieldTree_01/MI_Neon_FieldTree_Leaf02"
+   ],
+   "sampled_vertices": 28473
+  },
+  "16001": {
+   "id": 16001,
+   "bounds_min": [
+    -0.8052550554275513,
+    -0.4012449383735657,
+    -0.002841301029548049
+   ],
+   "bounds_max": [
+    0.8052551746368408,
+    0.4012449383735657,
+    0.7031939625740051
+   ],
+   "dimensions": [
+    1.610510230064392,
+    0.8024898767471313,
+    0.7060352563858032
+   ],
+   "center": [
+    5.960464477539063e-08,
+    0.0,
+    0.3501763343811035
+   ],
+   "mesh_vertices": 804,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Barriers_Proxy"
+   ],
+   "sampled_vertices": 804
+  },
+  "16002": {
+   "id": 16002,
+   "bounds_min": [
+    -0.7877392768859863,
+    -0.3147488832473755,
+    -0.0022162192035466433
+   ],
+   "bounds_max": [
+    0.7877392768859863,
+    0.314940869808197,
+    0.9781522154808044
+   ],
+   "dimensions": [
+    1.5754785537719727,
+    0.6296897530555725,
+    0.980368435382843
+   ],
+   "center": [
+    0.0,
+    9.59932804107666e-05,
+    0.48796799778938293
+   ],
+   "mesh_vertices": 3114,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Barrier01_Proxy"
+   ],
+   "sampled_vertices": 3114
+  },
+  "16003": {
+   "id": 16003,
+   "bounds_min": [
+    -0.8600698113441467,
+    -0.8574199080467224,
+    -0.17010246217250824
+   ],
+   "bounds_max": [
+    0.8733199238777161,
+    0.8689730763435364,
+    1.2191258668899536
+   ],
+   "dimensions": [
+    1.7333897352218628,
+    1.7263929843902588,
+    1.389228343963623
+   ],
+   "center": [
+    0.006625056266784668,
+    0.005776584148406982,
+    0.5245116949081421
+   ],
+   "mesh_vertices": 13704,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Sandbags_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Modular_Sandbag3_Proxy"
+   ],
+   "sampled_vertices": 13704
+  },
+  "16004": {
+   "id": 16004,
+   "bounds_min": [
+    -0.8082156181335449,
+    -0.798759400844574,
+    -0.005284533370286226
+   ],
+   "bounds_max": [
+    0.8022946119308472,
+    0.8062204122543335,
+    1.306697130203247
+   ],
+   "dimensions": [
+    1.610510230064392,
+    1.6049797534942627,
+    1.3119816780090332
+   ],
+   "center": [
+    -0.002960503101348877,
+    0.0037305057048797607,
+    0.6507062911987305
+   ],
+   "mesh_vertices": 1530,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Barriers_Proxy"
+   ],
+   "sampled_vertices": 1530
+  },
+  "16005": {
+   "id": 16005,
+   "bounds_min": [
+    -0.9073819518089294,
+    -0.8014774918556213,
+    -0.0024566650390625
+   ],
+   "bounds_max": [
+    0.8305462002754211,
+    0.8503760695457458,
+    2.2640068531036377
+   ],
+   "dimensions": [
+    1.7379281520843506,
+    1.6518535614013672,
+    2.2664635181427
+   ],
+   "center": [
+    -0.03841787576675415,
+    0.024449288845062256,
+    1.1307750940322876
+   ],
+   "mesh_vertices": 11052,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Barriers_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Sandbags_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Modular_Sandbag3_Proxy"
+   ],
+   "sampled_vertices": 11052
+  },
+  "16006": {
+   "id": 16006,
+   "bounds_min": [
+    -0.34274932742118835,
+    -0.3393741548061371,
+    -0.010950678959488869
+   ],
+   "bounds_max": [
+    0.34119510650634766,
+    0.34146708250045776,
+    0.6713561415672302
+   ],
+   "dimensions": [
+    0.6839444637298584,
+    0.6808412075042725,
+    0.6823068261146545
+   ],
+   "center": [
+    -0.0007771104574203491,
+    0.0010464638471603394,
+    0.33020272850990295
+   ],
+   "mesh_vertices": 822,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Cardboard_01_Proxy"
+   ],
+   "sampled_vertices": 822
+  },
+  "16007": {
+   "id": 16007,
+   "bounds_min": [
+    -0.3458488881587982,
+    -0.342275470495224,
+    -0.010950678959488869
+   ],
+   "bounds_max": [
+    0.35867178440093994,
+    0.34114187955856323,
+    0.6416317224502563
+   ],
+   "dimensions": [
+    0.7045207023620605,
+    0.6834173202514648,
+    0.6525824069976807
+   ],
+   "center": [
+    0.006411448121070862,
+    -0.0005667954683303833,
+    0.315340518951416
+   ],
+   "mesh_vertices": 942,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Cardboard_01_Proxy"
+   ],
+   "sampled_vertices": 942
+  },
+  "16013": {
+   "id": 16013,
+   "bounds_min": [
+    -1.7623957395553589,
+    -0.8712454438209534,
+    0.0008949826005846262
+   ],
+   "bounds_max": [
+    1.9286761283874512,
+    0.9000781774520874,
+    1.0002437829971313
+   ],
+   "dimensions": [
+    3.6910719871520996,
+    1.7713236808776855,
+    0.9993488192558289
+   ],
+   "center": [
+    0.08314019441604614,
+    0.014416366815567017,
+    0.5005694031715393
+   ],
+   "mesh_vertices": 10905,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_ConcreteBarrier_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tarp_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_WoodenCrate_01_Proxy"
+   ],
+   "sampled_vertices": 10905
+  },
+  "16015": {
+   "id": 16015,
+   "bounds_min": [
+    -1.052456259727478,
+    -0.3423323929309845,
+    -0.10281623899936676
+   ],
+   "bounds_max": [
+    1.052456259727478,
+    0.3423323929309845,
+    0.602835476398468
+   ],
+   "dimensions": [
+    2.104912519454956,
+    0.684664785861969,
+    0.7056517004966736
+   ],
+   "center": [
+    0.0,
+    0.0,
+    0.2500096261501312
+   ],
+   "mesh_vertices": 984,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_WoodenCrate_01_Proxy"
+   ],
+   "sampled_vertices": 984
+  },
+  "16016": {
+   "id": 16016,
+   "bounds_min": [
+    -0.674111008644104,
+    -0.5072338581085205,
+    -4.9303591695146494e-18
+   ],
+   "bounds_max": [
+    0.7800441980361938,
+    0.6486758589744568,
+    0.651670515537262
+   ],
+   "dimensions": [
+    1.4541552066802979,
+    1.155909776687622,
+    0.651670515537262
+   ],
+   "center": [
+    0.05296659469604492,
+    0.07072100043296814,
+    0.325835257768631
+   ],
+   "mesh_vertices": 1092,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Box01_Proxy"
+   ],
+   "sampled_vertices": 1092
+  },
+  "16021": {
+   "id": 16021,
+   "bounds_min": [
+    -0.5879676938056946,
+    -0.5879679322242737,
+    -1.5258788721439487e-07
+   ],
+   "bounds_max": [
+    0.5879676938056946,
+    0.5879676938056946,
+    1.4598300457000732
+   ],
+   "dimensions": [
+    1.1759353876113892,
+    1.1759356260299683,
+    1.4598301649093628
+   ],
+   "center": [
+    0.0,
+    -1.1920928955078125e-07,
+    0.7299149632453918
+   ],
+   "mesh_vertices": 2070,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_pylons01_Proxy"
+   ],
+   "sampled_vertices": 2070
+  },
+  "16022": {
+   "id": 16022,
+   "bounds_min": [
+    -0.22241035103797913,
+    -0.22241035103797913,
+    -2.5144128827187374e-24
+   ],
+   "bounds_max": [
+    0.22241033613681793,
+    0.22241035103797913,
+    0.5242828130722046
+   ],
+   "dimensions": [
+    0.44482070207595825,
+    0.44482070207595825,
+    0.5242828130722046
+   ],
+   "center": [
+    -7.450580596923828e-09,
+    0.0,
+    0.2621414065361023
+   ],
+   "mesh_vertices": 672,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_pylons01_Proxy"
+   ],
+   "sampled_vertices": 672
+  },
+  "16024": {
+   "id": 16024,
+   "bounds_min": [
+    -1.7182735204696655,
+    -0.3064839243888855,
+    -0.02232339419424534
+   ],
+   "bounds_max": [
+    1.6810017824172974,
+    0.5487931966781616,
+    0.8817804455757141
+   ],
+   "dimensions": [
+    3.399275302886963,
+    0.8552771210670471,
+    0.9041038155555725
+   ],
+   "center": [
+    -0.018635869026184082,
+    0.12115463614463806,
+    0.42972853779792786
+   ],
+   "mesh_vertices": 8322,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Modular_Sandbag6_Proxy"
+   ],
+   "sampled_vertices": 8322
+  },
+  "16026": {
+   "id": 16026,
+   "bounds_min": [
+    -0.6524105072021484,
+    -0.5886770486831665,
+    0.00559802632778883
+   ],
+   "bounds_max": [
+    0.6544008851051331,
+    0.611361563205719,
+    1.3516359329223633
+   ],
+   "dimensions": [
+    1.3068113327026367,
+    1.2000386714935303,
+    1.3460378646850586
+   ],
+   "center": [
+    0.0009951889514923096,
+    0.011342257261276245,
+    0.678617000579834
+   ],
+   "mesh_vertices": 18384,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_WoodPallets_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_AmmoBox03_Proxy"
+   ],
+   "sampled_vertices": 18384
+  },
+  "16028": {
+   "id": 16028,
+   "bounds_min": [
+    -0.6524105072021484,
+    -0.5886770486831665,
+    0.00559802632778883
+   ],
+   "bounds_max": [
+    0.6544008851051331,
+    0.611361563205719,
+    0.7790577411651611
+   ],
+   "dimensions": [
+    1.3068113327026367,
+    1.2000386714935303,
+    0.7734597325325012
+   ],
+   "center": [
+    0.0009951889514923096,
+    0.011342257261276245,
+    0.3923278748989105
+   ],
+   "mesh_vertices": 7704,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_WoodPallets_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_AmmoBox03_Proxy"
+   ],
+   "sampled_vertices": 7704
+  },
+  "16030": {
+   "id": 16030,
+   "bounds_min": [
+    -0.24786266684532166,
+    -0.29042893648147583,
+    -0.14787380397319794
+   ],
+   "bounds_max": [
+    1.007606029510498,
+    1.0318937301635742,
+    1.2807116508483887
+   ],
+   "dimensions": [
+    1.255468726158142,
+    1.3223226070404053,
+    1.428585410118103
+   ],
+   "center": [
+    0.379871666431427,
+    0.3707323968410492,
+    0.5664189457893372
+   ],
+   "mesh_vertices": 6276,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_WoodPallets_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Cardboard_01_Proxy"
+   ],
+   "sampled_vertices": 6276
+  },
+  "16033": {
+   "id": 16033,
+   "bounds_min": [
+    -0.6367799043655396,
+    -0.7157647013664246,
+    0.005726642441004515
+   ],
+   "bounds_max": [
+    0.6373634934425354,
+    0.716472327709198,
+    0.6423569321632385
+   ],
+   "dimensions": [
+    1.2741434574127197,
+    1.4322370290756226,
+    0.6366302967071533
+   ],
+   "center": [
+    0.0002917945384979248,
+    0.00035381317138671875,
+    0.32404178380966187
+   ],
+   "mesh_vertices": 4788,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_WoodPallets_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/M_Armory_Box_Proxy"
+   ],
+   "sampled_vertices": 4788
+  },
+  "16037": {
+   "id": 16037,
+   "bounds_min": [
+    -0.37404265999794006,
+    -0.37404268980026245,
+    -1.0239793872502548e-16
+   ],
+   "bounds_max": [
+    0.37404265999794006,
+    0.37404265999794006,
+    1.1266692876815796
+   ],
+   "dimensions": [
+    0.7480853199958801,
+    0.7480853796005249,
+    1.1266692876815796
+   ],
+   "center": [
+    0.0,
+    -1.4901161193847656e-08,
+    0.5633346438407898
+   ],
+   "mesh_vertices": 1566,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_SM_MetalBarrel_blue_Proxy"
+   ],
+   "sampled_vertices": 1566
+  },
+  "16038": {
+   "id": 16038,
+   "bounds_min": [
+    -0.37404265999794006,
+    -0.37404268980026245,
+    -1.0239793872502548e-16
+   ],
+   "bounds_max": [
+    0.37404265999794006,
+    0.37404265999794006,
+    1.1266692876815796
+   ],
+   "dimensions": [
+    0.7480853199958801,
+    0.7480853796005249,
+    1.1266692876815796
+   ],
+   "center": [
+    0.0,
+    -1.4901161193847656e-08,
+    0.5633346438407898
+   ],
+   "mesh_vertices": 1566,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_SM_MetalBarrel_red_Proxy"
+   ],
+   "sampled_vertices": 1566
+  },
+  "16040": {
+   "id": 16040,
+   "bounds_min": [
+    -2.709026575088501,
+    -2.9264583587646484,
+    1.2211500292636612e-17
+   ],
+   "bounds_max": [
+    0.017021598294377327,
+    4.1961669694501325e-07,
+    2.4293737411499023
+   ],
+   "dimensions": [
+    2.726048231124878,
+    2.9264588356018066,
+    2.4293737411499023
+   ],
+   "center": [
+    -1.346002459526062,
+    -1.4632289409637451,
+    1.2146868705749512
+   ],
+   "mesh_vertices": 3828,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Iron02_KTH_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Fence01_Net_Proxy"
+   ],
+   "sampled_vertices": 3828
+  },
+  "16041": {
+   "id": 16041,
+   "bounds_min": [
+    -0.9412857890129089,
+    -0.8985555768013,
+    -0.0008559474954381585
+   ],
+   "bounds_max": [
+    0.8736611008644104,
+    0.9425750970840454,
+    1.776140570640564
+   ],
+   "dimensions": [
+    1.8149468898773193,
+    1.8411307334899902,
+    1.7769964933395386
+   ],
+   "center": [
+    -0.03381234407424927,
+    0.02200976014137268,
+    0.8876423239707947
+   ],
+   "mesh_vertices": 1878,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Bootcamp_Barrier_Proxy"
+   ],
+   "sampled_vertices": 1878
+  },
+  "16042": {
+   "id": 16042,
+   "bounds_min": [
+    -0.8780235052108765,
+    -0.8780235052108765,
+    -0.0039163208566606045
+   ],
+   "bounds_max": [
+    0.878023624420166,
+    0.8780235052108765,
+    1.753180742263794
+   ],
+   "dimensions": [
+    1.7560471296310425,
+    1.756047010421753,
+    1.7570970058441162
+   ],
+   "center": [
+    5.960464477539063e-08,
+    0.0,
+    0.8746322393417358
+   ],
+   "mesh_vertices": 132,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Savage_BootConcreteEdgeDecal_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Savage_BootConcreteAddon02_Proxy"
+   ],
+   "sampled_vertices": 132
+  },
+  "16044": {
+   "id": 16044,
+   "bounds_min": [
+    -1.63685941696167,
+    -1.63685941696167,
+    0.03455151990056038
+   ],
+   "bounds_max": [
+    1.63685941696167,
+    1.63685941696167,
+    3.729313373565674
+   ],
+   "dimensions": [
+    3.27371883392334,
+    3.27371883392334,
+    3.6947617530822754
+   ],
+   "center": [
+    0.0,
+    0.0,
+    1.8819324970245361
+   ],
+   "mesh_vertices": 552,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Savage_Concrete_Block_03_Proxy"
+   ],
+   "sampled_vertices": 552
+  },
+  "16045": {
+   "id": 16045,
+   "bounds_min": [
+    -1.641584038734436,
+    -1.8955376148223877,
+    -0.00417655985802412
+   ],
+   "bounds_max": [
+    1.641584038734436,
+    1.8955376148223877,
+    3.4211814403533936
+   ],
+   "dimensions": [
+    3.283168077468872,
+    3.7910752296447754,
+    3.4253580570220947
+   ],
+   "center": [
+    0.0,
+    0.0,
+    1.7085024118423462
+   ],
+   "mesh_vertices": 264,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Savage_Concrete_Block_04_Proxy"
+   ],
+   "sampled_vertices": 264
+  },
+  "16046": {
+   "id": 16046,
+   "bounds_min": [
+    -1.8262823820114136,
+    -1.8262823820114136,
+    0.0040513803251087666
+   ],
+   "bounds_max": [
+    1.8262823820114136,
+    1.8262823820114136,
+    3.6566152572631836
+   ],
+   "dimensions": [
+    3.652564764022827,
+    3.652564764022827,
+    3.6525638103485107
+   ],
+   "center": [
+    0.0,
+    0.0,
+    1.8303333520889282
+   ],
+   "mesh_vertices": 36,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Savage_Concrete_Block_05_Proxy"
+   ],
+   "sampled_vertices": 36
+  },
+  "16051": {
+   "id": 16051,
+   "bounds_min": [
+    -0.4184550940990448,
+    -0.4579383134841919,
+    0.03481953963637352
+   ],
+   "bounds_max": [
+    0.4181077182292938,
+    0.5078738927841187,
+    1.7863850593566895
+   ],
+   "dimensions": [
+    0.8365628123283386,
+    0.9658122062683105,
+    1.7515655755996704
+   ],
+   "center": [
+    -0.00017368793487548828,
+    0.02496778964996338,
+    0.9106022715568542
+   ],
+   "mesh_vertices": 4554,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Firebarrel_02_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Firebarrel_01_Proxy"
+   ],
+   "sampled_vertices": 4554
+  },
+  "16052": {
+   "id": 16052,
+   "bounds_min": [
+    -1.2428306341171265,
+    -0.5339534282684326,
+    -1.5258788721439487e-07
+   ],
+   "bounds_max": [
+    1.2219711542129517,
+    0.6135006546974182,
+    1.0644526481628418
+   ],
+   "dimensions": [
+    2.464801788330078,
+    1.147454023361206,
+    1.0644527673721313
+   ],
+   "center": [
+    -0.010429739952087402,
+    0.0397736132144928,
+    0.5322262644767761
+   ],
+   "mesh_vertices": 2760,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Bench_mdl_Proxy"
+   ],
+   "sampled_vertices": 2760
+  },
+  "16055": {
+   "id": 16055,
+   "bounds_min": [
+    -1.5149706602096558,
+    -3.4304463863372803,
+    -0.00025854402338154614
+   ],
+   "bounds_max": [
+    1.428744912147522,
+    4.186519145965576,
+    3.1928300857543945
+   ],
+   "dimensions": [
+    2.9437155723571777,
+    7.616965293884277,
+    3.1930885314941406
+   ],
+   "center": [
+    -0.043112874031066895,
+    0.37803637981414795,
+    1.5962858200073242
+   ],
+   "mesh_vertices": 25062,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Bus_Prison_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Wheel_Bus_Prison_Proxy"
+   ],
+   "sampled_vertices": 25062
+  },
+  "16057": {
+   "id": 16057,
+   "bounds_min": [
+    -2.0497734546661377,
+    -0.46849825978279114,
+    8.325377609530449e-10
+   ],
+   "bounds_max": [
+    2.0497732162475586,
+    0.4684985876083374,
+    0.9871272444725037
+   ],
+   "dimensions": [
+    4.099546432495117,
+    0.9369968175888062,
+    0.9871272444725037
+   ],
+   "center": [
+    -1.1920928955078125e-07,
+    1.6391277313232422e-07,
+    0.49356362223625183
+   ],
+   "mesh_vertices": 1632,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_ConcreteBarrier_mdl_Proxy"
+   ],
+   "sampled_vertices": 1632
+  },
+  "16059": {
+   "id": 16059,
+   "bounds_min": [
+    -3.1178622245788574,
+    -1.3019757270812988,
+    -0.00947135966271162
+   ],
+   "bounds_max": [
+    4.114476203918457,
+    1.28691828250885,
+    2.669620990753174
+   ],
+   "dimensions": [
+    7.2323384284973145,
+    2.5888938903808594,
+    2.6790924072265625
+   ],
+   "center": [
+    0.4983069896697998,
+    -0.007528722286224365,
+    1.3300747871398926
+   ],
+   "mesh_vertices": 27498,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Container_Box_A_Masked_LOD2_Proxy"
+   ],
+   "sampled_vertices": 27498
+  },
+  "16061": {
+   "id": 16061,
+   "bounds_min": [
+    -3.1178622245788574,
+    -1.300602674484253,
+    -0.00947132520377636
+   ],
+   "bounds_max": [
+    3.1492624282836914,
+    1.288291335105896,
+    2.669620990753174
+   ],
+   "dimensions": [
+    6.267124652862549,
+    2.5888938903808594,
+    2.6790924072265625
+   ],
+   "center": [
+    0.015700101852416992,
+    -0.006155669689178467,
+    1.3300747871398926
+   ],
+   "mesh_vertices": 14844,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Container_Box_D_Masked_LOD2_Proxy"
+   ],
+   "sampled_vertices": 14844
+  },
+  "16065": {
+   "id": 16065,
+   "bounds_min": [
+    -3.9451520442962646,
+    -2.7551894187927246,
+    -3.2131378650665283
+   ],
+   "bounds_max": [
+    3.9126224517822266,
+    2.989009380340576,
+    0.2956121265888214
+   ],
+   "dimensions": [
+    7.85777473449707,
+    5.744198799133301,
+    3.5087499618530273
+   ],
+   "center": [
+    -0.016264796257019043,
+    0.11690998077392578,
+    -1.4587628841400146
+   ],
+   "mesh_vertices": 8772,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_MB_Land01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_MB_Land02_Proxy"
+   ],
+   "sampled_vertices": 8772
+  },
+  "16068": {
+   "id": 16068,
+   "bounds_min": [
+    -0.5915365815162659,
+    -0.6470300555229187,
+    -0.12379829585552216
+   ],
+   "bounds_max": [
+    0.5915359854698181,
+    0.640004575252533,
+    1.160718560218811
+   ],
+   "dimensions": [
+    1.183072566986084,
+    1.2870346307754517,
+    1.2845168113708496
+   ],
+   "center": [
+    -2.980232238769531e-07,
+    -0.003512740135192871,
+    0.5184601545333862
+   ],
+   "mesh_vertices": 5679,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Mesh_watertank_01_Proxy"
+   ],
+   "sampled_vertices": 5679
+  },
+  "16069": {
+   "id": 16069,
+   "bounds_min": [
+    -0.8473052382469177,
+    -0.29750165343284607,
+    8.25000006443588e-06
+   ],
+   "bounds_max": [
+    0.8473052978515625,
+    0.29750165343284607,
+    0.3211270570755005
+   ],
+   "dimensions": [
+    1.694610595703125,
+    0.5950033068656921,
+    0.3211188018321991
+   ],
+   "center": [
+    2.9802322387695312e-08,
+    0.0,
+    0.16056765615940094
+   ],
+   "mesh_vertices": 1512,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Mesh_woodencrate_03_Proxy"
+   ],
+   "sampled_vertices": 1512
+  },
+  "16070": {
+   "id": 16070,
+   "bounds_min": [
+    -0.19534553587436676,
+    -0.6795694828033447,
+    -3.0517577442878974e-07
+   ],
+   "bounds_max": [
+    1.1696566343307495,
+    0.6815158128738403,
+    1.4696120023727417
+   ],
+   "dimensions": [
+    1.365002155303955,
+    1.361085295677185,
+    1.4696123600006104
+   ],
+   "center": [
+    0.487155556678772,
+    0.0009731650352478027,
+    0.7348058223724365
+   ],
+   "mesh_vertices": 1458,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Mesh_woodencrate_05_Proxy"
+   ],
+   "sampled_vertices": 1458
+  },
+  "16071": {
+   "id": 16071,
+   "bounds_min": [
+    -3.3301870822906494,
+    -1.0842832326889038,
+    0.0023919041268527508
+   ],
+   "bounds_max": [
+    3.317911386489868,
+    1.0847419500350952,
+    2.9601409435272217
+   ],
+   "dimensions": [
+    6.648098468780518,
+    2.169025182723999,
+    2.957749128341675
+   ],
+   "center": [
+    -0.006137847900390625,
+    0.00022935867309570312,
+    1.4812663793563843
+   ],
+   "mesh_vertices": 4710,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Outdoor_Propane_Tank_Proxy"
+   ],
+   "sampled_vertices": 4710
+  },
+  "16073": {
+   "id": 16073,
+   "bounds_min": [
+    -0.8262474536895752,
+    -0.8192379474639893,
+    -0.0006718766526319087
+   ],
+   "bounds_max": [
+    0.7956516742706299,
+    0.7812392711639404,
+    1.7011457681655884
+   ],
+   "dimensions": [
+    1.621899127960205,
+    1.6004772186279297,
+    1.7018176317214966
+   ],
+   "center": [
+    -0.015297889709472656,
+    -0.018999338150024414,
+    0.8502369523048401
+   ],
+   "mesh_vertices": 13086,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_WoodPallets_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_AmmoBox04_Proxy"
+   ],
+   "sampled_vertices": 13086
+  },
+  "16076": {
+   "id": 16076,
+   "bounds_min": [
+    -2.564892053604126,
+    -1.847265601158142,
+    3.5867400583811104e-05
+   ],
+   "bounds_max": [
+    2.5520403385162354,
+    1.8476977348327637,
+    1.8533177375793457
+   ],
+   "dimensions": [
+    5.116932392120361,
+    3.6949634552001953,
+    1.853281855583191
+   ],
+   "center": [
+    -0.0064258575439453125,
+    0.00021606683731079102,
+    0.9266768097877502
+   ],
+   "mesh_vertices": 1602,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_statue_base_Proxy"
+   ],
+   "sampled_vertices": 1602
+  },
+  "16082": {
+   "id": 16082,
+   "bounds_min": [
+    -3.709674119949341,
+    -3.7098817825317383,
+    -0.2662140130996704
+   ],
+   "bounds_max": [
+    3.709824562072754,
+    3.7096779346466064,
+    0.6489742994308472
+   ],
+   "dimensions": [
+    7.419498443603516,
+    7.419559478759766,
+    0.9151883125305176
+   ],
+   "center": [
+    7.522106170654297e-05,
+    -0.00010192394256591797,
+    0.19138014316558838
+   ],
+   "mesh_vertices": 4692,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_School_yard_Round_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_School_yard_grass_Proxy"
+   ],
+   "sampled_vertices": 4692
+  },
+  "16084": {
+   "id": 16084,
+   "bounds_min": [
+    -0.2370482236146927,
+    -0.3000853657722473,
+    -7.629394360719743e-08
+   ],
+   "bounds_max": [
+    0.2370481938123703,
+    0.3000853657722473,
+    0.29348036646842957
+   ],
+   "dimensions": [
+    0.474096417427063,
+    0.6001707315444946,
+    0.29348045587539673
+   ],
+   "center": [
+    -1.4901161193847656e-08,
+    0.0,
+    0.1467401385307312
+   ],
+   "mesh_vertices": 1068,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_AmmoBox03_Proxy"
+   ],
+   "sampled_vertices": 1068
+  },
+  "16085": {
+   "id": 16085,
+   "bounds_min": [
+    -1.1532992124557495,
+    -1.1412864923477173,
+    -0.02150459587574005
+   ],
+   "bounds_max": [
+    1.3873378038406372,
+    1.1724685430526733,
+    1.7566230297088623
+   ],
+   "dimensions": [
+    2.5406370162963867,
+    2.3137550354003906,
+    1.778127670288086
+   ],
+   "center": [
+    0.11701929569244385,
+    0.015591025352478027,
+    0.8675591945648193
+   ],
+   "mesh_vertices": 20988,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Chimera_CoffeeSacks_01_Proxy"
+   ],
+   "sampled_vertices": 20988
+  },
+  "16087": {
+   "id": 16087,
+   "bounds_min": [
+    -0.13946467638015747,
+    -0.45699742436408997,
+    -0.4595145881175995
+   ],
+   "bounds_max": [
+    0.13946467638015747,
+    0.45699748396873474,
+    0.4595146179199219
+   ],
+   "dimensions": [
+    0.27892935276031494,
+    0.9139949083328247,
+    0.9190292358398438
+   ],
+   "center": [
+    0.0,
+    2.9802322387695312e-08,
+    1.4901161193847656e-08
+   ],
+   "mesh_vertices": 1350,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Lynx_Tire_Set_01_Proxy"
+   ],
+   "sampled_vertices": 1350
+  },
+  "16088": {
+   "id": 16088,
+   "bounds_min": [
+    -0.4595146179199219,
+    -0.45699742436408997,
+    -0.011929281055927277
+   ],
+   "bounds_max": [
+    0.4595145881175995,
+    0.45699748396873474,
+    0.26700007915496826
+   ],
+   "dimensions": [
+    0.9190292358398438,
+    0.9139949083328247,
+    0.27892935276031494
+   ],
+   "center": [
+    -1.4901161193847656e-08,
+    2.9802322387695312e-08,
+    0.1275354027748108
+   ],
+   "mesh_vertices": 1350,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Lynx_Tire_Set_01_Proxy"
+   ],
+   "sampled_vertices": 1350
+  },
+  "16089": {
+   "id": 16089,
+   "bounds_min": [
+    -0.544317364692688,
+    -0.4955805242061615,
+    -0.14247797429561615
+   ],
+   "bounds_max": [
+    1.076898217201233,
+    2.071101427078247,
+    1.1333845853805542
+   ],
+   "dimensions": [
+    1.621215581893921,
+    2.5666818618774414,
+    1.2758625745773315
+   ],
+   "center": [
+    0.26629042625427246,
+    0.7877604365348816,
+    0.4954532980918884
+   ],
+   "mesh_vertices": 9609,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Lynx_Tire_Set_01_Proxy"
+   ],
+   "sampled_vertices": 9609
+  },
+  "16091": {
+   "id": 16091,
+   "bounds_min": [
+    -0.6676380634307861,
+    -0.8207820057868958,
+    -0.002292795805260539
+   ],
+   "bounds_max": [
+    0.8114343881607056,
+    0.9790582060813904,
+    1.4649462699890137
+   ],
+   "dimensions": [
+    1.4790724515914917,
+    1.7998402118682861,
+    1.4672390222549438
+   ],
+   "center": [
+    0.07189816236495972,
+    0.07913810014724731,
+    0.7313267588615417
+   ],
+   "mesh_vertices": 4524,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Deco_Pile_CementbagPile_01_Proxy"
+   ],
+   "sampled_vertices": 4524
+  },
+  "16092": {
+   "id": 16092,
+   "bounds_min": [
+    -0.6472944617271423,
+    -0.7685533761978149,
+    0.0009616262395866215
+   ],
+   "bounds_max": [
+    0.6526901721954346,
+    0.7743919491767883,
+    0.8001145124435425
+   ],
+   "dimensions": [
+    1.2999846935272217,
+    1.542945384979248,
+    0.7991529107093811
+   ],
+   "center": [
+    0.002697855234146118,
+    0.0029192864894866943,
+    0.40053805708885193
+   ],
+   "mesh_vertices": 2766,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Deco_Pile_CementbagPile_02_Proxy"
+   ],
+   "sampled_vertices": 2766
+  },
+  "16093": {
+   "id": 16093,
+   "bounds_min": [
+    -1.478818416595459,
+    -1.3304842710494995,
+    -0.10000000149011612
+   ],
+   "bounds_max": [
+    1.1299443244934082,
+    1.0894924402236938,
+    3.1133949756622314
+   ],
+   "dimensions": [
+    2.608762741088867,
+    2.4199767112731934,
+    3.2133948802948
+   ],
+   "center": [
+    -0.1744370460510254,
+    -0.12049591541290283,
+    1.5066975355148315
+   ],
+   "mesh_vertices": 11124,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Deco_WaterTank_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Deco_WaterTank_Metal_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_EntranceGate01_03_Proxy"
+   ],
+   "sampled_vertices": 11124
+  },
+  "16095": {
+   "id": 16095,
+   "bounds_min": [
+    -4.475928783416748,
+    -0.173939511179924,
+    0.09999999403953552
+   ],
+   "bounds_max": [
+    0.02106567472219467,
+    0.06944389641284943,
+    3.983577251434326
+   ],
+   "dimensions": [
+    4.496994495391846,
+    0.24338340759277344,
+    3.883577346801758
+   ],
+   "center": [
+    -2.227431535720825,
+    -0.05224780738353729,
+    2.0417885780334473
+   ],
+   "mesh_vertices": 12462,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_EntranceGate01_03_Proxy"
+   ],
+   "sampled_vertices": 12462
+  },
+  "16096": {
+   "id": 16096,
+   "bounds_min": [
+    -1.0381048917770386,
+    -1.969457983970642,
+    -1.4400482086784905e-06
+   ],
+   "bounds_max": [
+    1.0381054878234863,
+    2.074540615081787,
+    2.2575020790100098
+   ],
+   "dimensions": [
+    2.0762104988098145,
+    4.043998718261719,
+    2.2575035095214844
+   ],
+   "center": [
+    2.980232238769531e-07,
+    0.05254131555557251,
+    1.1287503242492676
+   ],
+   "mesh_vertices": 5511,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_OilTank_01_Proxy"
+   ],
+   "sampled_vertices": 5511
+  },
+  "16098": {
+   "id": 16098,
+   "bounds_min": [
+    -2.3579306602478027,
+    -1.332017421722412,
+    -0.0065990714356303215
+   ],
+   "bounds_max": [
+    3.5452826023101807,
+    1.3773751258850098,
+    2.7225279808044434
+   ],
+   "dimensions": [
+    5.9032135009765625,
+    2.709392547607422,
+    2.7291271686553955
+   ],
+   "center": [
+    0.593675971031189,
+    0.022678852081298828,
+    1.3579643964767456
+   ],
+   "mesh_vertices": 16872,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_DO_Rusty_Truck_noSnow_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/NI_NE_Dirty_Glass_x5_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/Rusty_Truck_02_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Rusty_Truck_Soil_01_Proxy"
+   ],
+   "sampled_vertices": 16872
+  },
+  "16101": {
+   "id": 16101,
+   "bounds_min": [
+    -0.0008952456992119551,
+    -2.5000052452087402,
+    -0.0004852486017625779
+   ],
+   "bounds_max": [
+    10.505297660827637,
+    3.312572956085205,
+    3.8562488555908203
+   ],
+   "dimensions": [
+    10.506193161010742,
+    5.812578201293945,
+    3.856734037399292
+   ],
+   "center": [
+    5.252201080322266,
+    0.4062838554382324,
+    1.9278818368911743
+   ],
+   "mesh_vertices": 5130,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Floor_Grass01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Wharf_Dike_01_Proxy"
+   ],
+   "sampled_vertices": 5130
+  },
+  "16103": {
+   "id": 16103,
+   "bounds_min": [
+    -0.057903748005628586,
+    -0.3764118552207947,
+    3.0517577442878974e-07
+   ],
+   "bounds_max": [
+    1.9420961141586304,
+    0.3764120042324066,
+    1.0
+   ],
+   "dimensions": [
+    1.9999998807907104,
+    0.7528238296508789,
+    0.9999997019767761
+   ],
+   "center": [
+    0.9420961737632751,
+    7.450580596923828e-08,
+    0.5000001788139343
+   ],
+   "mesh_vertices": 4086,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Kiki_TrafficBarrierSystem_01_Proxy"
+   ],
+   "sampled_vertices": 4086
+  },
+  "16108": {
+   "id": 16108,
+   "bounds_min": [
+    -1.6858290433883667,
+    -5.320648670196533,
+    -1.233869539873922e-07
+   ],
+   "bounds_max": [
+    1.6858291625976562,
+    4.577897071838379,
+    3.4474408626556396
+   ],
+   "dimensions": [
+    3.3716583251953125,
+    9.89854621887207,
+    3.4474411010742188
+   ],
+   "center": [
+    5.960464477539063e-08,
+    -0.37137579917907715,
+    1.7237203121185303
+   ],
+   "mesh_vertices": 55020,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Vehicle_Bus_02_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Vehicle_BusTrim_02_Proxy"
+   ],
+   "sampled_vertices": 55020
+  },
+  "16109": {
+   "id": 16109,
+   "bounds_min": [
+    -0.3358270227909088,
+    -0.31126922369003296,
+    -1.8816851812505308e-17
+   ],
+   "bounds_max": [
+    0.3358270227909088,
+    0.3112693130970001,
+    1.0328669548034668
+   ],
+   "dimensions": [
+    0.6716540455818176,
+    0.6225385665893555,
+    1.0328669548034668
+   ],
+   "center": [
+    0.0,
+    4.470348358154297e-08,
+    0.5164334774017334
+   ],
+   "mesh_vertices": 3342,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_PlasticBarrel0_Proxy"
+   ],
+   "sampled_vertices": 3342
+  },
+  "16113": {
+   "id": 16113,
+   "bounds_min": [
+    -1.477442979812622,
+    -4.097503185272217,
+    -0.006994476541876793
+   ],
+   "bounds_max": [
+    1.477442979812622,
+    4.095338344573975,
+    2.897512197494507
+   ],
+   "dimensions": [
+    2.954885959625244,
+    8.192841529846191,
+    2.9045066833496094
+   ],
+   "center": [
+    0.0,
+    -0.0010824203491210938,
+    1.4452588558197021
+   ],
+   "mesh_vertices": 83355,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VK_EuropeanDumpTruck_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VK_EuropeanDumpTruck_02_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VK_EuropeanDumpTruck_Glass_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VK_EuropeanDumpTruck_Grill_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VK_CoalMine_Warehouse_01_Decals_Proxy"
+   ],
+   "sampled_vertices": 83355
+  },
+  "16114": {
+   "id": 16114,
+   "bounds_min": [
+    -0.6756049394607544,
+    -0.5410769581794739,
+    0.000146106569445692
+   ],
+   "bounds_max": [
+    0.6800335645675659,
+    0.5410770177841187,
+    0.1648244857788086
+   ],
+   "dimensions": [
+    1.3556385040283203,
+    1.0821540355682373,
+    0.16467837989330292
+   ],
+   "center": [
+    0.0022143125534057617,
+    2.9802322387695312e-08,
+    0.08248529583215714
+   ],
+   "mesh_vertices": 648,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VK_Pallet_01_Proxy"
+   ],
+   "sampled_vertices": 648
+  },
+  "16115": {
+   "id": 16115,
+   "bounds_min": [
+    -0.6058028936386108,
+    -0.5999212861061096,
+    -3.67334333335324e-17
+   ],
+   "bounds_max": [
+    0.6058028936386108,
+    0.5999213457107544,
+    0.15034618973731995
+   ],
+   "dimensions": [
+    1.2116057872772217,
+    1.1998426914215088,
+    0.15034618973731995
+   ],
+   "center": [
+    0.0,
+    2.9802322387695312e-08,
+    0.07517309486865997
+   ],
+   "mesh_vertices": 648,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VK_Pallet_02_Proxy"
+   ],
+   "sampled_vertices": 648
+  },
+  "16117": {
+   "id": 16117,
+   "bounds_min": [
+    -0.2295660525560379,
+    -0.5831097960472107,
+    -9.53674295089968e-09
+   ],
+   "bounds_max": [
+    0.22475698590278625,
+    0.5831097364425659,
+    0.34250301122665405
+   ],
+   "dimensions": [
+    0.45432305335998535,
+    1.1662194728851318,
+    0.34250301122665405
+   ],
+   "center": [
+    -0.002404533326625824,
+    -2.9802322387695312e-08,
+    0.17125150561332703
+   ],
+   "mesh_vertices": 12450,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VK_WoodBox_01_Proxy"
+   ],
+   "sampled_vertices": 12450
+  },
+  "16118": {
+   "id": 16118,
+   "bounds_min": [
+    -0.5664111375808716,
+    -0.33607423305511475,
+    1.9760131181101315e-05
+   ],
+   "bounds_max": [
+    0.537524402141571,
+    0.32243651151657104,
+    0.7949782013893127
+   ],
+   "dimensions": [
+    1.1039354801177979,
+    0.6585107445716858,
+    0.7949584126472473
+   ],
+   "center": [
+    -0.014443367719650269,
+    -0.006818860769271851,
+    0.3974989950656891
+   ],
+   "mesh_vertices": 5820,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_VK_WoodBox_06_Proxy"
+   ],
+   "sampled_vertices": 5820
+  },
+  "16122": {
+   "id": 16122,
+   "bounds_min": [
+    -0.6196951866149902,
+    -0.6426894068717957,
+    -0.0006336691440083086
+   ],
+   "bounds_max": [
+    0.6193505525588989,
+    0.6400089263916016,
+    1.4194210767745972
+   ],
+   "dimensions": [
+    1.2390457391738892,
+    1.282698392868042,
+    1.4200547933578491
+   ],
+   "center": [
+    -0.0001723170280456543,
+    -0.001340240240097046,
+    0.7093936800956726
+   ],
+   "mesh_vertices": 25548,
+   "mesh_parts": 3,
+   "mesh_instances": 29,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Cardboard_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_WoodPallets_01_Proxy"
+   ],
+   "sampled_vertices": 25548
+  },
+  "16123": {
+   "id": 16123,
+   "bounds_min": [
+    -0.6196951866149902,
+    -0.6426894068717957,
+    -0.0006336691440083086
+   ],
+   "bounds_max": [
+    0.6193505525588989,
+    0.6400089263916016,
+    1.0792263746261597
+   ],
+   "dimensions": [
+    1.2390457391738892,
+    1.282698392868042,
+    1.0798600912094116
+   ],
+   "center": [
+    -0.0001723170280456543,
+    -0.001340240240097046,
+    0.5392963290214539
+   ],
+   "mesh_vertices": 16728,
+   "mesh_parts": 3,
+   "mesh_instances": 19,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Cardboard_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_WoodPallets_01_Proxy"
+   ],
+   "sampled_vertices": 16728
+  },
+  "16126": {
+   "id": 16126,
+   "bounds_min": [
+    -0.6024428606033325,
+    -0.7580388784408569,
+    -0.0006336691440083086
+   ],
+   "bounds_max": [
+    0.6693369150161743,
+    0.6648606657981873,
+    0.62482088804245
+   ],
+   "dimensions": [
+    1.2717797756195068,
+    1.4228994846343994,
+    0.6254545450210571
+   ],
+   "center": [
+    0.0334470272064209,
+    -0.04658910632133484,
+    0.3120936155319214
+   ],
+   "mesh_vertices": 5064,
+   "mesh_parts": 2,
+   "mesh_instances": 2,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/M_Armory_Box_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_WoodPallets_01_Proxy"
+   ],
+   "sampled_vertices": 5064
+  },
+  "16130": {
+   "id": 16130,
+   "bounds_min": [
+    -0.8000000715255737,
+    -1.1833617687225342,
+    -6.514858622599885e-17
+   ],
+   "bounds_max": [
+    0.8000001311302185,
+    1.0413401126861572,
+    0.7618565559387207
+   ],
+   "dimensions": [
+    1.6000001430511475,
+    2.2247018814086914,
+    0.7618565559387207
+   ],
+   "center": [
+    2.9802322387695312e-08,
+    -0.07101082801818848,
+    0.38092827796936035
+   ],
+   "mesh_vertices": 3024,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_BaseWoodA_Proxy"
+   ],
+   "sampled_vertices": 3024
+  },
+  "16131": {
+   "id": 16131,
+   "bounds_min": [
+    -1.0080559253692627,
+    -1.1107568740844727,
+    -5.0400445595101e-17
+   ],
+   "bounds_max": [
+    3.5727033615112305,
+    0.9394124746322632,
+    3.0373446941375732
+   ],
+   "dimensions": [
+    4.580759048461914,
+    2.0501694679260254,
+    3.0373446941375732
+   ],
+   "center": [
+    1.2823237180709839,
+    -0.08567219972610474,
+    1.5186723470687866
+   ],
+   "mesh_vertices": 8862,
+   "mesh_parts": 3,
+   "mesh_instances": 7,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Paper01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_Metal_Corrugated_Roof_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_HS_BusStop_01_metal_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_HS_BusStop_01_plaster_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_HS_BusStop_01_wood_Proxy"
+   ],
+   "sampled_vertices": 8862
+  },
+  "16133": {
+   "id": 16133,
+   "bounds_min": [
+    -0.00430940231308341,
+    -0.018842656165361404,
+    3.903537049154693e-09
+   ],
+   "bounds_max": [
+    1.1043094396591187,
+    0.7397452592849731,
+    1.600000023841858
+   ],
+   "dimensions": [
+    1.1086188554763794,
+    0.7585878968238831,
+    1.600000023841858
+   ],
+   "center": [
+    0.550000011920929,
+    0.3604513108730316,
+    0.800000011920929
+   ],
+   "mesh_vertices": 38640,
+   "mesh_parts": 9,
+   "mesh_instances": 29,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_InstantRamen_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Bottles_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_CornerStoreKit_Trim_Proxy"
+   ],
+   "sampled_vertices": 38640
+  },
+  "16135": {
+   "id": 16135,
+   "bounds_min": [
+    -0.17499999701976776,
+    -0.12231689691543579,
+    -7.654042001476687e-18
+   ],
+   "bounds_max": [
+    0.17499999701976776,
+    0.1276831030845642,
+    0.3036283552646637
+   ],
+   "dimensions": [
+    0.3499999940395355,
+    0.25,
+    0.3036283552646637
+   ],
+   "center": [
+    0.0,
+    0.002683103084564209,
+    0.15181417763233185
+   ],
+   "mesh_vertices": 552,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Box_pile_Proxy"
+   ],
+   "sampled_vertices": 552
+  },
+  "16136": {
+   "id": 16136,
+   "bounds_min": [
+    -0.175026074051857,
+    -0.17502601444721222,
+    7.336909766308963e-05
+   ],
+   "bounds_max": [
+    0.1750260293483734,
+    0.17502601444721222,
+    0.2997225821018219
+   ],
+   "dimensions": [
+    0.3500521183013916,
+    0.35005202889442444,
+    0.2996492087841034
+   ],
+   "center": [
+    -2.2351741790771484e-08,
+    0.0,
+    0.1498979777097702
+   ],
+   "mesh_vertices": 1128,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Bucket_Set_Proxy"
+   ],
+   "sampled_vertices": 1128
+  },
+  "16137": {
+   "id": 16137,
+   "bounds_min": [
+    -0.2507196068763733,
+    -0.25071775913238525,
+    -1.1069331784365229e-17
+   ],
+   "bounds_max": [
+    0.2507196068763733,
+    0.25071775913238525,
+    0.13221725821495056
+   ],
+   "dimensions": [
+    0.5014392137527466,
+    0.5014355182647705,
+    0.13221725821495056
+   ],
+   "center": [
+    0.0,
+    0.0,
+    0.06610862910747528
+   ],
+   "mesh_vertices": 1458,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Chimera_PropPack_Interior_01_Proxy"
+   ],
+   "sampled_vertices": 1458
+  },
+  "16138": {
+   "id": 16138,
+   "bounds_min": [
+    -0.1570042371749878,
+    -0.21186767518520355,
+    0.0
+   ],
+   "bounds_max": [
+    0.1570042371749878,
+    0.21186767518520355,
+    0.2714082598686218
+   ],
+   "dimensions": [
+    0.3140084743499756,
+    0.4237353503704071,
+    0.2714082598686218
+   ],
+   "center": [
+    0.0,
+    0.0,
+    0.1357041299343109
+   ],
+   "mesh_vertices": 2178,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Chimera_PropPack_Interior_01_Proxy"
+   ],
+   "sampled_vertices": 2178
+  },
+  "16139": {
+   "id": 16139,
+   "bounds_min": [
+    -0.23478318750858307,
+    -0.23478317260742188,
+    -0.002685124985873699
+   ],
+   "bounds_max": [
+    0.23478317260742188,
+    0.23478317260742188,
+    0.12798036634922028
+   ],
+   "dimensions": [
+    0.46956634521484375,
+    0.46956634521484375,
+    0.13066549599170685
+   ],
+   "center": [
+    -7.450580596923828e-09,
+    0.0,
+    0.06264761835336685
+   ],
+   "mesh_vertices": 1044,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Lion_Cookware_01_Proxy"
+   ],
+   "sampled_vertices": 1044
+  },
+  "16140": {
+   "id": 16140,
+   "bounds_min": [
+    -0.22075705230236053,
+    -0.22561228275299072,
+    -1.266126320710007e-17
+   ],
+   "bounds_max": [
+    0.22123733162879944,
+    0.22204433381557465,
+    0.12935000658035278
+   ],
+   "dimensions": [
+    0.4419943690299988,
+    0.44765663146972656,
+    0.12935000658035278
+   ],
+   "center": [
+    0.0002401396632194519,
+    -0.0017839744687080383,
+    0.06467500329017639
+   ],
+   "mesh_vertices": 1236,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Savage_FishBaskets_01_Proxy"
+   ],
+   "sampled_vertices": 1236
+  },
+  "16141": {
+   "id": 16141,
+   "bounds_min": [
+    -0.0003813400981016457,
+    0.00021686748368665576,
+    -3.191891195797325e-16
+   ],
+   "bounds_max": [
+    0.10903005301952362,
+    0.05435219407081604,
+    0.23179659247398376
+   ],
+   "dimensions": [
+    0.10941139608621597,
+    0.05413532629609108,
+    0.23179659247398376
+   ],
+   "center": [
+    0.054324354976415634,
+    0.0272845309227705,
+    0.11589829623699188
+   ],
+   "mesh_vertices": 822,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Heaven_CornerStoreProps_Oil_01_Proxy"
+   ],
+   "sampled_vertices": 822
+  },
+  "16145": {
+   "id": 16145,
+   "bounds_min": [
+    -0.2544098198413849,
+    -0.26977524161338806,
+    0.004312900826334953
+   ],
+   "bounds_max": [
+    0.2544098198413849,
+    0.26977524161338806,
+    0.6114545464515686
+   ],
+   "dimensions": [
+    0.5088196396827698,
+    0.5395504832267761,
+    0.6071416735649109
+   ],
+   "center": [
+    0.0,
+    0.0,
+    0.30788370966911316
+   ],
+   "mesh_vertices": 2997,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Planter01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_plant01_Proxy"
+   ],
+   "sampled_vertices": 2997
+  },
+  "16148": {
+   "id": 16148,
+   "bounds_min": [
+    -0.06674832105636597,
+    -0.06649135798215866,
+    -3.612942935896863e-18
+   ],
+   "bounds_max": [
+    0.06674830615520477,
+    0.06649132072925568,
+    0.4500301778316498
+   ],
+   "dimensions": [
+    0.13349662721157074,
+    0.13298267126083374,
+    0.4500301778316498
+   ],
+   "center": [
+    -7.450580596923828e-09,
+    -1.862645149230957e-08,
+    0.2250150889158249
+   ],
+   "mesh_vertices": 852,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Bottles_01_Proxy"
+   ],
+   "sampled_vertices": 852
+  },
+  "16149": {
+   "id": 16149,
+   "bounds_min": [
+    -0.045827388763427734,
+    -0.04573087766766548,
+    -5.043993933344734e-18
+   ],
+   "bounds_max": [
+    0.04582732543349266,
+    0.045731063932180405,
+    0.3199739456176758
+   ],
+   "dimensions": [
+    0.0916547179222107,
+    0.09146194159984589,
+    0.3199739456176758
+   ],
+   "center": [
+    -3.166496753692627e-08,
+    9.313225746154785e-08,
+    0.1599869728088379
+   ],
+   "mesh_vertices": 780,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Bottles_01_Proxy"
+   ],
+   "sampled_vertices": 780
+  },
+  "16150": {
+   "id": 16150,
+   "bounds_min": [
+    -0.18495334684848785,
+    -0.24900032579898834,
+    0.006726476363837719
+   ],
+   "bounds_max": [
+    0.17765741050243378,
+    0.24032101035118103,
+    0.32014328241348267
+   ],
+   "dimensions": [
+    0.36261075735092163,
+    0.48932135105133057,
+    0.31341680884361267
+   ],
+   "center": [
+    -0.0036479681730270386,
+    -0.004339657723903656,
+    0.16343487799167633
+   ],
+   "mesh_vertices": 2358,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Crate_01_Proxy"
+   ],
+   "sampled_vertices": 2358
+  },
+  "16151": {
+   "id": 16151,
+   "bounds_min": [
+    -0.12222179770469666,
+    -0.12222179770469666,
+    -1.0830746716150585e-10
+   ],
+   "bounds_max": [
+    0.1343943029642105,
+    0.12222179770469666,
+    0.08498947322368622
+   ],
+   "dimensions": [
+    0.25661611557006836,
+    0.2444435954093933,
+    0.08498947322368622
+   ],
+   "center": [
+    0.0060862526297569275,
+    0.0,
+    0.04249473661184311
+   ],
+   "mesh_vertices": 1734,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_InstantRamen_01_Proxy"
+   ],
+   "sampled_vertices": 1734
+  },
+  "16152": {
+   "id": 16152,
+   "bounds_min": [
+    -0.35742509365081787,
+    -0.2080134153366089,
+    -0.0005594500107690692
+   ],
+   "bounds_max": [
+    0.3572582006454468,
+    0.20729243755340576,
+    0.1503908485174179
+   ],
+   "dimensions": [
+    0.7146832942962646,
+    0.41530585289001465,
+    0.15095029771327972
+   ],
+   "center": [
+    -8.344650268554688e-05,
+    -0.0003604888916015625,
+    0.07491569966077805
+   ],
+   "mesh_vertices": 1380,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Town_Street_container_01_Proxy"
+   ],
+   "sampled_vertices": 1380
+  },
+  "16153": {
+   "id": 16153,
+   "bounds_min": [
+    -0.8000000715255737,
+    -0.5390849113464355,
+    2.384783259756773e-09
+   ],
+   "bounds_max": [
+    0.8000001311302185,
+    0.42997023463249207,
+    0.7618565559387207
+   ],
+   "dimensions": [
+    1.6000001430511475,
+    0.96905517578125,
+    0.7618565559387207
+   ],
+   "center": [
+    2.9802322387695312e-08,
+    -0.05455733835697174,
+    0.38092827796936035
+   ],
+   "mesh_vertices": 1368,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_BaseWoodA_Proxy"
+   ],
+   "sampled_vertices": 1368
+  },
+  "16155": {
+   "id": 16155,
+   "bounds_min": [
+    -0.14490842819213867,
+    -0.14270702004432678,
+    6.869709778811739e-08
+   ],
+   "bounds_max": [
+    0.14490847289562225,
+    0.14270702004432678,
+    1.3858979940414429
+   ],
+   "dimensions": [
+    0.2898169159889221,
+    0.28541404008865356,
+    1.3858978748321533
+   ],
+   "center": [
+    2.2351741790771484e-08,
+    0.0,
+    0.6929490566253662
+   ],
+   "mesh_vertices": 2736,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_gasCylinderSmall02_Proxy"
+   ],
+   "sampled_vertices": 2736
+  },
+  "16157": {
+   "id": 16157,
+   "bounds_min": [
+    -0.14923717081546783,
+    -0.14923717081546783,
+    -0.0006164101650938392
+   ],
+   "bounds_max": [
+    0.14923711121082306,
+    0.14923711121082306,
+    0.605671226978302
+   ],
+   "dimensions": [
+    0.2984742820262909,
+    0.2984742820262909,
+    0.6062876582145691
+   ],
+   "center": [
+    -2.9802322387695312e-08,
+    -2.9802322387695312e-08,
+    0.30252739787101746
+   ],
+   "mesh_vertices": 4056,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_gasCylinderSmall02_Proxy"
+   ],
+   "sampled_vertices": 4056
+  },
+  "16158": {
+   "id": 16158,
+   "bounds_min": [
+    -0.2978859841823578,
+    -0.5228993892669678,
+    0.005568998865783215
+   ],
+   "bounds_max": [
+    0.2995835244655609,
+    0.5039092302322388,
+    0.6787943243980408
+   ],
+   "dimensions": [
+    0.5974695086479187,
+    1.0268086194992065,
+    0.6732253432273865
+   ],
+   "center": [
+    0.0008487701416015625,
+    -0.009495079517364502,
+    0.34218165278434753
+   ],
+   "mesh_vertices": 1941,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/M_Toilet_Proxy"
+   ],
+   "sampled_vertices": 1941
+  },
+  "16159": {
+   "id": 16159,
+   "bounds_min": [
+    -0.15105117857456207,
+    -0.15105105936527252,
+    -0.26087436079978943
+   ],
+   "bounds_max": [
+    0.15105117857456207,
+    0.15105128288269043,
+    5.35650102051477e-09
+   ],
+   "dimensions": [
+    0.30210235714912415,
+    0.30210232734680176,
+    0.26087436079978943
+   ],
+   "center": [
+    0.0,
+    1.1175870895385742e-07,
+    -0.13043718039989471
+   ],
+   "mesh_vertices": 3600,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_UFLamps_BrooklynAntique_01_Proxy"
+   ],
+   "sampled_vertices": 3600
+  },
+  "16164": {
+   "id": 16164,
+   "bounds_min": [
+    -0.04476127028465271,
+    -0.016706153750419617,
+    -0.05642165243625641
+   ],
+   "bounds_max": [
+    0.1829545646905899,
+    0.01651795208454132,
+    0.08712891489267349
+   ],
+   "dimensions": [
+    0.22771583497524261,
+    0.03322410583496094,
+    0.1435505747795105
+   ],
+   "center": [
+    0.0690966472029686,
+    -9.410083293914795e-05,
+    0.015353631228208542
+   ],
+   "mesh_vertices": 1737,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MlSM_1911_X_Decoration_Proxy"
+   ],
+   "sampled_vertices": 1737
+  },
+  "16166": {
+   "id": 16166,
+   "bounds_min": [
+    -0.18109923601150513,
+    -0.17043708264827728,
+    -3.220000144210644e-05
+   ],
+   "bounds_max": [
+    0.18786056339740753,
+    0.17356300354003906,
+    0.41814500093460083
+   ],
+   "dimensions": [
+    0.36895978450775146,
+    0.34400010108947754,
+    0.41817718744277954
+   ],
+   "center": [
+    0.0033806636929512024,
+    0.00156296044588089,
+    0.20905640721321106
+   ],
+   "mesh_vertices": 3960,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Italy_Cafe_CashRegister_Proxy"
+   ],
+   "sampled_vertices": 3960
+  },
+  "16167": {
+   "id": 16167,
+   "bounds_min": [
+    -0.3913893401622772,
+    -0.3248356580734253,
+    -5.912780807193485e-07
+   ],
+   "bounds_max": [
+    0.3913893401622772,
+    0.3248356580734253,
+    0.5454914569854736
+   ],
+   "dimensions": [
+    0.7827786803245544,
+    0.6496713161468506,
+    0.5454920530319214
+   ],
+   "center": [
+    0.0,
+    0.0,
+    0.27274543046951294
+   ],
+   "mesh_vertices": 6336,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Cash_Register_01a_Proxy"
+   ],
+   "sampled_vertices": 6336
+  },
+  "16169": {
+   "id": 16169,
+   "bounds_min": [
+    -0.9362071752548218,
+    -3.33195161819458,
+    0.0009598414762876928
+   ],
+   "bounds_max": [
+    0.925495982170105,
+    3.7134499549865723,
+    1.100653886795044
+   ],
+   "dimensions": [
+    1.8617031574249268,
+    7.045401573181152,
+    1.099694013595581
+   ],
+   "center": [
+    -0.0053555965423583984,
+    0.1907491683959961,
+    0.5508068799972534
+   ],
+   "mesh_vertices": 8202,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_WoodPallets_01_Proxy"
+   ],
+   "sampled_vertices": 8202
+  },
+  "16172": {
+   "id": 16172,
+   "bounds_min": [
+    -3.0399999618530273,
+    -2.0960211753845215,
+    -3.000001907348633
+   ],
+   "bounds_max": [
+    3.0399999618530273,
+    49.003074645996094,
+    13.012890815734863
+   ],
+   "dimensions": [
+    6.079999923706055,
+    51.09909439086914,
+    16.012893676757812
+   ],
+   "center": [
+    0.0,
+    23.453527450561523,
+    5.006444454193115
+   ],
+   "mesh_vertices": 54678,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Desert_RampFrameMetal_2_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Desert_RampFrameMetal_01_Proxy"
+   ],
+   "sampled_vertices": 54678
+  },
+  "16180": {
+   "id": 16180,
+   "bounds_min": [
+    -6.01499080657959,
+    -1.0384031534194946,
+    -1.5663506758301082e-07
+   ],
+   "bounds_max": [
+    6.01499080657959,
+    1.0384035110473633,
+    14.542618751525879
+   ],
+   "dimensions": [
+    12.02998161315918,
+    2.0768065452575684,
+    14.542618751525879
+   ],
+   "center": [
+    0.0,
+    1.7881393432617188e-07,
+    7.2713093757629395
+   ],
+   "mesh_vertices": 456,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Overpass_Column_01_Proxy"
+   ],
+   "sampled_vertices": 456
+  },
+  "16181": {
+   "id": 16181,
+   "bounds_min": [
+    -3.82932710647583,
+    -3.918930768966675,
+    -0.014608187600970268
+   ],
+   "bounds_max": [
+    3.8432061672210693,
+    3.9729998111724854,
+    11.658297538757324
+   ],
+   "dimensions": [
+    7.67253303527832,
+    7.89193058013916,
+    11.672905921936035
+   ],
+   "center": [
+    0.006939530372619629,
+    0.027034521102905273,
+    5.821844577789307
+   ],
+   "mesh_vertices": 360,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Retaining_Wall_Base_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Retaining_Wall_Top_Proxy"
+   ],
+   "sampled_vertices": 360
+  },
+  "16197": {
+   "id": 16197,
+   "bounds_min": [
+    -0.0009139991016127169,
+    -5.433098793029785,
+    -3.567727565765381
+   ],
+   "bounds_max": [
+    15.9990873336792,
+    5.4333415031433105,
+    0.33002033829689026
+   ],
+   "dimensions": [
+    16.000001907348633,
+    10.866439819335938,
+    3.8977479934692383
+   ],
+   "center": [
+    7.999086856842041,
+    0.00012135505676269531,
+    -1.6188535690307617
+   ],
+   "mesh_vertices": 1746,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Overpass_Steel_01_Wet_Blue_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Road_Bridge_Concrete_Wet_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Neon_Road_1V_Proxy"
+   ],
+   "sampled_vertices": 1746
+  },
+  "16199": {
+   "id": 16199,
+   "bounds_min": [
+    -4.882812390860636e-06,
+    -24.81232452392578,
+    -4.29747200012207
+   ],
+   "bounds_max": [
+    56.00001907348633,
+    12.341447830200195,
+    0.32995909452438354
+   ],
+   "dimensions": [
+    56.000022888183594,
+    37.153770446777344,
+    4.6274309158325195
+   ],
+   "center": [
+    28.00000762939453,
+    -6.235438346862793,
+    -1.983756422996521
+   ],
+   "mesh_vertices": 10179,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Overpass_Steel_01_Wet_Blue_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Road_Bridge_Concrete_Wet_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Neon_Road_1V_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_EVCarFactory_Decals_02_Proxy"
+   ],
+   "sampled_vertices": 10179
+  },
+  "16200": {
+   "id": 16200,
+   "bounds_min": [
+    -0.5,
+    -0.5,
+    -0.5
+   ],
+   "bounds_max": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "dimensions": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "center": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "mesh_vertices": 144,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Tiger_Road_1V_Proxy"
+   ],
+   "sampled_vertices": 144
+  },
+  "16201": {
+   "id": 16201,
+   "bounds_min": [
+    -11.550000190734863,
+    -2.5911197099048877e-07,
+    -1.600000023841858
+   ],
+   "bounds_max": [
+    11.550000190734863,
+    0.20000027120113373,
+    1.600000023841858
+   ],
+   "dimensions": [
+    23.100000381469727,
+    0.20000052452087402,
+    3.200000047683716
+   ],
+   "center": [
+    0.0,
+    0.10000000894069672,
+    0.0
+   ],
+   "mesh_vertices": 108,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_EVCarFactory_InteriorTrim_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_RaceTrack_Billboard_01_Proxy"
+   ],
+   "sampled_vertices": 108
+  },
+  "16202": {
+   "id": 16202,
+   "bounds_min": [
+    -1.9250001907348633,
+    -0.5230614542961121,
+    -0.00710109481588006
+   ],
+   "bounds_max": [
+    1.9250001907348633,
+    6.636685867533743e-08,
+    1.2081081867218018
+   ],
+   "dimensions": [
+    3.8500003814697266,
+    0.5230615139007568,
+    1.2152092456817627
+   ],
+   "center": [
+    0.0,
+    -0.26153069734573364,
+    0.6005035638809204
+   ],
+   "mesh_vertices": 288,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_RaceTrack_Billboard_02_Proxy"
+   ],
+   "sampled_vertices": 288
+  },
+  "16203": {
+   "id": 16203,
+   "bounds_min": [
+    -1.9249999523162842,
+    -0.5230614542961121,
+    -0.007101087365299463
+   ],
+   "bounds_max": [
+    1.9250006675720215,
+    8.653260152868825e-08,
+    1.2081085443496704
+   ],
+   "dimensions": [
+    3.8500006198883057,
+    0.5230615139007568,
+    1.2152096033096313
+   ],
+   "center": [
+    3.5762786865234375e-07,
+    -0.26153069734573364,
+    0.6005037426948547
+   ],
+   "mesh_vertices": 288,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_RaceTrack_Billboard_02_Proxy"
+   ],
+   "sampled_vertices": 288
+  },
+  "16204": {
+   "id": 16204,
+   "bounds_min": [
+    -0.7804818749427795,
+    -0.02415880747139454,
+    -1.4793003391805125e-18
+   ],
+   "bounds_max": [
+    0.7467046976089478,
+    0.04514312371611595,
+    2.1964755058288574
+   ],
+   "dimensions": [
+    1.527186632156372,
+    0.06930193305015564,
+    2.1964755058288574
+   ],
+   "center": [
+    -0.016888588666915894,
+    0.010492158122360706,
+    1.0982377529144287
+   ],
+   "mesh_vertices": 552,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_RT_CornerSign_emi_Proxy"
+   ],
+   "sampled_vertices": 552
+  },
+  "16205": {
+   "id": 16205,
+   "bounds_min": [
+    -4.750000476837158,
+    -0.09500068426132202,
+    -0.09500020742416382
+   ],
+   "bounds_max": [
+    4.164530409411782e-08,
+    0.09500008821487427,
+    0.09499998390674591
+   ],
+   "dimensions": [
+    4.750000476837158,
+    0.1900007724761963,
+    0.19000019133090973
+   ],
+   "center": [
+    -2.375000238418579,
+    -2.980232238769531e-07,
+    -1.1175870895385742e-07
+   ],
+   "mesh_vertices": 372,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_RT_SignalFrame_01_Proxy"
+   ],
+   "sampled_vertices": 372
+  },
+  "16206": {
+   "id": 16206,
+   "bounds_min": [
+    -0.21063250303268433,
+    -0.1403857171535492,
+    -0.10999908298254013
+   ],
+   "bounds_max": [
+    0.21063081920146942,
+    0.1403856724500656,
+    0.900346040725708
+   ],
+   "dimensions": [
+    0.42126333713531494,
+    0.2807713747024536,
+    1.0103451013565063
+   ],
+   "center": [
+    -8.419156074523926e-07,
+    -2.2351741790771484e-08,
+    0.39517349004745483
+   ],
+   "mesh_vertices": 1410,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_RT_SignalFrame_01_Proxy"
+   ],
+   "sampled_vertices": 1410
+  },
+  "16207": {
+   "id": 16207,
+   "bounds_min": [
+    -0.30527400970458984,
+    -0.37807637453079224,
+    -0.7225142121315002
+   ],
+   "bounds_max": [
+    0.30527403950691223,
+    0.4534538686275482,
+    0.772898256778717
+   ],
+   "dimensions": [
+    0.6105480194091797,
+    0.8315302133560181,
+    1.4954124689102173
+   ],
+   "center": [
+    1.4901161193847656e-08,
+    0.03768874704837799,
+    0.0251920223236084
+   ],
+   "mesh_vertices": 1512,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_RT_SignalFrame_01_Proxy"
+   ],
+   "sampled_vertices": 1512
+  },
+  "16209": {
+   "id": 16209,
+   "bounds_min": [
+    -1.9175021648406982,
+    -1.923866868019104,
+    -6.0
+   ],
+   "bounds_max": [
+    1.918373703956604,
+    1.9227702617645264,
+    0.0405208021402359
+   ],
+   "dimensions": [
+    3.835875988006592,
+    3.84663724899292,
+    6.040520668029785
+   ],
+   "center": [
+    0.00043576955795288086,
+    -0.0005483031272888184,
+    -2.9797396659851074
+   ],
+   "mesh_vertices": 708,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_TestTrack_Billboard_Metal_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_Overpass_Column_01_Proxy"
+   ],
+   "sampled_vertices": 708
+  },
+  "16210": {
+   "id": 16210,
+   "bounds_min": [
+    -9.72946548461914,
+    1.6155562434505555e-06,
+    -6.51645040512085
+   ],
+   "bounds_max": [
+    9.790579795837402,
+    3.8791141510009766,
+    5.261073589324951
+   ],
+   "dimensions": [
+    19.52004623413086,
+    3.879112482070923,
+    11.7775239944458
+   ],
+   "center": [
+    0.03055715560913086,
+    1.9395579099655151,
+    -0.6276884078979492
+   ],
+   "mesh_vertices": 2496,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_TestTrack_Billboard_Metal_Proxy"
+   ],
+   "sampled_vertices": 2496
+  },
+  "16211": {
+   "id": 16211,
+   "bounds_min": [
+    -9.408651351928711,
+    -0.13791930675506592,
+    -4.962003707885742
+   ],
+   "bounds_max": [
+    9.408653259277344,
+    1.738057790134917e-06,
+    4.962001800537109
+   ],
+   "dimensions": [
+    18.817304611206055,
+    0.1379210501909256,
+    9.924005508422852
+   ],
+   "center": [
+    9.5367431640625e-07,
+    -0.06895878165960312,
+    -9.5367431640625e-07
+   ],
+   "mesh_vertices": 96,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_TestTrack_Billboard_01_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_NE_TestTrack_Billboard_Metal_Proxy"
+   ],
+   "sampled_vertices": 96
+  },
+  "16213": {
+   "id": 16213,
+   "bounds_min": [
+    -21.07000160217285,
+    -28.21957015991211,
+    -0.17314346134662628
+   ],
+   "bounds_max": [
+    0.06999755650758743,
+    0.0,
+    17.40227508544922
+   ],
+   "dimensions": [
+    21.139999389648438,
+    28.21957015991211,
+    17.57541847229004
+   ],
+   "center": [
+    -10.500001907348633,
+    -14.109785079956055,
+    8.6145658493042
+   ],
+   "mesh_vertices": 18120,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Desert_RampFrameMetal_2_Proxy",
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Desert_RampFrameMetal_01_Proxy"
+   ],
+   "sampled_vertices": 18120
+  },
+  "16222": {
+   "id": 16222,
+   "bounds_min": [
+    -1.889925241470337,
+    -1.8892070055007935,
+    -0.6737412810325623
+   ],
+   "bounds_max": [
+    0.15099669992923737,
+    0.15171192586421967,
+    11.184892654418945
+   ],
+   "dimensions": [
+    2.040921926498413,
+    2.0409188270568848,
+    11.858633995056152
+   ],
+   "center": [
+    -0.8694642782211304,
+    -0.8687475323677063,
+    5.255575656890869
+   ],
+   "mesh_vertices": 1410,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Blueprints/Mod/Object/ProxyAssets/Material/MI_Baltic_HW_Cage_01_Proxy"
+   ],
+   "sampled_vertices": 1410
+  },
+  "30005": {
+   "id": 30005,
+   "bounds_min": [
+    0.007452282123267651,
+    -0.0779341459274292,
+    -3.0034191608428955
+   ],
+   "bounds_max": [
+    4.957215785980225,
+    0.033511269837617874,
+    0.8941957354545593
+   ],
+   "dimensions": [
+    4.949763298034668,
+    0.11144541203975677,
+    3.8976149559020996
+   ],
+   "center": [
+    2.4823341369628906,
+    -0.022211438044905663,
+    -1.0546116828918457
+   ],
+   "mesh_vertices": 2130,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Assets/World/Buildings/Materials/DihorOtok/Unique_Buildings/MI_DO_HS_Farm_Barn_04_wood_01",
+    "TslGame/Content/Assets/World/Common/Materials/Savage/Fences/MI_Savage_FenceRazorWire_01"
+   ],
+   "sampled_vertices": 2130
+  },
+  "30009": {
+   "id": 30009,
+   "bounds_min": [
+    -0.0014233399415388703,
+    -0.0049799601547420025,
+    -3.778959325607175e-18
+   ],
+   "bounds_max": [
+    2.326245069503784,
+    0.06171508878469467,
+    2.5367989540100098
+   ],
+   "dimensions": [
+    2.3276684284210205,
+    0.06669504940509796,
+    2.5367989540100098
+   ],
+   "center": [
+    1.162410855293274,
+    0.02836756408214569,
+    1.2683994770050049
+   ],
+   "mesh_vertices": 174,
+   "mesh_parts": 1,
+   "mesh_instances": 1,
+   "materials": [
+    "TslGame/Content/Assets/World/Buildings/Materials/Ahospital_Detail_c_Mat",
+    "TslGame/Content/Assets/World/Common/Materials/MI_Fence01_wire"
+   ],
+   "sampled_vertices": 174
+  }
+ },
+ "learned_surface_priors": {
+  "stone|horizontal": {
+   "16042": 19.08664169015865,
+   "16101": 5.680580853507166,
+   "12017": 12.456577096172627,
+   "14009": 1.0,
+   "16180": 2.0,
+   "12016": 0.9520016962159982,
+   "12100": 4.693062437013061,
+   "16131": 0.9753741853641755,
+   "16103": 1.9288957231149033,
+   "16197": 2.2793042874186487,
+   "16082": 2.0,
+   "16026": 1.9766373198072071,
+   "16095": 1.9706250867921393,
+   "16033": 0.9035107484082513,
+   "16117": 0.866526477126704,
+   "16051": 0.9170640057287087,
+   "12018": 1.401966921176642,
+   "12073": 14.648706107008211,
+   "12026": 6.771230705551482,
+   "13011": 7.0,
+   "12078": 2.4899008674884184,
+   "15001": 2.889128962304828,
+   "12027": 1.0,
+   "14020": 4.0,
+   "15023": 4.0967459419610135,
+   "12052": 1.0,
+   "13009": 0.8245253411784705,
+   "14002": 1.0,
+   "16181": 0.8248375655102167,
+   "12097": 1.0,
+   "16002": 1.0,
+   "16052": 2.0,
+   "12080": 3.6527561222738796,
+   "12095": 2.318296897438994,
+   "16061": 0.9978881898186489,
+   "16207": 3.966933003565456,
+   "12099": 0.7378253056937021,
+   "12040": 1.2862303822821235,
+   "12005": 0.32955603656353977,
+   "12048": 0.8271405736024331,
+   "16130": 1.958630595025889,
+   "12023": 0.7568232126054368,
+   "16205": 0.8566321773895149,
+   "16166": 2.6208242396264967,
+   "15007": 0.655897612583735,
+   "15008": 0.5279564298892099
+  },
+  "concrete|vertical": {
+   "16042": 107.27553455294235,
+   "14020": 8.576438907999439,
+   "16046": 18.85010593300111,
+   "12005": 2.6479918407846075,
+   "12017": 35.22158207534175,
+   "15001": 11.282436070400035,
+   "13015": 0.9951568881458611,
+   "12016": 60.45600798960679,
+   "15006": 6.49467718387179,
+   "15008": 2.4387790256115593,
+   "15002": 1.4103449229233358,
+   "12060": 18.21704686532631,
+   "16114": 1.8560495563026043,
+   "16137": 2.688401909063653,
+   "12011": 3.5534733927519153,
+   "16061": 7.759043234824342,
+   "30005": 1.8488022868981813,
+   "14022": 6.4937482921259,
+   "16155": 0.7745403276117839,
+   "16108": 1.758943600377393,
+   "16197": 12.465694134241357,
+   "16199": 1.0,
+   "14016": 0.9413318774780153,
+   "16115": 3.9513460509979375,
+   "12026": 11.542016718140623,
+   "12007": 2.757729937292886,
+   "12056": 5.610015873212653,
+   "16073": 1.0,
+   "10423": 1.0,
+   "16068": 1.9950395528013343,
+   "16213": 3.0,
+   "10701": 1.9687126797055647,
+   "16065": 5.94048233924192,
+   "12042": 4.4861011670644135,
+   "12072": 30.622660411482606,
+   "16181": 11.375001556030762,
+   "12034": 1.0,
+   "12044": 0.9594728465708144,
+   "16201": 3.9883305802385935,
+   "12038": 0.9878871869134976,
+   "16013": 0.9135816515498711,
+   "12025": 0.5655909169614654,
+   "16091": 1.7948822140496583,
+   "16033": 0.9541363535425802,
+   "16109": 3.90170659170831,
+   "16038": 0.9354642294338729,
+   "16180": 16.58721948702592,
+   "12027": 13.473039508617829,
+   "16069": 2.0,
+   "16157": 0.9417688292610789,
+   "16123": 0.9933029716282158,
+   "12023": 2.8476291889427507,
+   "16088": 0.9373844345341588,
+   "16070": 1.9469303650823742,
+   "16169": 0.8458510351163246,
+   "12088": 1.832963738239188,
+   "12067": 1.815197962361759,
+   "12028": 0.9572428356184035,
+   "16001": 1.8633629467843718,
+   "16200": 2.812161312442814,
+   "16076": 6.1784457717105346,
+   "12018": 6.9692972385741605,
+   "16140": 1.0,
+   "16133": 1.0,
+   "16150": 1.0,
+   "16207": 26.04749182226965,
+   "16206": 5.787617249448683,
+   "16205": 11.0,
+   "16135": 1.0,
+   "12019": 3.751490639478366,
+   "12032": 1.0,
+   "12035": 2.0,
+   "16141": 2.0,
+   "16095": 1.8330481026556278,
+   "13009": 2.0,
+   "16159": 0.9579522627098428,
+   "14009": 2.9345639837631827,
+   "12049": 1.710162969412919,
+   "16172": 1.0,
+   "16167": 4.0,
+   "12080": 3.928339571311734,
+   "13014": 1.0,
+   "16166": 4.768613209910832,
+   "16113": 1.0,
+   "16026": 1.0,
+   "16210": 0.9780096477493189,
+   "12073": 8.441240272731475,
+   "16101": 2.772615550374434,
+   "12078": 18.791249866069315,
+   "12070": 5.517851060436943,
+   "12069": 0.9802076118860502,
+   "15028": 2.394000768686081,
+   "15023": 3.0086792507858746,
+   "16004": 0.9026816724193037,
+   "13011": 1.9574088675607855,
+   "14002": 0.9681128609613583,
+   "16082": 3.0,
+   "16052": 1.0,
+   "12040": 0.8482612142209734,
+   "12048": 7.315422174917246,
+   "12095": 0.7644546734340648,
+   "12099": 1.3032209394144092,
+   "16138": 0.8057035833427186,
+   "12100": 0.8859968224623505,
+   "12039": 0.533818741452824,
+   "16209": 3.239679816796631,
+   "14013": 0.7659410493709412,
+   "15022": 1.0,
+   "15020": 0.9523727715619469,
+   "16130": 4.5086834103793585,
+   "16122": 1.0
+  },
+  "concrete|horizontal": {
+   "16042": 63.942786926465104,
+   "14020": 1.8153689189080113,
+   "12016": 25.59140370918092,
+   "12017": 14.702469515024394,
+   "16113": 0.7065607807959646,
+   "16028": 0.6870587724279353,
+   "16148": 0.6598106564142413,
+   "15001": 3.5142774076378465,
+   "16088": 3.5883958330650945,
+   "15007": 1.0,
+   "12060": 6.680268121809311,
+   "15008": 1.0,
+   "16013": 0.9396644443017158,
+   "12011": 1.0,
+   "14010": 2.5583880765547704,
+   "16091": 4.605635087246455,
+   "16157": 0.8674124646690676,
+   "14021": 1.0,
+   "14022": 5.711149371412529,
+   "30005": 2.498269872471325,
+   "16155": 1.6260484983763912,
+   "16197": 10.721978274264357,
+   "16181": 14.86297756254636,
+   "12026": 5.614928509316519,
+   "16065": 12.578856323032914,
+   "16071": 0.7921180727872201,
+   "16213": 4.9990603145545505,
+   "16046": 1.7310427799477992,
+   "16222": 2.794115368907578,
+   "16169": 2.756182890586881,
+   "12091": 0.9776545817316008,
+   "16070": 3.0,
+   "16069": 1.9005872252615648,
+   "12056": 3.3566634888717095,
+   "16153": 0.8758125100860842,
+   "12021": 0.829183656979314,
+   "12099": 4.108150836753731,
+   "10208": 1.0,
+   "16051": 0.8155783529747779,
+   "16040": 0.922742045089449,
+   "13009": 2.84066552375341,
+   "16180": 3.877753457652312,
+   "12095": 1.770026669758359,
+   "16061": 2.51698045161717,
+   "12072": 12.426191838922376,
+   "12067": 4.8530635473056485,
+   "16115": 0.968703289550361,
+   "16109": 1.0,
+   "16095": 5.765638720272906,
+   "12027": 1.0355287599302538,
+   "16076": 3.8044176449167164,
+   "16207": 25.18167390515085,
+   "16205": 3.8085068826427264,
+   "16206": 2.986153241562393,
+   "14009": 3.9651048856813844,
+   "12018": 7.630543219923114,
+   "16201": 4.927250037636919,
+   "16167": 4.9769641212139355,
+   "16200": 1.0,
+   "12100": 1.0,
+   "16001": 0.9751893007925853,
+   "12078": 5.701437988747126,
+   "16002": 2.0,
+   "12037": 0.9571013412873844,
+   "12019": 2.0,
+   "10226": 1.0,
+   "16026": 1.913353230141825,
+   "16024": 1.0,
+   "16057": 1.0,
+   "16021": 1.0,
+   "16101": 1.9969035678271982,
+   "16022": 3.0,
+   "13011": 1.729227358896337,
+   "12070": 3.8173555967396884,
+   "15006": 0.8430521076873517,
+   "12069": 3.8964182750382292,
+   "12073": 6.223461588755857,
+   "10520": 1.0,
+   "12080": 4.891458570045272,
+   "12005": 2.307467038803914,
+   "16103": 0.9424739070642301,
+   "12040": 1.6507986589225419,
+   "16138": 5.556263150295636,
+   "12048": 6.693616553160145,
+   "12050": 0.8020971711595299,
+   "16209": 1.961052035711947,
+   "16041": 1.0,
+   "16130": 3.684887974213938,
+   "16166": 0.9159639398907221,
+   "16037": 1.9233008024025255
+  },
+  "concrete|slope": {
+   "16042": 6.838207151353921,
+   "12017": 1.9229392920033428,
+   "16180": 1.9178974397470485,
+   "12016": 1.8475057897149267,
+   "12099": 6.489275590397645,
+   "12097": 1.0,
+   "16046": 0.9647315590792348,
+   "16166": 0.6575208172008478,
+   "16065": 0.9311521985868744,
+   "10208": 0.9783911784824223,
+   "16088": 0.9226291231362348
+  },
+  "stone|vertical": {
+   "16042": 21.01881135115398,
+   "12035": 0.7090851418129999,
+   "12032": 0.7475818927917245,
+   "12016": 5.875254452264542,
+   "12017": 6.862521374209476,
+   "12063": 0.6791550545720053,
+   "16164": 0.6711261931886497,
+   "16109": 1.7943131864551383,
+   "15006": 0.9629960685192811,
+   "12018": 3.525327126718235,
+   "12026": 2.9983948021000733,
+   "12073": 0.9299853643888198,
+   "16101": 1.92798740142902,
+   "15028": 1.8086687453857553,
+   "14020": 1.981047351878399,
+   "15023": 0.6107358197082349,
+   "15008": 0.88953394074196,
+   "16002": 1.0,
+   "12040": 4.455782002871226,
+   "12095": 5.735982644744847,
+   "12048": 11.197577210041358,
+   "12099": 4.8633249902547435,
+   "16207": 27.301915762565937,
+   "16103": 0.8451959935352336,
+   "16061": 1.8480343564805954,
+   "16046": 1.2075549623195476,
+   "12039": 1.1473378632560498,
+   "16138": 3.082536052459556,
+   "16211": 1.0,
+   "12005": 1.8800741327277264,
+   "12080": 0.8640689347409163,
+   "12060": 1.4707852327332118,
+   "12050": 2.9657572822816314,
+   "16166": 1.5965344579656997,
+   "16209": 0.5718353833544557
+  },
+  "wood|vertical": {
+   "16042": 14.001947787782125,
+   "15002": 1.798327373394478,
+   "15001": 2.8909591798213334,
+   "30005": 2.0,
+   "12016": 9.539580955836858,
+   "12017": 2.735810200466279,
+   "16197": 1.9818635539292675,
+   "16022": 2.0,
+   "12037": 3.54449730469954,
+   "16213": 3.0,
+   "10701": 0.7649150882874167,
+   "14013": 0.9672606206290834,
+   "16065": 7.950101183756859,
+   "12042": 0.7799003106207434,
+   "16158": 0.8177592319866814,
+   "16051": 0.8287908554540182,
+   "16181": 4.631681527569162,
+   "12034": 1.9356510679944021,
+   "16061": 11.176268561172089,
+   "16114": 7.6206316494376365,
+   "13015": 5.0,
+   "16169": 4.966795848055878,
+   "16115": 4.831621077877907,
+   "12060": 7.81262249691046,
+   "12091": 0.8881193329224465,
+   "12056": 2.8500461154756063,
+   "16070": 26.56264658112004,
+   "16069": 22.76310011595663,
+   "16030": 2.0,
+   "16085": 2.997149566397527,
+   "12032": 0.9952507570275165,
+   "12035": 0.9783879477414278,
+   "16201": 3.6863601624765865,
+   "16167": 2.0,
+   "14010": 2.0,
+   "12025": 1.6337255205485297,
+   "12007": 2.0,
+   "12096": 1.9936623321286402,
+   "16006": 1.0,
+   "16180": 1.9439204447823504,
+   "12070": 6.521995641643857,
+   "16091": 1.9491978913281982,
+   "12068": 3.8881516200088337,
+   "16159": 1.0,
+   "16200": 1.0,
+   "16206": 3.0,
+   "16205": 1.0,
+   "16038": 1.0,
+   "12027": 0.9177325716841811,
+   "16095": 0.9184050804661296,
+   "12080": 0.6588945292873124,
+   "16172": 0.9515614688981023,
+   "12076": 1.0,
+   "16122": 1.0,
+   "16015": 1.0,
+   "16135": 1.0,
+   "16145": 1.0,
+   "16152": 1.9680693559939961,
+   "16149": 1.0,
+   "16148": 1.0,
+   "14009": 1.7501626018950072,
+   "12072": 4.587314302347568,
+   "16202": 0.6733484903722625,
+   "15028": 0.9445514388696657,
+   "13011": 3.8578977455957775,
+   "12067": 13.879776066713411,
+   "12069": 25.492987349724114,
+   "16137": 1.9802105524383706,
+   "16203": 0.9822102166131428,
+   "12018": 1.4846772271385298,
+   "12052": 0.9433610344216367,
+   "12049": 0.6676576249009645,
+   "12088": 1.5932821604077472,
+   "12078": 2.0,
+   "16101": 1.0,
+   "16082": 1.935104775076441,
+   "16130": 4.8169532945221505
+  },
+  "metal|horizontal": {
+   "16042": 18.66302115507748,
+   "12056": 4.5174836009518575,
+   "16092": 1.9489666434274773,
+   "12016": 9.195466022055378,
+   "30005": 2.6528023382517967,
+   "30009": 1.978080651839222,
+   "16201": 2.0,
+   "12057": 1.0,
+   "16022": 1.0,
+   "16197": 2.0,
+   "12042": 2.380721937443373,
+   "16207": 6.452557683766669,
+   "12072": 12.180899083063935,
+   "16181": 2.776834227611079,
+   "16061": 7.5549703379937885,
+   "12096": 1.0,
+   "16073": 1.0,
+   "16140": 0.9052738035917941,
+   "16114": 1.0,
+   "16169": 1.8230815794970998,
+   "16016": 0.9940263149571082,
+   "14010": 0.8752675474116672,
+   "12070": 1.8929150432995796,
+   "16046": 5.334102112802345,
+   "12037": 0.8958027465023303,
+   "12027": 0.963746040083531,
+   "16167": 1.0,
+   "16070": 0.9862453950224276,
+   "12088": 0.8720549101774863,
+   "16040": 0.8942344469758069,
+   "12067": 1.0,
+   "12007": 1.9916629025701367,
+   "12018": 1.0,
+   "16135": 1.0,
+   "16180": 3.0,
+   "16205": 1.0,
+   "12017": 5.796253451029985,
+   "16115": 1.0,
+   "12060": 1.0,
+   "12023": 1.326534605280259,
+   "13014": 1.0,
+   "16137": 1.0,
+   "16166": 0.928785674176685,
+   "16103": 1.0,
+   "12078": 1.0,
+   "12040": 0.7535278758251647,
+   "16138": 2.3682632330954143
+  },
+  "metal|vertical": {
+   "16042": 18.459333637757307,
+   "14020": 2.9032234065047895,
+   "12060": 1.9656035299694004,
+   "12011": 4.3525368012274015,
+   "12017": 2.900538818034892,
+   "12016": 11.835177863429395,
+   "14010": 1.9542765504222606,
+   "16115": 3.233644792783859,
+   "30005": 3.408334473688985,
+   "12056": 4.815768131050058,
+   "30009": 1.0,
+   "16201": 0.9931360113655362,
+   "16005": 1.0,
+   "16093": 0.9799163501989004,
+   "16213": 2.0,
+   "16197": 1.8493080948240026,
+   "14013": 0.9105954318619178,
+   "12042": 2.198971111739255,
+   "16181": 7.57686810007427,
+   "16169": 1.9983407925922916,
+   "12091": 2.0,
+   "12103": 1.0,
+   "16041": 0.9705205304609471,
+   "16114": 2.9224776929848932,
+   "16070": 14.8922752930681,
+   "16092": 1.9027840143322108,
+   "16118": 0.9211380184402738,
+   "16157": 1.9319888975591863,
+   "16091": 0.783123131311128,
+   "16068": 0.996476390884872,
+   "12037": 1.0,
+   "16061": 15.398172865585824,
+   "14022": 0.7930798142202327,
+   "16069": 2.9957603776321866,
+   "12007": 3.91615526033229,
+   "16122": 0.9655447351484848,
+   "16126": 0.9771303760578561,
+   "16180": 3.9784995580213036,
+   "12026": 1.0,
+   "16088": 1.0,
+   "12067": 0.9687516481099634,
+   "14015": 1.0,
+   "14009": 2.9689187002282234,
+   "16136": 1.0,
+   "16087": 1.0,
+   "16133": 1.0,
+   "16206": 7.0,
+   "12072": 21.110779865759184,
+   "16141": 1.2375389569701039,
+   "12076": 1.0,
+   "12035": 1.0,
+   "12018": 2.898805468267016,
+   "16167": 2.0,
+   "16205": 3.0,
+   "12023": 0.9480053631269292,
+   "16166": 0.7417013265082302,
+   "16055": 0.976809344714579,
+   "16026": 1.9643608159728392,
+   "16204": 2.0,
+   "16095": 0.9850634523927353,
+   "12052": 0.8987971363000115,
+   "13011": 1.0,
+   "15006": 0.9015566351390878,
+   "13008": 1.0,
+   "12078": 3.0,
+   "16200": 1.0,
+   "16098": 1.0,
+   "12099": 1.784629141248283,
+   "16207": 3.7160343077944136,
+   "16138": 2.7324383598750694,
+   "16046": 3.0618085017852574,
+   "12040": 1.0
+  },
+  "roof|vertical": {
+   "16042": 1.0,
+   "16091": 1.0
+  },
+  "ground|horizontal": {
+   "16042": 18.872477263282057,
+   "15007": 1.0,
+   "15006": 3.503536471694063,
+   "15008": 0.6205926817685232,
+   "12017": 11.823250920680298,
+   "16205": 2.0,
+   "16207": 8.700385874047223,
+   "16103": 1.0,
+   "16197": 2.528589467317067,
+   "12100": 0.7734578675776621,
+   "12073": 11.825061203918409,
+   "12026": 15.710813726653727,
+   "16101": 4.971377098085942,
+   "12078": 18.81335311566398,
+   "14002": 1.0,
+   "12027": 0.9418353990775242,
+   "12070": 8.39548083309427,
+   "16046": 0.882023946598846,
+   "12016": 5.962948875676801,
+   "15010": 0.8897609112526412,
+   "15001": 2.0,
+   "15028": 0.7196128661928071,
+   "13009": 2.0,
+   "16065": 2.9196291874640337,
+   "15022": 2.9426183863525797,
+   "10038": 1.0,
+   "12092": 3.0,
+   "12067": 1.9898783805274785,
+   "14009": 1.0,
+   "16082": 1.0,
+   "16159": 2.0,
+   "16051": 1.0,
+   "16044": 2.0,
+   "16052": 1.0,
+   "16136": 1.0,
+   "12018": 2.0,
+   "16131": 0.9865978580549203,
+   "12099": 0.6250434027989932,
+   "16138": 4.409249713807868,
+   "12039": 0.3175832094199826,
+   "12095": 3.8118035511262596,
+   "12080": 1.6485948459250865,
+   "12005": 0.9163294637195142,
+   "12048": 0.485106899903257,
+   "12040": 1.8505903346639578,
+   "16211": 0.9176846770546839
+  },
+  "ground|vertical": {
+   "16042": 2.893999735694655,
+   "12016": 2.0,
+   "12026": 1.0,
+   "16101": 1.0,
+   "16181": 0.8879043642305628,
+   "16082": 1.0,
+   "13009": 0.9918492018060622
+  },
+  "wood|horizontal": {
+   "16042": 7.0,
+   "12056": 2.458469912944141,
+   "12016": 4.90274337065846,
+   "16033": 0.6968238118223158,
+   "16084": 0.7443937657240619,
+   "16030": 0.8681803999796347,
+   "16114": 2.9888060268790113,
+   "12060": 1.9130222371407348,
+   "16068": 1.0,
+   "16213": 1.0,
+   "16065": 2.0,
+   "12021": 1.0,
+   "12044": 0.9685244812726707,
+   "16003": 1.0,
+   "16069": 9.900563140841891,
+   "16070": 7.855709461048761,
+   "12037": 1.0,
+   "16022": 1.9230082852757069,
+   "16115": 0.9309287991190943,
+   "16006": 0.9614384531729072,
+   "16007": 0.949006618674348,
+   "13015": 1.0,
+   "16169": 3.0,
+   "16181": 5.0,
+   "12007": 1.0,
+   "16089": 0.9586745312532693,
+   "16207": 0.9414663179956583,
+   "12068": 1.8803918603680954,
+   "12072": 2.892967304733241,
+   "12032": 2.0,
+   "12035": 1.9846303860602337,
+   "16205": 2.0,
+   "16206": 3.0,
+   "16037": 2.0,
+   "16157": 0.9950289469482969,
+   "12018": 1.0,
+   "12017": 3.0,
+   "12034": 1.0,
+   "16180": 1.0,
+   "16061": 0.9304228601170463,
+   "13014": 1.0,
+   "12078": 0.9949882765206131,
+   "12073": 1.0,
+   "12026": 2.0,
+   "12098": 1.0,
+   "16209": 1.0,
+   "16046": 1.0324162276479443
+  },
+  "misc|horizontal": {
+   "16046": 0.8269633100566702,
+   "16042": 0.9265253846971789,
+   "15008": 1.0,
+   "14022": 2.530657890719902,
+   "16180": 3.5761118915591146,
+   "12016": 1.5588567652709624,
+   "16181": 1.0,
+   "16076": 1.0,
+   "12078": 1.9426940062083988,
+   "12070": 0.9751170011573903
+  },
+  "roof|horizontal": {
+   "16042": 1.5772004871608503,
+   "12025": 1.0,
+   "13011": 2.0,
+   "12069": 2.0,
+   "12067": 1.0,
+   "16130": 2.0
+  },
+  "misc|vertical": {
+   "16042": 13.977689989606022,
+   "12060": 5.155144505686646,
+   "12026": 1.0,
+   "10208": 0.6974946000490218,
+   "14009": 1.0,
+   "16046": 8.992291465248652,
+   "16166": 2.2693844541824433,
+   "16205": 1.6367364348753664,
+   "12023": 0.5011615662866227,
+   "14013": 0.7130726356419421,
+   "16207": 8.379066698398251,
+   "12048": 1.8493487761509309,
+   "12080": 1.5064247480967006
+  },
+  "ground|slope": {
+   "16042": 2.0,
+   "16096": 1.0,
+   "12016": 3.425577362264689,
+   "12027": 1.957862472032709,
+   "12026": 3.838365517633142,
+   "12078": 9.525331028066532,
+   "12070": 2.9209813865951877,
+   "16065": 1.0,
+   "12073": 1.0
+  },
+  "wood|slope": {
+   "16059": 0.6428256580925651,
+   "16115": 0.8854110552223606,
+   "16118": 0.6686741374593786,
+   "16070": 1.0,
+   "12069": 5.0,
+   "12067": 4.984994952316269
+  },
+  "misc|slope": {
+   "30005": 0.7307640278543283,
+   "16172": 1.0,
+   "16181": 6.713833977240392,
+   "16069": 3.0,
+   "16065": 9.607014409968402,
+   "16042": 2.0,
+   "16088": 1.8844060396961844,
+   "16180": 0.9303741555386265
+  },
+  "glass|vertical": {
+   "16042": 1.0,
+   "12007": 1.0,
+   "16070": 2.0,
+   "12072": 1.4744915148311528,
+   "16061": 0.7364301637752008,
+   "16046": 0.6910902403094091
+  },
+  "water|horizontal": {
+   "16069": 1.0
+  },
+  "metal|slope": {
+   "12016": 1.0,
+   "12060": 2.213544254110935,
+   "12072": 2.665257873258522,
+   "16061": 2.7801271159198055,
+   "12048": 1.2691406047287819,
+   "16207": 0.6132992487046073,
+   "16138": 3.395222772828157,
+   "16042": 2.988409947142029,
+   "16046": 0.7113615752216569
+  },
+  "stone|slope": {
+   "12026": 1.0,
+   "12073": 1.0,
+   "15023": 0.7043457102151677,
+   "12078": 1.0,
+   "15001": 1.9863048610112755,
+   "12070": 0.9132748240508342,
+   "12060": 0.5360655595845126,
+   "16138": 0.6997100903752212,
+   "12039": 1.8948934706811476,
+   "16166": 1.003232796674168,
+   "16042": 1.508421181061951,
+   "12016": 0.7418522708045495
+  }
+ },
+ "id_frequency": {
+  "16042": 386,
+  "14020": 20,
+  "16046": 57,
+  "12005": 10,
+  "12035": 7,
+  "12032": 5,
+  "12056": 26,
+  "12016": 159,
+  "12017": 108,
+  "12025": 4,
+  "12063": 1,
+  "16113": 2,
+  "16059": 1,
+  "16164": 1,
+  "16028": 1,
+  "16033": 3,
+  "16084": 1,
+  "16148": 2,
+  "15001": 26,
+  "16030": 3,
+  "16115": 17,
+  "16114": 17,
+  "13015": 7,
+  "16088": 9,
+  "16109": 7,
+  "16096": 1,
+  "10469": 2,
+  "15006": 15,
+  "15002": 4,
+  "15008": 8,
+  "15007": 3,
+  "12060": 58,
+  "16137": 6,
+  "16013": 2,
+  "12011": 10,
+  "16061": 60,
+  "14010": 8,
+  "16091": 11,
+  "16092": 4,
+  "16157": 5,
+  "14021": 1,
+  "30005": 15,
+  "14022": 17,
+  "16155": 3,
+  "16108": 2,
+  "16197": 37,
+  "16199": 1,
+  "14016": 1,
+  "16181": 58,
+  "12026": 54,
+  "12007": 13,
+  "16065": 44,
+  "30009": 3,
+  "16201": 16,
+  "12057": 1,
+  "16022": 9,
+  "16071": 1,
+  "16073": 2,
+  "16005": 1,
+  "16093": 1,
+  "10423": 1,
+  "12037": 8,
+  "16068": 4,
+  "16213": 14,
+  "10701": 3,
+  "14013": 4,
+  "16222": 3,
+  "12042": 12,
+  "12072": 116,
+  "16207": 167,
+  "16158": 1,
+  "16051": 4,
+  "12021": 2,
+  "16180": 40,
+  "12034": 4,
+  "16169": 16,
+  "12044": 2,
+  "12091": 4,
+  "12103": 1,
+  "12096": 3,
+  "16003": 1,
+  "16041": 2,
+  "16069": 44,
+  "16070": 59,
+  "16118": 2,
+  "16140": 2,
+  "16006": 2,
+  "16007": 1,
+  "16085": 3,
+  "16016": 1,
+  "12038": 1,
+  "16153": 1,
+  "16167": 14,
+  "16205": 29,
+  "12070": 33,
+  "12099": 27,
+  "12097": 2,
+  "16166": 20,
+  "10208": 3,
+  "16172": 3,
+  "16038": 2,
+  "16101": 20,
+  "16122": 3,
+  "16126": 1,
+  "16040": 2,
+  "12027": 24,
+  "16089": 1,
+  "16123": 1,
+  "13009": 9,
+  "12023": 8,
+  "12088": 5,
+  "12067": 31,
+  "12068": 6,
+  "12028": 1,
+  "16001": 3,
+  "16200": 6,
+  "16076": 12,
+  "12095": 17,
+  "12018": 30,
+  "14015": 1,
+  "14009": 15,
+  "16136": 2,
+  "16087": 1,
+  "16133": 2,
+  "16135": 3,
+  "16159": 4,
+  "16150": 1,
+  "16206": 22,
+  "16082": 35,
+  "16045": 4,
+  "16021": 5,
+  "16151": 11,
+  "16139": 3,
+  "16141": 7,
+  "16037": 4,
+  "12019": 6,
+  "16095": 14,
+  "12080": 22,
+  "12076": 2,
+  "16015": 1,
+  "16145": 1,
+  "16152": 2,
+  "16149": 1,
+  "12049": 3,
+  "16202": 1,
+  "13014": 3,
+  "12100": 8,
+  "12078": 69,
+  "16055": 1,
+  "16002": 4,
+  "16131": 2,
+  "16103": 6,
+  "10226": 1,
+  "16026": 7,
+  "16024": 1,
+  "16210": 1,
+  "16204": 2,
+  "16117": 1,
+  "12073": 48,
+  "13011": 18,
+  "16057": 1,
+  "15028": 7,
+  "14002": 3,
+  "12052": 3,
+  "12069": 38,
+  "13008": 1,
+  "16203": 1,
+  "15010": 1,
+  "15023": 11,
+  "16004": 1,
+  "10520": 1,
+  "12098": 1,
+  "15022": 4,
+  "10038": 1,
+  "12092": 3,
+  "16044": 2,
+  "16052": 4,
+  "16098": 1,
+  "12040": 15,
+  "12048": 46,
+  "16138": 61,
+  "12039": 12,
+  "16211": 3,
+  "12050": 9,
+  "16209": 9,
+  "15020": 1,
+  "16130": 18
+ },
+ "id_orientation_priors": {
+  "16042": {
+   "vertical": 218,
+   "horizontal": 145,
+   "slope": 23
+  },
+  "14020": {
+   "horizontal": 20
+  },
+  "16046": {
+   "horizontal": 45,
+   "vertical": 12
+  },
+  "12005": {
+   "vertical": 10
+  },
+  "12035": {
+   "vertical": 7
+  },
+  "12032": {
+   "vertical": 5
+  },
+  "12056": {
+   "vertical": 26
+  },
+  "12016": {
+   "vertical": 118,
+   "horizontal": 40,
+   "slope": 1
+  },
+  "12017": {
+   "vertical": 88,
+   "horizontal": 19,
+   "slope": 1
+  },
+  "12025": {
+   "horizontal": 1,
+   "vertical": 3
+  },
+  "12063": {
+   "vertical": 1
+  },
+  "16113": {
+   "horizontal": 2
+  },
+  "16059": {
+   "vertical": 1
+  },
+  "16164": {
+   "horizontal": 1
+  },
+  "16028": {
+   "horizontal": 1
+  },
+  "16033": {
+   "horizontal": 3
+  },
+  "16084": {
+   "horizontal": 1
+  },
+  "16148": {
+   "vertical": 2
+  },
+  "15001": {
+   "slope": 9,
+   "vertical": 15,
+   "horizontal": 2
+  },
+  "16030": {
+   "vertical": 3
+  },
+  "16115": {
+   "vertical": 7,
+   "horizontal": 5,
+   "slope": 5
+  },
+  "16114": {
+   "vertical": 16,
+   "horizontal": 1
+  },
+  "13015": {
+   "slope": 2,
+   "vertical": 5
+  },
+  "16088": {
+   "horizontal": 9
+  },
+  "16109": {
+   "vertical": 7
+  },
+  "16096": {
+   "horizontal": 1
+  },
+  "10469": {
+   "vertical": 2
+  },
+  "15006": {
+   "vertical": 15
+  },
+  "15002": {
+   "vertical": 3,
+   "horizontal": 1
+  },
+  "15008": {
+   "vertical": 3,
+   "slope": 4,
+   "horizontal": 1
+  },
+  "15007": {
+   "vertical": 3
+  },
+  "12060": {
+   "vertical": 56,
+   "horizontal": 2
+  },
+  "16137": {
+   "vertical": 6
+  },
+  "16013": {
+   "horizontal": 2
+  },
+  "12011": {
+   "vertical": 10
+  },
+  "16061": {
+   "vertical": 48,
+   "horizontal": 12
+  },
+  "14010": {
+   "horizontal": 4,
+   "vertical": 4
+  },
+  "16091": {
+   "horizontal": 11
+  },
+  "16092": {
+   "horizontal": 4
+  },
+  "16157": {
+   "vertical": 5
+  },
+  "14021": {
+   "vertical": 1
+  },
+  "30005": {
+   "vertical": 15
+  },
+  "14022": {
+   "vertical": 13,
+   "horizontal": 4
+  },
+  "16155": {
+   "vertical": 3
+  },
+  "16108": {
+   "vertical": 2
+  },
+  "16197": {
+   "horizontal": 37
+  },
+  "16199": {
+   "horizontal": 1
+  },
+  "14016": {
+   "vertical": 1
+  },
+  "16181": {
+   "vertical": 37,
+   "horizontal": 21
+  },
+  "12026": {
+   "vertical": 54
+  },
+  "12007": {
+   "vertical": 9,
+   "horizontal": 4
+  },
+  "16065": {
+   "horizontal": 42,
+   "slope": 2
+  },
+  "30009": {
+   "vertical": 3
+  },
+  "16201": {
+   "vertical": 14,
+   "horizontal": 2
+  },
+  "12057": {
+   "vertical": 1
+  },
+  "16022": {
+   "vertical": 9
+  },
+  "16071": {
+   "vertical": 1
+  },
+  "16073": {
+   "vertical": 2
+  },
+  "16005": {
+   "vertical": 1
+  },
+  "16093": {
+   "vertical": 1
+  },
+  "10423": {
+   "vertical": 1
+  },
+  "12037": {
+   "vertical": 8
+  },
+  "16068": {
+   "vertical": 4
+  },
+  "16213": {
+   "horizontal": 12,
+   "slope": 2
+  },
+  "10701": {
+   "vertical": 3
+  },
+  "14013": {
+   "horizontal": 2,
+   "vertical": 2
+  },
+  "16222": {
+   "horizontal": 1,
+   "vertical": 2
+  },
+  "12042": {
+   "vertical": 12
+  },
+  "12072": {
+   "vertical": 91,
+   "horizontal": 25
+  },
+  "16207": {
+   "vertical": 167
+  },
+  "16158": {
+   "vertical": 1
+  },
+  "16051": {
+   "vertical": 3,
+   "horizontal": 1
+  },
+  "12021": {
+   "vertical": 2
+  },
+  "16180": {
+   "vertical": 36,
+   "horizontal": 4
+  },
+  "12034": {
+   "vertical": 4
+  },
+  "16169": {
+   "vertical": 1,
+   "horizontal": 15
+  },
+  "12044": {
+   "vertical": 2
+  },
+  "12091": {
+   "slope": 2,
+   "horizontal": 2
+  },
+  "12103": {
+   "vertical": 1
+  },
+  "12096": {
+   "vertical": 3
+  },
+  "16003": {
+   "horizontal": 1
+  },
+  "16041": {
+   "horizontal": 2
+  },
+  "16069": {
+   "horizontal": 6,
+   "vertical": 37,
+   "slope": 1
+  },
+  "16070": {
+   "vertical": 45,
+   "horizontal": 14
+  },
+  "16118": {
+   "vertical": 2
+  },
+  "16140": {
+   "horizontal": 2
+  },
+  "16006": {
+   "vertical": 1,
+   "horizontal": 1
+  },
+  "16007": {
+   "horizontal": 1
+  },
+  "16085": {
+   "horizontal": 2,
+   "vertical": 1
+  },
+  "16016": {
+   "horizontal": 1
+  },
+  "12038": {
+   "vertical": 1
+  },
+  "16153": {
+   "horizontal": 1
+  },
+  "16167": {
+   "horizontal": 3,
+   "vertical": 11
+  },
+  "16205": {
+   "vertical": 17,
+   "horizontal": 12
+  },
+  "12070": {
+   "slope": 1,
+   "vertical": 32
+  },
+  "12099": {
+   "vertical": 25,
+   "slope": 2
+  },
+  "12097": {
+   "vertical": 2
+  },
+  "16166": {
+   "vertical": 20
+  },
+  "10208": {
+   "vertical": 3
+  },
+  "16172": {
+   "vertical": 1,
+   "horizontal": 2
+  },
+  "16038": {
+   "vertical": 2
+  },
+  "16101": {
+   "horizontal": 20
+  },
+  "16122": {
+   "vertical": 3
+  },
+  "16126": {
+   "horizontal": 1
+  },
+  "16040": {
+   "vertical": 2
+  },
+  "12027": {
+   "vertical": 23,
+   "horizontal": 1
+  },
+  "16089": {
+   "horizontal": 1
+  },
+  "16123": {
+   "horizontal": 1
+  },
+  "13009": {
+   "vertical": 7,
+   "horizontal": 2
+  },
+  "12023": {
+   "vertical": 6,
+   "horizontal": 2
+  },
+  "12088": {
+   "vertical": 5
+  },
+  "12067": {
+   "vertical": 23,
+   "horizontal": 8
+  },
+  "12068": {
+   "vertical": 4,
+   "horizontal": 2
+  },
+  "12028": {
+   "vertical": 1
+  },
+  "16001": {
+   "vertical": 2,
+   "horizontal": 1
+  },
+  "16200": {
+   "vertical": 1,
+   "horizontal": 5
+  },
+  "16076": {
+   "vertical": 9,
+   "horizontal": 3
+  },
+  "12095": {
+   "horizontal": 2,
+   "vertical": 15
+  },
+  "12018": {
+   "vertical": 26,
+   "horizontal": 4
+  },
+  "14015": {
+   "vertical": 1
+  },
+  "14009": {
+   "vertical": 14,
+   "horizontal": 1
+  },
+  "16136": {
+   "horizontal": 1,
+   "slope": 1
+  },
+  "16087": {
+   "slope": 1
+  },
+  "16133": {
+   "vertical": 2
+  },
+  "16135": {
+   "vertical": 2,
+   "slope": 1
+  },
+  "16159": {
+   "horizontal": 2,
+   "vertical": 2
+  },
+  "16150": {
+   "horizontal": 1
+  },
+  "16206": {
+   "horizontal": 4,
+   "vertical": 15,
+   "slope": 3
+  },
+  "16082": {
+   "vertical": 17,
+   "horizontal": 18
+  },
+  "16045": {
+   "vertical": 4
+  },
+  "16021": {
+   "vertical": 5
+  },
+  "16151": {
+   "horizontal": 4,
+   "vertical": 7
+  },
+  "16139": {
+   "vertical": 3
+  },
+  "16141": {
+   "vertical": 3,
+   "horizontal": 4
+  },
+  "16037": {
+   "vertical": 4
+  },
+  "12019": {
+   "vertical": 3,
+   "horizontal": 3
+  },
+  "16095": {
+   "vertical": 14
+  },
+  "12080": {
+   "horizontal": 17,
+   "vertical": 5
+  },
+  "12076": {
+   "vertical": 2
+  },
+  "16015": {
+   "horizontal": 1
+  },
+  "16145": {
+   "vertical": 1
+  },
+  "16152": {
+   "horizontal": 1,
+   "vertical": 1
+  },
+  "16149": {
+   "vertical": 1
+  },
+  "12049": {
+   "vertical": 3
+  },
+  "16202": {
+   "vertical": 1
+  },
+  "13014": {
+   "horizontal": 3
+  },
+  "12100": {
+   "horizontal": 8
+  },
+  "12078": {
+   "vertical": 60,
+   "horizontal": 9
+  },
+  "16055": {
+   "vertical": 1
+  },
+  "16002": {
+   "vertical": 4
+  },
+  "16131": {
+   "vertical": 2
+  },
+  "16103": {
+   "vertical": 6
+  },
+  "10226": {
+   "horizontal": 1
+  },
+  "16026": {
+   "vertical": 7
+  },
+  "16024": {
+   "vertical": 1
+  },
+  "16210": {
+   "vertical": 1
+  },
+  "16204": {
+   "vertical": 2
+  },
+  "16117": {
+   "horizontal": 1
+  },
+  "12073": {
+   "vertical": 48
+  },
+  "13011": {
+   "horizontal": 18
+  },
+  "16057": {
+   "horizontal": 1
+  },
+  "15028": {
+   "horizontal": 4,
+   "vertical": 3
+  },
+  "14002": {
+   "horizontal": 3
+  },
+  "12052": {
+   "horizontal": 2,
+   "vertical": 1
+  },
+  "12069": {
+   "vertical": 31,
+   "horizontal": 7
+  },
+  "13008": {
+   "horizontal": 1
+  },
+  "16203": {
+   "horizontal": 1
+  },
+  "15010": {
+   "slope": 1
+  },
+  "15023": {
+   "vertical": 5,
+   "horizontal": 3,
+   "slope": 3
+  },
+  "16004": {
+   "vertical": 1
+  },
+  "10520": {
+   "vertical": 1
+  },
+  "12098": {
+   "vertical": 1
+  },
+  "15022": {
+   "horizontal": 3,
+   "vertical": 1
+  },
+  "10038": {
+   "vertical": 1
+  },
+  "12092": {
+   "vertical": 3
+  },
+  "16044": {
+   "vertical": 2
+  },
+  "16052": {
+   "horizontal": 4
+  },
+  "16098": {
+   "vertical": 1
+  },
+  "12040": {
+   "vertical": 15
+  },
+  "12048": {
+   "horizontal": 30,
+   "vertical": 16
+  },
+  "16138": {
+   "horizontal": 24,
+   "vertical": 6,
+   "slope": 31
+  },
+  "12039": {
+   "vertical": 12
+  },
+  "16211": {
+   "vertical": 3
+  },
+  "12050": {
+   "vertical": 9
+  },
+  "16209": {
+   "vertical": 9
+  },
+  "15020": {
+   "vertical": 1
+  },
+  "16130": {
+   "horizontal": 18
+  }
+ },
+ "source_surface_interest": {
+  "metal|vertical": 0.52265,
+  "concrete|vertical": 0.4325,
+  "wood|horizontal": 0.60179,
+  "concrete|horizontal": 0.43603,
+  "misc|vertical": 0.16828,
+  "wood|vertical": 0.59356,
+  "metal|horizontal": 0.51793,
+  "misc|horizontal": 0.23237,
+  "ground|horizontal": 0.58837,
+  "stone|vertical": 0.35463,
+  "glass|vertical": 0.28063,
+  "roof|horizontal": 0.62935,
+  "roof|vertical": 0.59482,
+  "wood|slope": 0.54373,
+  "stone|horizontal": 0.32663,
+  "concrete|slope": 0.25798,
+  "stone|slope": 0.32622,
+  "metal|slope": 0.39429,
+  "misc|slope": 0.22259,
+  "water|horizontal": 0.62906,
+  "ground|vertical": 0.56267
+ },
+ "material_categories": {
+  "concrete": [
+   "concrete",
+   "cement",
+   "cinder",
+   "plaster",
+   "drainage",
+   "sewer",
+   "stucco",
+   "milwall",
+   "trainstation_template"
+  ],
+  "stone": [
+   "stone",
+   "brick",
+   "tile",
+   "rock",
+   "marble",
+   "pavement",
+   "wall_house",
+   "infflr"
+  ],
+  "wood": [
+   "wood",
+   "plywood",
+   "plank",
+   "board",
+   "timber",
+   "beam"
+  ],
+  "metal": [
+   "metal",
+   "steel",
+   "iron",
+   "truss",
+   "chainlink",
+   "fence",
+   "wire",
+   "grate",
+   "portwall"
+  ],
+  "glass": [
+   "glass",
+   "window",
+   "translucent"
+  ],
+  "ground": [
+   "grass",
+   "dirt",
+   "mud",
+   "sand",
+   "soil",
+   "earth",
+   "terrain",
+   "foliage",
+   "blend_",
+   "blacktop"
+  ],
+  "road": [
+   "asphalt",
+   "road",
+   "sidewalk",
+   "street",
+   "blacktop",
+   "concrete_floor"
+  ],
+  "water": [
+   "water",
+   "river",
+   "pool"
+  ],
+  "roof": [
+   "roof",
+   "shingle",
+   "slate"
+  ]
+ },
+ "reference_count": 2801,
+ "user_limit": 3000
+}

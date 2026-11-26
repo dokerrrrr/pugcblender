@@ -1,0 +1,3 @@
+prune tests
+include CHANGELOG.md
+include docs/PROVENANCE.md

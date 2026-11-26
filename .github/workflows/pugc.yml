@@ -1,0 +1,90 @@
+name: PUGC checks
+
+on:
+  pull_request:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  quick:
+    name: Quick (Python ${{ matrix.python }})
+    runs-on: ubuntu-24.04
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.11", "3.12"]
+    env:
+      GIT_LFS_SKIP_SMUDGE: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install the wheel from exported source
+        run: |
+          test "$(wc -c < assets/ugc_meshes_all.zip)" -eq 134
+          test "$(wc -c < assets/PUGC_Textures_Ready.zip)" -eq 134
+          python -m pip install build numpy
+          mkdir -p "$RUNNER_TEMP/pugc-source" "$RUNNER_TEMP/pugc-dist"
+          git archive HEAD | tar -x -C "$RUNNER_TEMP/pugc-source"
+          python -m build --wheel --outdir "$RUNNER_TEMP/pugc-dist" "$RUNNER_TEMP/pugc-source"
+          python -m pip install --no-deps "$RUNNER_TEMP"/pugc-dist/*.whl
+      - name: Check docs, installation and unit tests
+        run: |
+          python -B tests/ci_acceptance.py quick --work "$RUNNER_TEMP/pugc-quick"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: quick-python-${{ matrix.python }}
+          path: ${{ runner.temp }}/pugc-quick
+          retention-days: 7
+
+  package-candidate:
+    name: Wheel and sdist acceptance
+    runs-on: ubuntu-24.04
+    env:
+      GIT_LFS_SKIP_SMUDGE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build and verify installable archives
+        run: |
+          python -m pip install build==1.6.1 setuptools==84.2.1
+          stage="$RUNNER_TEMP/pugc-candidate"
+          python -B tools/build_release.py --ref HEAD --out "$stage"
+          (cd "$stage" && sha256sum -c SHA256SUMS)
+          version=$(python -B -c 'from pugc_toolkit import __version__; print(__version__)')
+          for format in wheel sdist; do
+            if [ "$format" = wheel ]; then
+              artifacts=("$stage"/*.whl)
+            else
+              artifacts=("$stage"/*.tar.gz)
+            fi
+            python -m venv "$RUNNER_TEMP/pugc-$format-venv"
+            (
+              source "$RUNNER_TEMP/pugc-$format-venv/bin/activate"
+              if [ "$format" = sdist ]; then
+                python -m pip install setuptools==84.2.1
+              fi
+              python -m pip install --no-index --no-deps --no-build-isolation "${artifacts[0]}"
+              test "$(pugc --version)" = "pugc $version"
+              python -B tests/ci_acceptance.py documentation --work "$RUNNER_TEMP/pugc-$format-smoke"
+            )
+          done
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pugc-toolkit-build
+          path: ${{ runner.temp }}/pugc-candidate
+          retention-days: 7
