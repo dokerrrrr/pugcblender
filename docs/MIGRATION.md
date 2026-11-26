@@ -1,6 +1,6 @@
 # Migrate to the current Toolkit
 
-Tag `v1.0.0` contains the older export transform with per-model-ID corrections. To use the unified transform, use Toolkit 1.0.1 from the current checkout. New projects and fresh imports write `layout_version: 2`. You can build an older JSON project with its existing annotations and edits. When `game_original` is present, the exporter maps edits relative to the original game record. To recover authoring coordinates from a built map, import its `.pugc` with the sidecar. [Formats](UGC_FORMATS.md) · [Installation](INSTALLATION.md)
+Earlier private builds used an export transform with per-model-ID corrections. Toolkit 1.0.0 uses the unified transform. New projects and fresh imports write `layout_version: 2`. You can build an older JSON project with its existing annotations and edits. When `game_original` is present, the exporter maps edits relative to the original game record. To recover authoring coordinates from a built map, import its `.pugc` with the sidecar. [Formats](UGC_FORMATS.md) · [Installation](INSTALLATION.md)
 
 | Previous invocation | Installed command |
 | --- | --- |

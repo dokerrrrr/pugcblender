@@ -20,7 +20,7 @@ python -m venv "$UGC_BUILD/builder"
 Install the wheel or sdist into your chosen environment. The sdist requires the build dependencies in `pyproject.toml`. Use a separate directory for your map project.
 
 ```sh
-python -m pip install "$UGC_BUILD/dist/pubg_ugc_toolkit-1.0.1-py3-none-any.whl"
+python -m pip install "$UGC_BUILD/dist/pubg_ugc_toolkit-1.0.0-py3-none-any.whl"
 pugc --version
 pugc --help
 pugc search wall --limit 3
@@ -33,7 +33,7 @@ pugc search wall --limit 3
 - The `[research]` extra installs NumPy, SciPy, and Shapely for research workflows from the checkout. The repository holds the specialized scripts and inputs.
 
 ```sh
-python -m pip install "$UGC_BUILD/dist/pubg_ugc_toolkit-1.0.1-py3-none-any.whl[geometry]"
+python -m pip install "$UGC_BUILD/dist/pubg_ugc_toolkit-1.0.0-py3-none-any.whl[geometry]"
 pugc asset 12005 --meshes /path/to/meshes.zip --obj /path/to/12005.obj
 ```
 

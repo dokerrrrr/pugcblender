@@ -7,9 +7,9 @@ The release contains a wheel, an sdist, SHA-256 checksums, complete file lists, 
 From a clean checkout, install `build==1.6.1` and `setuptools==84.2.1` in the build environment. Choose a new artifact directory outside the checkout.
 
 ```sh
-python -B tools/build_release.py --ref HEAD --out "$UGC_WORK/release-1.0.1"
+python -B tools/build_release.py --ref HEAD --out "$UGC_WORK/release-1.0.0"
 (
-  cd "$UGC_WORK/release-1.0.1"
+  cd "$UGC_WORK/release-1.0.0"
   sha256sum -c SHA256SUMS
 )
 ```

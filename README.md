@@ -4,10 +4,10 @@ Create and edit static PUBG UGC maps with native game assets.
 
 ## Installation
 
-The core commands require Python 3.11 or later. Reading and writing `.pugc` v3 files requires OpenSSL on `PATH`. Build the 1.0.1 wheel from the current checkout and install it in your chosen environment. `python -m pugc_toolkit` runs the same CLI. [Build the wheel](docs/INSTALLATION.md#build-the-wheel-and-sdist)
+The core commands require Python 3.11 or later. Reading and writing `.pugc` v3 files requires OpenSSL on `PATH`. Build the 1.0.0 wheel from the current checkout and install it in your chosen environment. `python -m pugc_toolkit` runs the same CLI. [Build the wheel](docs/INSTALLATION.md#build-the-wheel-and-sdist)
 
 ```sh
-python -m pip install /path/to/pubg_ugc_toolkit-1.0.1-py3-none-any.whl
+python -m pip install /path/to/pubg_ugc_toolkit-1.0.0-py3-none-any.whl
 pugc --version
 ```
 
