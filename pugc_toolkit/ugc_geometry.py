@@ -27,8 +27,12 @@ def apply_matrix(points, matrix):
 
 def source_geometry(path, scene_name=None):
     with np.load(path, allow_pickle=False) as archive:
-        metadata = json.loads(archive["metadata"].item())
-        array = {key: archive[key] for key in ("verts", "triangles", "triangle_uvs", "materials")}
+        return select_source_geometry(archive, scene_name)
+
+
+def select_source_geometry(archive, scene_name=None):
+    metadata = json.loads(archive["metadata"].item())
+    array = {key: archive[key] for key in ("verts", "triangles", "triangle_uvs", "materials")}
     scenes = {entry["name"]: entry for entry in metadata["scenes"]}
     if scene_name is None:
         if len(scenes) != 1:

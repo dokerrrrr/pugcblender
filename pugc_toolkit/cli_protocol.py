@@ -97,13 +97,13 @@ def archive_input(path, option, *, machine):
     label = "Mesh" if option == "--meshes" else "Texture"
     if not path.is_file():
         raise CliError(RESOURCE, "archive_missing",
-                       f"{label} archive not found: {path}. Choose a local ZIP with {option}.",
-                       f"Pass a local ZIP with {option}.", path=path, field=option)
+                       f"{label} archive not found: {path}.",
+                       f"Run pugc fetch-pack full or pass a local ZIP with {option}.", path=path, field=option)
     if machine:
         with path.open("rb") as stream:
             if stream.read(42).startswith(b"version https://git-lfs.github.com/spec/v1"):
                 raise CliError(RESOURCE, "lfs_pointer", f"{path} is a Git LFS pointer.",
-                               f"Download the Git LFS object or pass a local ZIP with {option}.",
+                               f"Run pugc fetch-pack full or pass a local ZIP with {option}.",
                                path=path, field=option)
             if not is_zipfile(stream):
                 raise CliError(RESOURCE, "archive_invalid", f"{path} is not a readable ZIP archive.",

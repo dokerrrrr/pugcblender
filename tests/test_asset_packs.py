@@ -1,6 +1,6 @@
 from contextlib import redirect_stdout
 from hashlib import sha256
-from io import StringIO
+from io import BytesIO, StringIO
 import json
 import os
 from pathlib import Path
@@ -11,7 +11,7 @@ import unittest
 from unittest.mock import patch
 from zipfile import ZipFile
 
-from pugc_toolkit import asset_packs
+from pugc_toolkit import asset_packs, base_level
 from pugc_toolkit.cli_protocol import CliError
 from pugc_toolkit.ugc_project import main
 from pugc_toolkit.ugc_storage import PublicationError, lock_outputs
@@ -45,12 +45,14 @@ class AssetPacksTest(unittest.TestCase):
             path.write_bytes(pointer)
         self.assertTrue(self.cli("doctor", "--mode", "base")["data"]["features"]["project"])
         result = self.cli("doctor", "--mode", "full", "--cache-dir", self.work, code=4)
-        self.assertEqual([row["code"] for row in result["diagnostics"]], ["lfs_pointer", "lfs_pointer"])
+        self.assertEqual([row["code"] for row in result["diagnostics"]],
+                         ["lfs_pointer", "lfs_pointer", "base_level_missing"])
         self.assertIn("pugc fetch-pack", result["diagnostics"][0]["action"])
         textures.unlink()
         archive(meshes, {"bp-mesh/12005.bin.gz": b"mock"})
         result = self.cli("doctor", "--mode", "full", "--cache-dir", self.work, code=4)
-        self.assertEqual([row["code"] for row in result["diagnostics"]], ["incomplete_pairs", "archive_missing"])
+        self.assertEqual([row["code"] for row in result["diagnostics"]],
+                         ["incomplete_pairs", "archive_missing", "base_level_missing"])
         self.assertEqual(result["data"]["packs"][0]["missing_cards"], ["12005"])
         archive(meshes, {"bp-mesh/12005.bin.gz": b"mock", "bp-mesh/12005.json": b"{}"})
         result = self.cli("doctor", "--mode", "full", "--cache-dir", self.work, code=4)
@@ -97,7 +99,7 @@ class AssetPacksTest(unittest.TestCase):
             self.assertEqual(previous, output.read_bytes())
             self.assertEqual(list(output.parent.glob(".pugc-pack-*")), [])
 
-    def test_full_fetch_batches_missing_packs_and_reuses_verified_results(self):
+    def full_fixture(self):
         kinds = asset_packs.FULL_KINDS
         names = {kind: asset_packs.FILENAMES[kind] for kind in kinds}
         source = self.work / "source"
@@ -109,12 +111,19 @@ class AssetPacksTest(unittest.TestCase):
             "model_mesh_count": 1, "model_json_count": 1, "texture_archive_file_count": 1, "texture_webp_count": 1,
             **{key: sha256(payloads[kind]).hexdigest() for kind, key in asset_packs.FULL_HASH_KEYS.items()},
         }
+        return source, names, payloads, manifest
+
+    def test_full_fetch_batches_missing_packs_and_reuses_verified_results(self):
+        source, names, payloads, manifest = self.full_fixture()
+        kinds = asset_packs.FULL_KINDS
         cache = self.work / "cache"
+        island = source / base_level.ISLAND_NAME
+        island.write_bytes(b"test island")
 
         def stage_batch(command, **kwargs):
             storage = Path(next(value.split("=", 1)[1] for value in command if value.startswith("lfs.storage=")))
             requested = command[command.index("fetch") + 1].removeprefix("--include=").split(",")
-            self.assertEqual(command[-2:], ["origin", asset_packs.FULL_REVISION])
+            self.assertEqual(command[-2:], ["origin", "HEAD"])
             for kind, name in names.items():
                 if f"assets/{name}" not in requested or kind == "full-textures" and interrupted:
                     continue
@@ -126,6 +135,9 @@ class AssetPacksTest(unittest.TestCase):
 
         interrupted = True
         with (patch.object(asset_packs, "_manifest", return_value=manifest),
+              patch.object(asset_packs, "base_level_candidates", return_value=(island,)),
+              patch.multiple(base_level, ISLAND_SIZE=island.stat().st_size,
+                             ISLAND_SHA256=sha256(island.read_bytes()).hexdigest()),
               patch.object(asset_packs, "_lfs_remote", return_value="origin"),
               patch.object(asset_packs.subprocess, "run", side_effect=stage_batch) as request):
             stdout = StringIO()
@@ -135,7 +147,8 @@ class AssetPacksTest(unittest.TestCase):
             first = json.loads(stdout.getvalue())
             request.assert_called_once()
             self.assertIn(f"--include=assets/{names[kinds[0]]},assets/{names[kinds[1]]}", request.call_args.args[0])
-            self.assertEqual(first["artifacts"], {"meshes": str(cache / names["full-meshes"])})
+            self.assertEqual(first["artifacts"], {"meshes": str(cache / names["full-meshes"]),
+                                                  "island": str(cache / base_level.ISLAND_NAME)})
             self.assertEqual(first["diagnostics"][0]["code"], "download_failed")
 
             request.reset_mock()
@@ -161,3 +174,36 @@ class AssetPacksTest(unittest.TestCase):
             refresh = asset_packs.fetch_full(cache, checkout=ROOT, refresh=True)
             self.assertEqual(refresh["exit_code"], 4)
             self.assertEqual((cache / names["full-textures"]).read_bytes(), payloads["full-textures"])
+
+    def test_full_fetch_defaults_to_public_sources_and_reuses_the_cache(self):
+        _, names, payloads, manifest = self.full_fixture()
+        cache = self.work / "cache"
+        island = cache / base_level.ISLAND_NAME
+        payloads["island"] = b"test island"
+        by_url = {asset_packs.PUBLIC_URLS[kind]: data for kind, data in payloads.items()}
+        with (patch.object(asset_packs, "ASSET_CACHE", cache),
+              patch.object(asset_packs, "_manifest", return_value=manifest),
+              patch.object(asset_packs, "asset_candidates", side_effect=lambda name: (cache / name,)),
+              patch.object(asset_packs, "base_level_candidates", return_value=(island,)),
+              patch.multiple(base_level, ISLAND_SIZE=len(payloads["island"]),
+                             ISLAND_SHA256=sha256(payloads["island"]).hexdigest()),
+              patch.object(asset_packs, "urlopen", side_effect=lambda url, **_: BytesIO(by_url[url])) as request):
+            with redirect_stdout(StringIO()) as stdout:
+                self.assertEqual(main(["--json", "fetch-pack", "full"]), 0)
+            result = json.loads(stdout.getvalue())
+            self.assertEqual(set(result["artifacts"]), {"meshes", "textures", "island"})
+            self.assertEqual(request.call_count, 3)
+            self.assertEqual(island.read_bytes(), payloads["island"])
+
+            request.reset_mock()
+            self.assertEqual(asset_packs.fetch_full(cache, offline=True)["exit_code"], 0)
+            request.assert_not_called()
+
+            island.write_bytes(b"bad island!")
+            diagnosis = asset_packs.doctor("full", cache)
+            self.assertEqual(diagnosis["diagnostics"][0]["code"], "hash_mismatch")
+            self.assertEqual(diagnosis["diagnostics"][0]["field"], "--base-level")
+            self.assertEqual(asset_packs.fetch_full(cache)["exit_code"], 0)
+            request.assert_called_once_with(asset_packs.PUBLIC_URLS["island"], timeout=30)
+            self.assertTrue(asset_packs.doctor("full", cache)["data"]["features"]["island"])
+            self.assertEqual((cache / names["full-meshes"]).read_bytes(), payloads["full-meshes"])
