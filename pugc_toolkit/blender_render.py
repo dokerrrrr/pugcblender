@@ -139,5 +139,3 @@ def overview_camera(bounds, view, aspect):
     pose = rotation.to_4x4()
     pose.translation = focus + offset
     return pose, 1.15 * max(screen_span[0], screen_span[1] * aspect, 10), max(10000, largest * 10)
-
-

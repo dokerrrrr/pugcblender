@@ -116,7 +116,7 @@ def archive_argument(args, parser, option):
     except CliError as exc:
         if isinstance(parser, MachineParser):
             raise
-        parser.error(str(exc))
+        parser.error(f"{exc} {exc.diagnostic['action']}")
 
 
 def validation_response(report, path, code, *, data=None, artifacts=None):
