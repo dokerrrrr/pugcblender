@@ -15,6 +15,8 @@ pugc --version
 
 ## Agent workflow
 
+For Blender previews and comparisons, run `pugc fetch-pack full` once to download and verify the mesh ZIP, texture ZIP, and starting island. Later runs use the same local cache. [Asset setup](docs/RESOURCES.md)
+
 Account for the starting island and the fixed water level at Z = 0 m. `pugc validate` checks the saved file, object settings, and placement limits. When you create or rearrange a scene, use `pugc blender preview` on the saved `.pugc` to check terrain contact, clearance above water, and walkable routes. Keep the map and its `.pugc.json` sidecar together. [Map authoring rules](AGENTS.md) · [Island and preview](docs/UGC_WORKFLOW.md#source-scenes-frames-and-routes)
 
 ### Create a new map

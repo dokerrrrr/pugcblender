@@ -29,7 +29,7 @@ pugc search wall --limit 3
 ## Optional dependencies
 
 - OBJ export and exact measurements from ZIP archives use NumPy. Install the package with the `[geometry]` extra and pass the mesh archive through `--meshes`.
-- To extract thumbnails, pass a local archive through `--textures`. Supply this data separately. [Assets](RESOURCES.md)
+- To extract thumbnails or render textured Blender previews, install the native assets with `pugc fetch-pack full`. Use `--textures` to select a different ZIP. [Assets](RESOURCES.md)
 - The `[research]` extra installs NumPy, SciPy, and Shapely for research workflows from the checkout. The repository holds the specialized scripts and inputs.
 
 ```sh
@@ -41,7 +41,7 @@ pugc asset 12005 --meshes /path/to/meshes.zip --obj /path/to/12005.obj
 
 `pugc blender` starts an installed Blender with its own Python and NumPy, then passes it the installed Toolkit path. For PUGC checks, Blender inherits `PATH` with OpenSSL. Flythrough output also uses FFmpeg. If Blender is outside `PATH`, select it with `--blender`.
 
-Put Blender launch options before the operation. Pass the operation's arguments after `--`. For `extract`, supply the source scene with `--blend`. For `compare`, `audit`, and `preview`, pass the relevant files and a local mesh archive.
+Put Blender launch options before the operation. Pass the operation's arguments after `--`. For `extract`, supply the source scene with `--blend`. Pass the source `.blend` or extracted NPZ directly to `compare`. Comparison, audit, and preview use the mesh ZIP in the shared asset cache by default.
 
 ```sh
 pugc blender --blend /path/to/source.blend extract -- --out /path/to/source.npz

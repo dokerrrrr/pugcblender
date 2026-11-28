@@ -178,6 +178,17 @@ def integration_cli(work):
         wanted = [("Tower", camera, "side_changed") for camera in ("Approach", "Alongside")] if expected else []
         if detected != wanted or report["pugc_sha256"] != digest(work / f"{name}.pugc"):
             raise ValueError(f"Unexpected comparison findings for {name}: {detected}")
+    direct = machine(work, "direct-compare", "blender", "--threads", "2", "compare", "--", "source.blend",
+                     "route.pugc", "--project", "route.json", "--meshes", mesh, "--samples", "1",
+                     "--out", "direct-frames")
+    direct_report = json.loads(Path(direct["artifacts"]["report"]).read_bytes())
+    extracted_report = json.loads((work / "route-frames" / "comparison.json").read_bytes())
+    direct_cameras = {frame["camera"]: frame["matrix_world"] for frame in direct_report["frames"]}
+    if (set(direct_cameras) != {"Approach", "Alongside", "Exit"}
+            or any(direct_cameras[frame["camera"]] != frame["matrix_world"] for frame in extracted_report["frames"])
+            or any(not Path(frame).is_file() for key in ("source_frames", "result_frames")
+                   for frame in direct["artifacts"][key])):
+        raise ValueError("Direct Blender comparison did not render the matching source cameras")
     partial = work / "incomplete-meshes.zip"
     with ZipFile(mesh) as source, ZipFile(partial, "w") as archive:
         for name in source.namelist():

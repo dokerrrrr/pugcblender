@@ -1,8 +1,6 @@
-"""Render Blender source NPZ and a re-decoded PUGC from the same route cameras."""
+"""Render a Blender source and a re-decoded PUGC from the same cameras."""
 import argparse
-import base64
 from contextlib import nullcontext
-import hashlib
 from math import atan, degrees
 from pathlib import Path
 import shutil
@@ -20,77 +18,12 @@ from . import cli_protocol as cli
 from . import geometry_report as coverage
 from .base_level import add_arguments, environment_metadata, resolve_base_level
 from .blender_base_level import add_base_level
+from .blender_extract_geometry import extract
+from .blender_render import GameMaterials, configure_cycles, material, mesh, overview_camera
 from .mesh_library import MeshLibrary
-from .resources import CATALOG, MESHES
-from .ugc_geometry import apply_matrix, placement_matrix, source_geometry
+from .resources import MESHES, TEXTURES
+from .ugc_geometry import apply_matrix, placement_matrix, select_source_geometry, source_geometry
 from .ugc_project import load_json, read_with_receipt, save_json
-
-
-def material(name, color, path=None, packed=None):
-    mat = bpy.data.materials.new(name)
-    mat.diffuse_color = color
-    mat.use_nodes = True
-    node = mat.node_tree.nodes.get("Principled BSDF")
-    node.inputs["Base Color"].default_value = color
-    node.inputs["Roughness"].default_value = .8
-    image = None
-    issue = None
-    if path or packed:
-        try:
-            if packed:
-                with TemporaryDirectory() as temporary:
-                    image_file = Path(temporary) / "source-image"
-                    image_file.write_bytes(base64.b64decode(packed))
-                    image = bpy.data.images.load(str(image_file))
-                    image.pack()
-            else:
-                image = bpy.data.images.load(str(path), check_existing=True)
-            if not all(image.size):
-                issue = "missing_image"
-            elif tuple(image.size) == (1, 1):
-                issue = "possible_placeholder_1x1"
-            else:
-                tex = mat.node_tree.nodes.new("ShaderNodeTexImage")
-                tex.image = image
-                mat.node_tree.links.new(tex.outputs["Color"], node.inputs["Base Color"])
-        except (RuntimeError, OSError):
-            issue = "missing_image"
-    return mat, issue
-
-
-def mesh(name, vertices, triangles, uv, materials, indices):
-    data = bpy.data.meshes.new(name)
-    data.from_pydata(vertices.tolist(), [], triangles.tolist())
-    for item in materials:
-        data.materials.append(item)
-    if indices is not None and len(triangles):
-        data.polygons.foreach_set("material_index", np.asarray(indices, dtype=np.int32))
-    if uv is not None and len(triangles):
-        layer = data.uv_layers.new(name="UVMap")
-        layer.data.foreach_set("uv", uv.astype(np.float32).ravel())
-    data.update()
-    return data
-
-
-def result_material(oid, name, textures, matches, confirmed, directory, report):
-    candidate = next((entry.get("diffuse_guess") for entry in matches.get(str(oid), [])
-                      if entry["source_material"] == name), None)
-    path = confirmed.get(name) or candidate
-    status = "confirmed" if name in confirmed else "name_similarity" if candidate else "missing_binding"
-    report_row = {"objectId": oid, "material": name, "texture": path, "binding": status}
-    local = None
-    if path:
-        if textures is not None and path in textures.NameToInfo:
-            local = directory / (hashlib.sha256(path.encode()).hexdigest() + Path(path).suffix)
-            if not local.exists():
-                local.write_bytes(textures.read(path))
-        else:
-            report_row["image_issue"] = "missing_image"
-    mat, issue = material(name, (.45, .48, .52, 1), local)
-    if issue:
-        report_row["image_issue"] = issue
-    report.append(report_row)
-    return mat
 
 
 def import_source(group, objects, slots, arrays, alignment, neutral, issues):
@@ -126,30 +59,18 @@ def import_source(group, objects, slots, arrays, alignment, neutral, issues):
     return references
 
 
-def import_result(group, data, receipt, library, neutral, textures, matches, confirmed, directory, report, tracked):
+def import_result(group, data, receipt, library, neutral, game_materials, missing_meshes, tracked):
     meshes, refs = {}, {}
     for entry, record in zip(data["objects"], receipt["instances"], strict=True):
         oid, key = entry["objectId"], record["id"]
         if oid not in library.ids:
-            report["missing_meshes"].append({"instance": key, "objectId": oid})
+            missing_meshes.append({"instance": key, "objectId": oid})
             continue
         if oid not in meshes:
             geo = library.geometry(oid)
-            if neutral:
-                mats, indices = [neutral], None
-            else:
-                mats = [material("Unassigned", (.45, .48, .52, 1))[0]]
-                indices = np.zeros(len(geo.triangles), dtype=np.int32)
-                assigned = {}
-                for section in geo.sections:
-                    if section.material not in assigned:
-                        assigned[section.material] = len(mats)
-                        mats.append(result_material(oid, section.material, textures, matches, confirmed,
-                                                    directory, report["result_materials"]))
-                    first = section.first_triangle
-                    indices[first:first + section.triangle_count] = assigned[section.material]
-            meshes[oid] = mesh(f"UGC {oid}", geo.vertices, geo.triangles,
-                               None if neutral else geo.triangle_uvs, mats, indices), geo.vertices, geo.triangles
+            model = (game_materials.mesh(oid, geo) if game_materials else
+                     mesh(f"UGC {oid}", geo.vertices, geo.triangles, None, [neutral], None))
+            meshes[oid] = model, geo.vertices, geo.triangles
         model, vertices, faces = meshes[oid]
         matrix = placement_matrix(entry["spawnTransform"])
         obj = bpy.data.objects.new(f"{key} / {oid}", model)
@@ -158,6 +79,37 @@ def import_result(group, data, receipt, library, neutral, textures, matches, con
         if key in tracked:
             refs[key] = [(obj, apply_matrix(vertices, matrix), faces)]
     return refs
+
+
+def blend_geometry(path, scene_name):
+    if not path.is_file():
+        raise cli.CliError(cli.RESOURCE, "input_missing", f"Blender source file not found: {path}",
+                           "Supply an existing .blend scene.", path=path, field="source")
+    try:
+        bpy.ops.wm.open_mainfile(filepath=str(path), load_ui=False, use_scripts=False)
+    except RuntimeError as exc:
+        raise cli.CliError(cli.INVALID, "invalid_blend", f"Could not open {path}: {exc}",
+                           "Supply a readable Blender scene.", path=path, field="source") from exc
+    scene = bpy.data.scenes.get(scene_name) if scene_name is not None else bpy.context.scene
+    if scene is None:
+        raise ValueError(f"No Blender scene named {scene_name!r}")
+    return select_source_geometry(extract([scene]))
+
+
+def overview_cameras(bounds):
+    resolution = (720, 405)
+    records = []
+    for view in ("iso", "top", "side"):
+        pose, scale, clip_end = overview_camera(bounds, view, resolution[0] / resolution[1])
+        name = {"iso": "Isometric", "top": "Top", "side": "Side"}[view]
+        records.append({
+            "id": f"overview/{view}", "name": name, "type": "ORTHO", "instance": False,
+            "matrix_world": [list(row) for row in pose],
+            "lens_mm": 50, "sensor_fit": "AUTO", "sensor_width": 36, "sensor_height": 24,
+            "shift_x": 0, "shift_y": 0, "ortho_scale": scale, "clip_start": .01, "clip_end": clip_end,
+            "resolution": resolution, "pixel_aspect": (1, 1),
+        })
+    return records
 
 
 def configure_camera(scene, camera, record, alignment, ratio):
@@ -254,13 +206,15 @@ def flythrough(scene, camera, records, alignment, ratio, output, directory, fps)
 def main(*, machine=False):
     parser_type = cli.MachineParser if machine else argparse.ArgumentParser
     parser = parser_type(prog="pugc blender compare" if machine else None, description=__doc__)
-    parser.add_argument("source", help="NPZ produced by blender_extract_geometry.py")
+    parser.add_argument("source", type=Path, help="Original .blend scene or an extracted .npz")
     parser.add_argument("pugc")
     parser.add_argument("--project", help="Optional project with landmarks and source_to_authoring_m")
     parser.add_argument("--receipt")
     parser.add_argument("--origin-x-cm", type=float)
     parser.add_argument("--scene")
-    parser.add_argument("--cameras", nargs="+", help="Camera names/IDs in race order")
+    cameras_group = parser.add_mutually_exclusive_group()
+    cameras_group.add_argument("--cameras", nargs="+", help="Camera names/IDs in review order")
+    cameras_group.add_argument("--all-cameras", action="store_true", help="Use all perspective and orthographic cameras")
     parser.add_argument("--meshes", default=MESHES)
     parser.add_argument("--textures")
     parser.add_argument("--bindings", help="Confirmed material-path → ZIP-entry JSON")
@@ -275,7 +229,9 @@ def main(*, machine=False):
     if args.fps < 1 or args.samples < 1:
         parser.error("--fps and --samples must be positive")
     cli.archive_argument(args, parser, "--meshes")
-    if args.textures:
+    if args.mode == "textured" and args.textures is None:
+        args.textures = TEXTURES
+    if args.textures is not None:
         cli.archive_argument(args, parser, "--textures")
     if args.flythrough and shutil.which("ffmpeg") is None:
         if machine:
@@ -286,11 +242,20 @@ def main(*, machine=False):
     directory.mkdir(parents=True, exist_ok=True)
     project = load_json(args.project) if args.project else {}
     data, receipt = read_with_receipt(args.pugc, args.receipt, args.origin_x_cm)
-    source_scene, objects, cameras, slots, arrays = source_geometry(args.source, args.scene)
+    source_path = args.source.expanduser().resolve()
+    is_blend = source_path.suffix.lower() == ".blend"
+    if is_blend:
+        source_scene, objects, cameras, slots, arrays = blend_geometry(source_path, args.scene)
+    else:
+        source_scene, objects, cameras, slots, arrays = source_geometry(source_path, args.scene)
+    supported = [record for record in cameras if record["type"] in {"PERSP", "ORTHO"}]
+    use_all = args.all_cameras or is_blend
+    if not supported and use_all and not args.cameras:
+        cameras = supported = overview_cameras(arrays["verts"])
     by_key = {record["id"]: record for record in cameras}
     by_key.update({record["name"]: record for record in cameras if not record["instance"]})
     default_key = source_scene["active_camera"] or (cameras[0]["id"] if cameras else "active source camera")
-    keys = args.cameras or [default_key]
+    keys = args.cameras or ([record["id"] for record in supported] if use_all else [default_key])
     selected = {key: by_key[key] for key in keys if key in by_key and by_key[key]["type"] in {"PERSP", "ORTHO"}}
     missing_cameras = [key for key in keys if key not in selected]
     targets = {}
@@ -317,20 +282,9 @@ def main(*, machine=False):
     island = resolve_base_level(args, parser)
     bpy.ops.wm.read_factory_settings(use_empty=True)
     scene = bpy.context.scene
-    scene.render.engine = "CYCLES"
-    scene.cycles.samples = args.samples
-    scene.cycles.use_denoising = False
+    configure_cycles(scene, args.samples)
     scene.render.image_settings.file_format = "PNG"
     scene.render.resolution_percentage = 100
-    scene.world = bpy.data.worlds.new("Sky")
-    scene.world.use_nodes = True
-    scene.world.node_tree.nodes["Background"].inputs[0].default_value = (.37, .48, .64, 1)
-    scene.world.node_tree.nodes["Background"].inputs[1].default_value = .45
-    light = bpy.data.lights.new("Sun", "SUN")
-    light.energy = 2.4
-    sun = bpy.data.objects.new("Sun", light)
-    scene.collection.objects.link(sun)
-    sun.rotation_euler = (.66, -.57, -.2)
     camera = bpy.data.objects.new("Matched camera", bpy.data.cameras.new("Matched camera"))
     scene.collection.objects.link(camera)
     scene.camera = camera
@@ -349,15 +303,17 @@ def main(*, machine=False):
               "environment": environment_metadata(),
               "game_to_authoring": "Reflect world X about the authoring datum, then convert cm to m",
               "frames": [], "issues": [], "source_materials": [], "result_materials": [], "missing_meshes": []}
-    mesh_matches = load_json(CATALOG / "texture_material_candidates.json")
-    confirmed = load_json(args.bindings) if args.bindings else {}
     source_refs = import_source(source, objects, slots, arrays, alignment, neutral, report["source_materials"])
-    with (ZipFile(args.textures) if args.textures else nullcontext()) as textures, TemporaryDirectory() as tmp:
+    with (ZipFile(args.textures) if args.mode == "textured" else nullcontext()) as textures, TemporaryDirectory() as tmp:
         scratch = Path(tmp)
+        game_materials = GameMaterials(textures, args.bindings, scratch) if textures is not None else None
         tracked = {key for landmark in project.get("landmarks", []) for key in landmark.get("result", [])}
         with MeshLibrary(args.meshes, authoring=True) as library:
-            result_refs = import_result(result, data, receipt, library, neutral, textures, mesh_matches,
-                                        confirmed, scratch, report, tracked)
+            result_refs = import_result(result, data, receipt, library, neutral, game_materials,
+                                        report["missing_meshes"], tracked)
+        if game_materials:
+            report["result_materials"] = game_materials.rows
+            report["material_coverage"] = game_materials.coverage()
         for key in keys:
             if key not in selected:
                 continue
@@ -436,9 +392,11 @@ def main(*, machine=False):
         )
         diagnostics.extend(coverage.partial_diagnostics(report["geometry_check"], report_path))
         code = coverage.completion(report["geometry_check"])
-        return cli.response({"pugc_sha256": receipt["pugc_sha256"], "frames": len(report["frames"]),
-                             "geometry_check": report["geometry_check"]},
-                            artifacts=artifacts, diagnostics=diagnostics, exit_code=code)
+        summary = {"pugc_sha256": receipt["pugc_sha256"], "frames": len(report["frames"]),
+                   "geometry_check": report["geometry_check"]}
+        if "material_coverage" in report:
+            summary["material_coverage"] = report["material_coverage"]
+        return cli.response(summary, artifacts=artifacts, diagnostics=diagnostics, exit_code=code)
     if args.strict and report["geometry_check"]["status"] == "partial":
         print(f"Partial geometry comparison: {directory / 'comparison.json'}", file=sys.stderr)
         sys.exit(cli.RESOURCE)
